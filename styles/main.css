@@ -1,3 +1,4 @@
+/* Styling the Header */
 header {
   background: url(../images/background-image.jpg) center / cover;
   height: 60vh;
@@ -16,6 +17,7 @@ h1 {
   font-size: 1.6rem;
 }
 
+/* Styling the Project Showcase */
 main {
   max-width: 900px;
 }
