@@ -11,12 +11,12 @@ header {
 
 h1 {
   font-weight: bold;
-  color: rgba(1, 43, 254, 0.9);
+  color: rgba(0, 38, 230, 0.9);
 }
 
 .slogan {
   font-weight: lighter;
-  color: rgba(1, 43, 254, 0.8);
+  color: rgba(0, 38, 230, 0.8);
   font-size: 1.6rem;
 }
 
