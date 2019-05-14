@@ -1,13 +1,17 @@
+<<<<<<< HEAD
 body {
   padding-bottom: 5rem;
 }
 
+=======
+>>>>>>> checkpoint-2587
 header {
   background: url(../images/background-image.jpg) center / cover;
   height: 60vh;
   justify-content: center;
   text-align: center;
 }
+<<<<<<< HEAD
 
 h1 {
   font-weight: bold;
@@ -44,3 +48,5 @@ footer.mdl-mini-footer > ul {
   margin: auto;
   font-size: 2rem;
 }
+=======
+>>>>>>> checkpoint-2587
