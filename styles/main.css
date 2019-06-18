@@ -29,7 +29,7 @@ nav.navigation {
 
 .header-honeycomb {
   margin: 0 auto;
-  max-width: 1150px;
+  max-width: 1190px;
   position: relative;
 }
 
@@ -58,6 +58,7 @@ a.button.case-study {
     font-size: 1.6rem;
     font-family: 'Muli', sans-serif;
     font-weight: 300;
+    margin-top: 2rem;
 } .nav-link {
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
@@ -88,11 +89,12 @@ h1.opening {
 
 div.info-rectangle.project1 {
     height: 700px;
-    max-width: 1150px;
+    max-width: 1190px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.20);
     border-radius: 8px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 4rem;
 } .project-info {
     width: 25%
 }
@@ -101,6 +103,7 @@ h2.project-title {
     font-size: 4.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    margin-top: 20rem;
 }
 
 p {
@@ -115,6 +118,17 @@ p {
     padding-top: 2rem;
     line-height: 147%;
     width: 50%;
+} .recent-projects {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 42px;
+    text-align: center;
+    padding-bottom: 7rem;
+} .copyright {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 h3 {
@@ -123,11 +137,15 @@ h3 {
     font-size: 2.8rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    text-align: center;
+    padding-top: 3rem;
 }
 
 .project-description {
     line-height: 141%;
     width: 25rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
 }
 
 strong {
@@ -139,7 +157,7 @@ div.down-arrow {
     margin: 0 auto;
     width: 100px;
     width: 36px;
-    padding-bottom: 20rem;
+    padding-bottom: 7rem;
     padding-top: 30rem;
 }
 
@@ -147,14 +165,15 @@ span.footer-line {
     display: block;
     width:1150px;
     border-top: 1px solid #9F9F9F;
-    position: absolute;
+    margin: 0 auto;
 }
 
 footer {
-    display: inline-block;
+    width: 100%;
 }
 
 li.social-links {
     display: inline-block;
-    padding: 1.5;
+    justify-content: center;
+    margin: 1.5rem;
 }
