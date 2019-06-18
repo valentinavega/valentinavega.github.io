@@ -41,7 +41,7 @@ nav.navigation {
 }
 
 .mockup-home {
-    width: 75%;
+    width: 65%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-left: 3rem;
@@ -62,9 +62,11 @@ a.button.case-study {
 } .nav-link {
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     color: #282828;
+} .nav-link:hover {
+    text-decoration: underline;
 }
 
 .button.case-study:hover {
@@ -96,7 +98,8 @@ div.info-rectangle.project1 {
     display: flex;
     margin-bottom: 4rem;
 } .project-info {
-    width: 25%
+    width: 25%;
+    margin-left: 2rem;
 }
 
 h2.project-title {
@@ -127,7 +130,6 @@ p {
     padding-bottom: 7rem;
 } .copyright {
     margin-bottom: 2rem;
-    margin-top: 2rem;
     text-align: center;
 }
 
@@ -145,7 +147,6 @@ h3 {
     line-height: 141%;
     width: 25rem;
     margin-top: 2rem;
-    margin-right: 2rem;
 }
 
 strong {
@@ -163,7 +164,7 @@ div.down-arrow {
 
 span.footer-line {
     display: block;
-    width:1150px;
+    width:1190px;
     border-top: 1px solid #9F9F9F;
     margin: 0 auto;
 }
@@ -172,8 +173,11 @@ footer {
     width: 100%;
 }
 
-li.social-links {
-    display: inline-block;
+.social-links {
+    display: flex;
     justify-content: center;
-    margin: 1.5rem;
 }
+
+.social-links li {
+     margin: 1.5rem;
+ }
