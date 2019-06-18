@@ -1,0 +1,150 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: white;
+    color: #282828;
+}
+
+a.nav-link {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #282828;
+}
+
+.logo {
+    float: left;
+    clear: both;
+}
+
+ul li {
+    padding-left: 3rem;
+    display: inline-block;
+    float: right;
+}
+
+nav.navigation {
+    margin-left: 14.4rem;
+    margin-top: 2.5rem;
+    margin-right: 14.4rem;
+}
+
+img.honeycomb {
+    float: right;
+    margin-right: 20rem;
+    margin-top: 1rem;
+}
+
+.mockup-home {
+    width: 737px;
+    height: 455.96px;
+    left: 183px;
+    top: 1056px;
+    padding-top: 4.4rem;
+    padding-bottom: 4.4rem;
+}
+
+a.button {
+    background-color: #4349FF;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+}
+
+.button:hover {
+    color: #4349FF;
+    background-color: transparent;
+    border: 0.2rem solid #4349FF;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1.opening {
+    font-size: 4.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-top: 20rem;
+    margin-left: 20rem;
+    line-height: 71px;
+}
+
+div.info-rectangle.project1 {
+    height: 544px;
+    width: 1190px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+    margin-left: 14.4rem;
+    text-align: center;
+}
+
+h2.project-title {
+    font-size: 4.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    float: right;
+    padding-top: 12rem;
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+} .intro {
+    font-size: 2.4rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    padding-top: 2rem;
+    margin-left: 20rem;
+    line-height: 147%;
+    width: 35%;
+}
+
+
+h3 {
+
+} .footer-greeting {
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.project-description {
+    float: right;
+    line-height: 141%;
+    display: flex;
+}
+
+strong {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+div.down-arrow {
+    margin: 0 auto;
+    width: 100px;
+    width: 36px;
+    padding-bottom: 20rem;
+    padding-top: 20rem;
+}
+
+footer {
+    margin: 0;
+    padding: 4rem;
+    text-align: center;
+}
