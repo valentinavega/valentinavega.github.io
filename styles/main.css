@@ -11,13 +11,6 @@ body {
     color: #282828;
 }
 
-a.nav-link {
-    font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    text-decoration: none;
-    color: #282828;
-}
 
 .logo {
     float: left;
@@ -51,7 +44,7 @@ img.honeycomb {
     padding-bottom: 4.4rem;
 }
 
-a.button {
+a.button.case-study {
     background-color: #4349FF;
     border: none;
     color: #FFFFFF;
@@ -62,6 +55,12 @@ a.button {
     font-size: 1.6rem;
     font-family: 'Muli', sans-serif;
     font-weight: 300;
+} .nav-link {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #282828;
 }
 
 .button:hover {
