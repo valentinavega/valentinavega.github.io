@@ -41,9 +41,10 @@ nav.navigation {
 }
 
 .mockup-home {
-    width: 737px;
-    height: 455.96px;
-    margin: 0 auto;
+    width: 75%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 3rem;
 }
 
 a.button.case-study {
@@ -65,12 +66,12 @@ a.button.case-study {
     color: #282828;
 }
 
-.button:hover {
+.button.case-study:hover {
     color: #4349FF;
     background-color: transparent;
     border: 0.2rem solid #4349FF;
     font-family: 'Muli', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -86,19 +87,20 @@ h1.opening {
 }
 
 div.info-rectangle.project1 {
-    height: 544px;
-    width: 1150px;
+    height: 700px;
+    max-width: 1150px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.20);
     border-radius: 8px;
     margin: 0 auto;
+    display: flex;
+} .project-info {
+    width: 25%
 }
 
 h2.project-title {
     font-size: 4.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    float: right;
-    padding-top: 12rem;
 }
 
 p {
@@ -124,9 +126,8 @@ h3 {
 }
 
 .project-description {
-    float: right;
     line-height: 141%;
-    display: flex;
+    width: 25rem;
 }
 
 strong {
@@ -139,7 +140,14 @@ div.down-arrow {
     width: 100px;
     width: 36px;
     padding-bottom: 20rem;
-    padding-top: 20rem;
+    padding-top: 30rem;
+}
+
+span.footer-line {
+    display: block;
+    width:1150px;
+    border-top: 1px solid #9F9F9F;
+    position: absolute;
 }
 
 footer {
