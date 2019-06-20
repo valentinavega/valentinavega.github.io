@@ -47,7 +47,7 @@ nav.navigation {
     margin-left: 3rem;
 }
 
-a.button.case-study {
+a.button {
     background-color: #4349FF;
     border: none;
     color: #FFFFFF;
@@ -69,10 +69,8 @@ a.button.case-study {
     text-decoration: underline;
 }
 
-.button.case-study:hover {
-    color: #4349FF;
-    background-color: transparent;
-    border: 0.2rem solid #4349FF;
+a.button:hover {
+    color: white;
     font-family: 'Muli', sans-serif;
     font-weight: 400;
     padding: 10px 20px;
@@ -81,8 +79,9 @@ a.button.case-study {
     display: inline-block;
 }
 
+
 h1.opening {
-    font-size: 4.9rem;
+    font-size: 5.2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     padding-top: 20rem;
@@ -112,6 +111,7 @@ h2.project-title {
 p {
     font-size: 1.6rem;
     font-family: 'Muli', sans-serif;
+    line-height: 2.8rem;
 }
 
 .intro {
@@ -122,7 +122,7 @@ p {
     line-height: 147%;
     width: 50%;
 } .recent-projects {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 2.8rem;
     line-height: 42px;
@@ -180,4 +180,28 @@ footer {
 
 .social-links li {
      margin: 1.5rem;
+ }
+
+ h2 {
+     color: #4349FF;
+     font-family: 'Poppins', sans-serif;
+     font-size: 3.2rem;
+     font-weight: 600;
+ }
+
+ h3.section-subheading {
+    background-color: #E0F9FF;
+    display:inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: .8rem;
+ }
+
+ li {
+     font-size: 1.6rem;
+     font-family: 'Muli', sans-serif;
+     line-height: 2.8rem;
  }
