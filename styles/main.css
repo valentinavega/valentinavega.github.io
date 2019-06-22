@@ -205,3 +205,49 @@ footer {
      font-family: 'Muli', sans-serif;
      line-height: 2.8rem;
  }
+
+/**GRID**/
+
+ .comp-analysis {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+ }
+
+ p {
+   display: grid;
+   grid-template-columns: 600px;
+ }
+
+div.final-mockup-images {
+  display: grid;
+   grid-template-columns: 2fr 2fr;
+   grid-template-rows: 2fr 2fr 2fr;
+ }
+
+
+ div.pref-1 .pref-2 .pref-3 {
+  display: grid;
+  grid-template-columns: 2fr 2fr
+ }
+
+ div.wireframe-images {
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+ }
+
+ div.survey {
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   grid-template-rows: 2fr 2fr 2fr;
+ }
+
+div.design-role {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ div.personas {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
