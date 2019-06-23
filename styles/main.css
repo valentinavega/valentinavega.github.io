@@ -210,13 +210,16 @@ footer {
 
  .comp-analysis {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 20rem 20rem 20rem;
+   grid-gap: 8rem;
    grid-template-rows: 1fr;
+   padding: rem;
  }
 
  p {
    display: grid;
-   grid-template-columns: 600px;
+   grid-template-columns: 70rem;
+   align-items: center;
  }
 
 div.final-mockup-images {
@@ -231,10 +234,7 @@ div.final-mockup-images {
   grid-template-columns: 2fr 2fr
  }
 
- div.wireframe-images {
-   display: grid;
-   grid-template-columns: 2fr 2fr;
- }
+
 
  div.survey {
    display: grid;
@@ -251,3 +251,4 @@ div.design-role {
    display: grid;
    grid-template-columns: 1fr 1fr;
  }
+
