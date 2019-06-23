@@ -1,16 +1,53 @@
-*, *:before, *:after {
-    box-sizing: border-box;
-}
+/**STYLING FOR ALL PAGES**/
 
 html {
     font-size: 10px;
+}
+
+a.button {
+    background-color: #4349FF;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    margin-top: 2rem;
+} 
+
+.nav-link {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #282828;
+} 
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+a.button:hover {
+    background-color: #5C61FF;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    margin-top: 2rem;
 }
 
 body {
     background-color: white;
     color: #282828;
 }
-
 
 nav.navigation {
     display: flex;
@@ -26,6 +63,40 @@ nav.navigation {
     float: right;
 }
 
+span.footer-line {
+    display: block;
+    width:1190px;
+    border-top: 1px solid #9F9F9F;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+     margin: 1.5rem;
+ }
+
+
+} .copyright {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h3.footer-greeting {
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 3rem;
+}
+/**HOMEPAGE STYLING**/
 
 .header-honeycomb {
   margin: 0 auto;
@@ -45,38 +116,6 @@ nav.navigation {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-left: 3rem;
-}
-
-a.button {
-    background-color: #4349FF;
-    border: none;
-    color: #FFFFFF;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.6rem;
-    font-family: 'Muli', sans-serif;
-    font-weight: 300;
-    margin-top: 2rem;
-} .nav-link {
-    font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    color: #282828;
-} .nav-link:hover {
-    text-decoration: underline;
-}
-
-a.button:hover {
-    color: white;
-    font-family: 'Muli', sans-serif;
-    font-weight: 400;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
 }
 
 
@@ -128,19 +167,6 @@ p {
     line-height: 42px;
     text-align: center;
     padding-bottom: 7rem;
-} .copyright {
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-h3 {
-
-} .footer-greeting {
-    font-size: 2.8rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 3rem;
 }
 
 .project-description {
@@ -162,25 +188,7 @@ div.down-arrow {
     padding-top: 30rem;
 }
 
-span.footer-line {
-    display: block;
-    width:1190px;
-    border-top: 1px solid #9F9F9F;
-    margin: 0 auto;
-}
-
-footer {
-    width: 100%;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-}
-
-.social-links li {
-     margin: 1.5rem;
- }
+/** EDUBOX CASE STUDY STYLING**/
 
  h2 {
      color: #4349FF;
@@ -205,50 +213,3 @@ footer {
      font-family: 'Muli', sans-serif;
      line-height: 2.8rem;
  }
-
-/**GRID**/
-
- .comp-analysis {
-   display: grid;
-   grid-template-columns: 20rem 20rem 20rem;
-   grid-gap: 8rem;
-   grid-template-rows: 1fr;
-   padding: rem;
- }
-
- p {
-   display: grid;
-   grid-template-columns: 70rem;
-   align-items: center;
- }
-
-div.final-mockup-images {
-  display: grid;
-   grid-template-columns: 2fr 2fr;
-   grid-template-rows: 2fr 2fr 2fr;
- }
-
-
- div.pref-1 .pref-2 .pref-3 {
-  display: grid;
-  grid-template-columns: 2fr 2fr
- }
-
-
-
- div.survey {
-   display: grid;
-   grid-template-columns: 2fr 2fr 2fr;
-   grid-template-rows: 2fr 2fr 2fr;
- }
-
-div.design-role {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
- }
-
- div.personas {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
- }
-
