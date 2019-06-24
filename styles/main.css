@@ -27,13 +27,7 @@ a.button {
 
 a.button:hover {
     background-color: #5C61FF;
-    border: none;
-    color: #FFFFFF;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-
 }
 
 body {
@@ -283,7 +277,6 @@ div.project-overview {
   }
 
 .project-overview {
-    justify-items: center;
     padding: 2.5rem;
     margin: auto;
     justify-items: center;
@@ -314,9 +307,37 @@ div.info-rectangle-survey {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 1fr 1fr 1fr;
-    align-content: center;
+    grid-gap: 5rem;
+    text-align: left;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
+    border-radius: 8px;
+    max-width: 90rem;
+    padding: 5rem;
 }
 
+.percentages {
+    color: #4349FF;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 153.36%;
+    text-align: left;
+  
+}
+
+.survey-note {
+    font-size: 1.2rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    grid-column: 1 / span 2;
+}
+
+.case-study-paragraph {
+    text-align: left;
+}
 
 section {
     display: block;
@@ -329,7 +350,7 @@ p.case-study-paragraph {
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem;
+    padding: 2rem 0 4rem 0;
     
 }
 
@@ -340,6 +361,7 @@ ul.case-study-list {
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 2rem 2rem 2rem;
 }
 
 div.info-rectangle.comp-analysis {
@@ -407,6 +429,11 @@ div.final-mockup-images {
      grid-template-columns: 2fr 2fr;
      grid-template-rows: 2fr 2fr 2fr;
    }
+
+
+.preftest1 {
+    box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
+}
 
 /** ******************EDUBOX MOBILE****************** **/
 
