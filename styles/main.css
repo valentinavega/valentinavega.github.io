@@ -9,8 +9,7 @@ html {
 
 img {
     margin: 0 auto;
-    width: 100%;
-  }
+}
 
 a.button {
     background-color: #4349FF;
@@ -353,4 +352,25 @@ div.personas {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
 }
+
+.w-100 {
+    width: 100%;
+}
+
+.logo-designing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hifi1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.final-mockup-images {
+    display: grid;
+     grid-template-columns: 2fr 2fr;
+     grid-template-rows: 2fr 2fr 2fr;
+   }
