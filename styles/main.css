@@ -7,6 +7,11 @@ html {
     font-size: 10px;
 }
 
+img {
+    margin: 0 auto;
+    width: 100%;
+  }
+
 a.button {
     background-color: #4349FF;
     border: none;
@@ -325,41 +330,27 @@ div.info-rectangle.comp-analysis {
     text-align: left;
 }
 
-section {
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
+div.personas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.ashley-text {
+    padding-left: 1rem;
+}
+
+.john-text {
     padding-left: 3rem;
-    padding-righ: 3rem;
 }
 
-a.edubox-button {
-    background-color: #4349FF;
-    border: none;
-    color: #FFFFFF;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.6rem;
-    font-family: 'Muli', sans-serif;
-    font-weight: 300;
-    margin-top: 2rem;
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
-}
-
-a.edubox-button:hover {
-    background-color: #5C61FF;
-    border: none;
-    color: #FFFFFF;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.6rem;
-    font-family: 'Muli', sans-serif;
-    font-weight: 300;
-    margin-top: 2rem;
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
+.wireframe-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
