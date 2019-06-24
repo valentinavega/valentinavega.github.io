@@ -33,10 +33,7 @@ a.button:hover {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.6rem;
-    font-family: 'Muli', sans-serif;
-    font-weight: 300;
-    margin-top: 2rem;
+
 }
 
 body {
@@ -192,7 +189,7 @@ div.down-arrow {
      font-weight: 300;
      text-decoration: none;
      color: #282828;
-     margin-top: 3rem;
+     padding-top: 3rem;
  }
 
  .logo {
@@ -249,6 +246,25 @@ div.down-arrow {
     margin: 0 auto;
 }
 
+.edubox-header {
+    background-color: #C7E7FE;
+}
+
+h1.projectTitle {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 6rem;
+    line-height: 153.36%;
+    text-align: center;
+    margin: 2rem;
+}
+
+img.mockup {
+    display:flex;
+    margin:auto;
+    padding-bottom: 3rem;
+}
+
 h4 {
     font-family: 'Poppins';
     font-weight: 500;
@@ -263,27 +279,43 @@ div.project-overview {
     max-width: 120rem;
     grid-gap: 2.5rem;
     text-align: center;
+    margin: 5rem;
   }
 
-  .section-heading{
-      display: flex;
-  }
+.project-overview {
+    justify-items: center;
+    padding: 2.5rem;
+    margin: auto;
+    justify-items: center;
+    box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
+    border-radius: 8px;
+    max-width: 90rem;
+}
+.section-heading{
+    display: flex;
+    padding: 4rem 0 4rem 0;
+}
 
-  .section-heading::after {
-      content: ' ';
-      margin-left: 1em;
-      border-top: 1px solid #4349FF;
-      display: block;
-      flex-grow: 1;
-      align-self: center;
-  }
+.section-subheading {
+    display: flex;
+    padding: 4rem 0 4rem 0; 
+}
 
-  div.info-rectangle-survey {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-auto-rows: 1fr 1fr 1fr;
-      align-content: center;
-  }
+.section-heading::after {
+    content: ' ';
+    margin-left: 1em;
+    border-top: 1px solid #4349FF;
+    display: block;
+    flex-grow: 1;
+    align-self: center;
+}
+
+div.info-rectangle-survey {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    align-content: center;
+}
 
 
 section {
@@ -297,6 +329,7 @@ p.case-study-paragraph {
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 2rem;
     
 }
 
@@ -313,7 +346,7 @@ div.info-rectangle.comp-analysis {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3rem;
-    padding: 2rem;
+    padding: 5rem;
     margin: auto;
     justify-items: center;
     box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
@@ -373,4 +406,14 @@ div.final-mockup-images {
     display: grid;
      grid-template-columns: 2fr 2fr;
      grid-template-rows: 2fr 2fr 2fr;
+   }
+
+/** ******************EDUBOX MOBILE****************** **/
+
+   @media (max-width: 360px) {
+    div.info-rectangle.comp-analysis {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
    }
