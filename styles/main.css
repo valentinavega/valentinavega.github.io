@@ -1,4 +1,7 @@
 /**STYLING FOR ALL PAGES**/
+* {
+    box-sizing: border-box;
+  }
 
 html {
     font-size: 10px;
@@ -16,7 +19,7 @@ a.button {
     font-family: 'Muli', sans-serif;
     font-weight: 300;
     margin-top: 2rem;
-} 
+}
 
 a.button:hover {
     background-color: #5C61FF;
@@ -43,7 +46,7 @@ span.footer-line {
     border-top: 1px solid #9F9F9F;
     margin: 0 auto;
     margin-top: 5rem;
-} 
+}
 
 footer {
     width: 100%;
@@ -88,7 +91,7 @@ h3.footer-greeting {
   right: 0;
   top: 16rem;
   z-index: -1;
-} 
+}
 
 h1.opening {
     font-size: 5.2rem;
@@ -175,7 +178,7 @@ div.down-arrow {
  }
 
  /**HOMEPAGE GRID**/
- 
+
  nav.navigation {
      display: grid;
      grid-template-columns: repeat(10, 1fr);
@@ -225,7 +228,7 @@ div.down-arrow {
 
 .mockup-home-container {
   padding: 5rem;
-} 
+}
 
 .mockup-home {
   width: 100%;
@@ -235,16 +238,70 @@ div.down-arrow {
   padding: 4rem;
 }
 
-@media (max-width: 960px) {
-  .info-rectangle.project1 {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    grid-gap: 0;
-    align-items: flex-start;
-    justify-items: center;
-  }
+/** ******************* EDUBOX CASE STUDY ******************* **/
+
+
+h4 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 153.36%;
 }
 
+div.project-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 120rem;
+    grid-gap: 2.5rem;
+    text-align: center;
+  }
+
+  .section-heading{
+      display: flex;
+  }
+
+  .section-heading::after {
+      content: ' ';
+      margin-left: 1em;
+      border-top: 1px solid #4349FF;
+      display: block;
+      flex-grow: 1;
+      align-self: center;
+  }
+
+  div.info-rectangle-survey {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-auto-rows: 1fr 1fr 1fr;
+      align-content: center;
+  }
 
 
+section {
+    display: block;
+}
 
+p.case-study-paragraph {
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+ul.case-study-list {
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.edubox-button {
+    margin-left: auto;
+    margin-right: auto;
+}
