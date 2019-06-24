@@ -240,6 +240,10 @@ div.down-arrow {
 
 /** ******************* EDUBOX CASE STUDY ******************* **/
 
+.edubox-case-study {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 h4 {
     font-family: 'Poppins';
@@ -301,5 +305,61 @@ ul.case-study-list {
     margin-right: auto;
 }
 
-
+div.info-rectangle.comp-analysis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    padding: 2rem;
+    margin: auto;
+    justify-items: center;
+    box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
+    border-radius: 8px;
+    max-width: 90rem;
+}
  
+.comp-analysis > div {
+    text-align: center;
+}
+
+.competitive-desc {
+    text-align: left;
+}
+
+section {
+    padding-left: 3rem;
+    padding-righ: 3rem;
+}
+
+a.edubox-button {
+    background-color: #4349FF;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    margin-top: 2rem;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+a.edubox-button:hover {
+    background-color: #5C61FF;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    margin-top: 2rem;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
