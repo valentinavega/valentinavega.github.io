@@ -20,7 +20,7 @@ a.button {
     text-decoration: none;
     display: inline-block;
     font-size: 1.6rem;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     margin-top: 2rem;
 }
@@ -98,7 +98,7 @@ h1.opening {
 
 .intro {
     font-size: 2.4rem;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding-top: 2rem;
     line-height: 147%;
@@ -113,7 +113,7 @@ h2.project-title {
 
 p {
     font-size: 1.6rem;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     line-height: 2.8rem;
 }
@@ -167,8 +167,8 @@ div.down-arrow {
  }
 
  li {
-     font-size: 1.6rem;
-     font-family: 'Muli', sans-serif;
+     font-size: 1.8rem;
+     font-family: 'Montserrat', sans-serif;
      line-height: 2.8rem;
  }
 
@@ -330,7 +330,7 @@ div.info-rectangle-survey {
 
 .survey-note {
     font-size: 1.2rem;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     grid-column: 1 / span 2;
 }
@@ -344,10 +344,10 @@ section {
 }
 
 p.case-study-paragraph {
-    font-size: 1.6rem;
-    font-family: 'Muli', sans-serif;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    max-width: 75rem;
+    max-width: 65rem;
     margin-left: auto;
     margin-right: auto;
     padding: 2rem 0 4rem 0;
@@ -355,10 +355,10 @@ p.case-study-paragraph {
 }
 
 ul.case-study-list {
-    font-size: 1.6rem;
-    font-family: 'Muli', sans-serif;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    max-width: 75rem;
+    max-width: 65rem;
     margin-left: auto;
     margin-right: auto;
     padding: 0 2rem 2rem 2rem;
