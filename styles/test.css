@@ -1,0 +1,26 @@
+.info-rectangle {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.mockup-home-container {
+    grid-column-start: 1;
+    padding-left: 2rem;
+}
+
+.project-info {
+    grid-column-start: 2;
+    padding-right: 2rem;
+}
+
+.project-description {
+    line-height: 141%;
+    width: 25rem;
+    margin-top: 2rem;
+}
+
+h2.project-title {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
