@@ -15,7 +15,7 @@ a.button {
     background-color: #4349FF;
     border: none;
     color: #FFFFFF;
-    padding: 10px 20px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -27,7 +27,6 @@ a.button {
 
 a.button:hover {
     background-color: #5C61FF;
-    padding: 10px 20px;
 }
 
 body {
@@ -160,9 +159,8 @@ div.down-arrow {
     display:inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    font-size: 2.8rem;
+    margin: 2rem 0 2rem 0;
     padding: .8rem;
  }
 
@@ -240,6 +238,10 @@ div.down-arrow {
     margin: 0 auto;
 }
 
+.edubox-header {
+    width: 100%;
+    background-image: url("images/edubox-hero-bg.png");
+}
 
 h1.projectTitle {
     font-family: 'Poppins';
@@ -247,16 +249,24 @@ h1.projectTitle {
     font-size: 6rem;
     line-height: 153.36%;
     text-align: center;
-    margin: 2rem;
+    margin: 2rem 0 1rem 0;
 }
 
 .projectDesc {
     color: #282828;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: center;
-    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+p.edubox-intro-paragraph{
+    padding: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 68rem;
+
 }
 img.mockup {
     display:flex;
@@ -269,14 +279,14 @@ h4 {
     font-weight: 500;
     font-size: 2.2rem;
     line-height: 153.36%;
+    margin: 3rem;
 }
 
 div.project-overview {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
-    max-width: 120rem;
-    grid-gap: 2.5rem;
+    max-width: 90rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -295,12 +305,9 @@ div.project-overview {
 .section-heading{
     display: flex;
     padding: 4rem 0 4rem 0;
+    font-size: 3.6rem;
 }
 
-.section-subheading {
-    display: flex;
-    padding: 4rem 0 4rem 0; 
-}
 
 .section-heading::after {
     content: ' ';
@@ -360,13 +367,13 @@ p.case-study-paragraph {
     margin-right: auto;
     padding: 2rem;
     text-align: left;
-    
 }
 
 p.photo-caption {
     font-size: 1.8rem;
+    font-weight: 400;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0 4rem 0;
 }
 
 ul.case-study-list {
@@ -374,9 +381,6 @@ ul.case-study-list {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     max-width: 65rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 2rem 2rem 2rem;
 }
 
 div.info-rectangle.comp-analysis {
@@ -461,6 +465,7 @@ div.final-mockup-images {
 
  ol {
    counter-reset: li;
+   text-align: center;
  }
 
  ol > li {
@@ -471,8 +476,8 @@ div.final-mockup-images {
  ol > li::before {
    content: counter(li);
    display: inline-block;
-   color: #FFFDFB;
-   background-color: #4349FF;
+   color: #FFFFFF;
+   background-color: #5E7CFF;
    border-radius: 50%;
    margin-right: 0.7rem;
    text-align: center;
@@ -480,6 +485,28 @@ div.final-mockup-images {
    height: 2.8rem;
  }
 
+
+ h4.persona-name {
+     font-size: 2.6rem;
+     margin: 0;
+ }
+
+ h4.persona-heading {
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+ }
+
+ h4.designspecs-titles {
+    margin: 0;
+    text-align: left;
+    padding: 2rem 0 2rem 0;
+ }
+
+
+ p.roles-column {
+     text-align: left;
+ }
 /** ******************EDUBOX MOBILE****************** **/
 
    @media (max-width: 360px) {
