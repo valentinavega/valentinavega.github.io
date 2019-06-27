@@ -114,7 +114,7 @@ p {
     font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    line-height: 2.8rem;
+    line-height: 2.9rem;
 }
 
 .recent-projects {
@@ -240,7 +240,7 @@ div.down-arrow {
 
 .edubox-header {
     width: 100%;
-    background-image: url("images/edubox-hero-bg.png");
+    background-image: url("../images/edubox-hero-bg.png");
 }
 
 h1.projectTitle {
@@ -271,7 +271,8 @@ p.edubox-intro-paragraph{
 img.mockup {
     display:flex;
     margin:auto;
-    padding-bottom: 3rem;
+    padding-bottom: 15rem;
+    width: 80%;
 }
 
 h4 {
@@ -361,7 +362,7 @@ section {
 p.case-study-paragraph {
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     max-width: 68rem;
     margin-left: auto;
     margin-right: auto;
@@ -465,7 +466,15 @@ div.final-mockup-images {
 
  ol {
    counter-reset: li;
-   text-align: center;
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   max-width: 60rem;
+   max-width: 68rem;
+margin-left: auto;
+margin-right: auto;
+padding: 2rem;
+text-align: left;
  }
 
  ol > li {
@@ -507,12 +516,51 @@ div.final-mockup-images {
  p.roles-column {
      text-align: left;
  }
-/** ******************EDUBOX MOBILE****************** **/
 
-   @media (max-width: 360px) {
+ .section-subheading-problem, .section-subheading-solution {
+    background-color: #E0F9FF;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.8rem;
+    margin: 2rem 0 2rem 0;
+    padding: .8rem;
+ }
+
+ .section-subheading-problem::before {
+     content: url("../images/sad-face.svg");
+     display: inline-block;
+     width: 3.5rem;
+     height: 3.5rem;
+ }
+
+ .section-subheading-solution::before {
+    content: url("../images/happy-face.svg");
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+/** MEDIA QUERIES **/
+
+@media screen and (max-width: 375px) { 
+    div.project-overview {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1fr;
+    }
+
+    div.info-rectangle-survey {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
     div.info-rectangle.comp-analysis {
         display: grid;
         grid-template-columns: 1fr;
     }
     
    }
+
