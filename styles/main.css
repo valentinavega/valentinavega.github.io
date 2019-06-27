@@ -8,7 +8,9 @@ html {
 }
 
 img {
-    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a.button {
@@ -323,7 +325,7 @@ div.info-rectangle-survey {
     background: linear-gradient(89.26deg, #EAEBFD 0.4%, #E8EEFE 48.97%, #E8EEFF 99.61%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr auto;
     grid-gap: 5rem;
     text-align: left;
     max-width: 90rem;
@@ -466,20 +468,17 @@ div.final-mockup-images {
 
  ol {
    counter-reset: li;
-   display: flex;
-   justify-content: flex-start;
-   flex-wrap: wrap;
    max-width: 60rem;
    max-width: 68rem;
-margin-left: auto;
-margin-right: auto;
-padding: 2rem;
-text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: left;
  }
 
  ol > li {
    counter-increment: li;
-   line-height: 3.2rem;
+   margin-bottom: 0.5rem;
  }
 
  ol > li::before {
@@ -518,8 +517,9 @@ text-align: left;
  }
 
  .section-subheading-problem, .section-subheading-solution {
+    align-items: center;
     background-color: #E0F9FF;
-    display: inline-block;
+    display: inline-flex;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 2.8rem;
@@ -527,33 +527,50 @@ text-align: left;
     padding: .8rem;
  }
 
- .section-subheading-problem::before {
-     content: url("../images/sad-face.svg");
-     display: inline-block;
-     width: 3.5rem;
-     height: 3.5rem;
+ .section-subheading-problem::before,  .section-subheading-solution::before { 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.5rem;
  }
 
+ .section-subheading-problem::before {
+    background-image: url("../images/sad-face.svg");
+}
+
  .section-subheading-solution::before {
-    content: url("../images/happy-face.svg");
-    display: inline-block;
-    width: 3.5rem;
-    height: 3.5rem;
+    background-image: url("../images/happy-face.svg");
 }
 
 /** MEDIA QUERIES **/
 
 @media screen and (max-width: 375px) { 
+    .edubox-header {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    img.mockup {
+        padding-bottom: 4rem; 
+    }
+    
+    
     div.project-overview {
         display: grid;
         grid-template-columns: 1fr;
         padding: 1fr;
+        justify-items: left;
+        margin: 3rem;
     }
 
     div.info-rectangle-survey {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-gap: .5rem;
+        padding: 2rem;
     }
 
 
@@ -562,5 +579,57 @@ text-align: left;
         grid-template-columns: 1fr;
     }
     
+
+    div.personas {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    div.ashley {
+        max-width: 36rem;
+    }
+
+    div.wireframe-images {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        display: block;
+        width: 90%;
+    }
+
+    img.persona {
+        width: 95%;
+    }
+
+    .footer-line {
+        max-width: 80%
+    }
+
+    h2.section-heading {
+        font-size: 2.8rem;
+    }
+
+    h3.section-subheading {
+        font-size: 2.4rem;
+    }
+
+    p.case-study-paragraph {
+        font-size: 1.6rem;
+    }
+
+    p.photo-caption {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    img.icon, img.comp {
+        width: 60%;
+    }
+
+    img.comp {
+        width: 50%;
+    }
    }
 
