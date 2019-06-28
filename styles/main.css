@@ -74,8 +74,6 @@ h3.footer-greeting {
 
 /**HOMEPAGE STYLING**/
 
-/** Home Hero Section using Flexbox**/
-
 .header-home {
   margin: 0 auto;
   max-width: 1190px;
@@ -116,7 +114,7 @@ p {
     font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    line-height: 2.9rem;
+    line-height: 3rem;
 }
 
 .recent-projects {
@@ -162,7 +160,7 @@ div.down-arrow {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 2.8rem;
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0 1rem 0;
     padding: .8rem;
  }
 
@@ -171,8 +169,6 @@ div.down-arrow {
      font-family: 'Montserrat', sans-serif;
      line-height: 2.8rem;
  }
-
- /**HOMEPAGE GRID**/
 
  nav.navigation {
      display: grid;
@@ -232,8 +228,6 @@ div.down-arrow {
 .project-info {
   padding: 4rem;
 }
-
-/** ******************* EDUBOX CASE STUDY ******************* **/
 
 .edubox-case-study {
     /**max-width: 1200px;**/
@@ -307,7 +301,7 @@ div.project-overview {
 }
 .section-heading{
     display: flex;
-    padding: 4rem 0 4rem 0;
+    padding: 6rem 0 6rem 0;
     font-size: 3.6rem;
 }
 
@@ -348,7 +342,7 @@ div.info-rectangle-survey {
 }
 
 .survey-note {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     grid-column: 1 / span 2;
@@ -368,7 +362,8 @@ p.case-study-paragraph {
     max-width: 68rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     text-align: left;
 }
 
@@ -431,9 +426,9 @@ div.personas {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 4rem;
+    grid-gap: 1rem;
     width: 100vw;
-    padding: 4rem;
+    padding: 2rem;
     position: relative;
     left: 50%;
     right: 50%;
@@ -456,9 +451,16 @@ div.personas {
 }
 
 div.final-mockup-images {
+    background: linear-gradient(89.26deg, #EAEBFD 0.4%, #E8EEFE 48.97%, #E8EEFF 99.61%);
     display: grid;
-     grid-template-columns: 2fr 2fr;
-     grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
    }
 
 
@@ -470,10 +472,10 @@ div.final-mockup-images {
    counter-reset: li;
    max-width: 60rem;
    max-width: 68rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
-    text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 2rem;
+   text-align: left;
  }
 
  ol > li {
@@ -527,7 +529,7 @@ div.final-mockup-images {
     padding: .8rem;
  }
 
- .section-subheading-problem::before,  .section-subheading-solution::before { 
+ .section-subheading-problem::before, .section-subheading-solution::before { 
     background-size: 100%;
     background-repeat: no-repeat;
     content: '';
@@ -545,7 +547,56 @@ div.final-mockup-images {
     background-image: url("../images/happy-face.svg");
 }
 
+.pref-1, .pref-2, .pref-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/** ABOUT PAGE STYLING **/
+
+header.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6rem;
+    margin: 0 auto;
+    max-width: 1190px;
+    padding:6rem;
+}
+
+h1.opening-about {
+    font-size: 5.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    padding-top: 20rem;
+    line-height: 7.1rem;
+}
+
+.honeycomb-about {
+    margin-right:6rem;
+}
+
+
+section.about-paragraphs {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+
+h2.about {
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+p.about {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 /** MEDIA QUERIES **/
+
+/** EDUBOX PROJECT MEDIA QUERIES **/
 
 @media screen and (max-width: 375px) { 
     .edubox-header {
@@ -553,6 +604,16 @@ div.final-mockup-images {
         background-repeat: no-repeat;
     }
     
+    nav.navigation {
+        font-size: 1.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    img.icon-logo {
+        width: 800%;
+    }
+
     img.mockup {
         padding-bottom: 4rem; 
     }
@@ -579,7 +640,6 @@ div.final-mockup-images {
         grid-template-columns: 1fr;
     }
     
-
     div.personas {
         display: grid;
         grid-template-columns: 1fr;
@@ -592,6 +652,11 @@ div.final-mockup-images {
     div.wireframe-images {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    div.final-mockup-images {
+        display: grid;
+        grid-template-columns: 1fr; 
     }
 
     img {
@@ -609,6 +674,11 @@ div.final-mockup-images {
 
     h2.section-heading {
         font-size: 2.8rem;
+    }
+
+    h2.projectDesc {
+        font-size: 1.8rem;
+        margin: 1rem;
     }
 
     h3.section-subheading {
@@ -631,6 +701,57 @@ div.final-mockup-images {
     img.comp {
         width: 50%;
     }
-    
+
+    .edubox-header {
+        background-size: cover;
+    }
    }
 
+/** HOME **/
+
+@media screen and (max-width: 375px) { 
+    div.info-rectangle.project1 {
+        display: grid;
+        grid-template-columns: 1fr; 
+        margin: 1rem;
+        justify-items: center;
+    }
+
+    .mockup-home-container {
+        padding: 1rem;
+    }
+
+    img.honeycomb {
+        opacity: 60%;
+    }
+
+    div.down-arrow {
+        display: none;
+    }
+
+    p.recent-projects {
+        font-size: 2.4rem;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+
+    h1.opening {
+        padding-top: 10rem;
+        margin-left: 1.5rem;
+    }
+
+    p.intro {
+        width: 75%;
+        margin-left: 1.5rem;
+    }
+
+    div.project-info {
+        text-align: center;
+    }
+
+    p.project-description {
+        text-align: left;
+        width: 26rem;
+    }
+
+}
