@@ -237,6 +237,7 @@ div.down-arrow {
 .edubox-header {
     width: 100%;
     background-image: url("../images/edubox-hero-bg.png");
+    background-size: cover;
 }
 
 h1.projectTitle {
@@ -267,7 +268,7 @@ p.edubox-intro-paragraph{
 img.mockup {
     display:flex;
     margin:auto;
-    padding-bottom: 15rem;
+    padding: 5rem;
     width: 80%;
 }
 
@@ -598,6 +599,8 @@ p.about {
 
 /** EDUBOX PROJECT MEDIA QUERIES **/
 
+/** MOBILE SCREEN **/ 
+
 @media screen and (max-width: 375px) { 
     .edubox-header {
         background-size: 100%;
@@ -618,7 +621,6 @@ p.about {
         padding-bottom: 4rem; 
     }
     
-    
     div.project-overview {
         display: grid;
         grid-template-columns: 1fr;
@@ -633,7 +635,6 @@ p.about {
         grid-gap: .5rem;
         padding: 2rem;
     }
-
 
     div.info-rectangle.comp-analysis {
         display: grid;
@@ -707,6 +708,63 @@ p.about {
     }
    }
 
+   /** TABLET SCREEN **/
+
+   @media screen and (max-width:768px) {
+   
+    .edubox-header {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div.project-overview {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+   div.info-rectangle.comp-analysis {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    div.personas {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    img.icon, img.comp {
+        width: 60%;
+    }
+
+    img.comp {
+        width: 50%;
+    }
+
+    img.icon, img.comp {
+        width: 60%;
+    }
+
+    div.wireframe-images {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    div.final-mockup-images {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+
+    .footer-line {
+        max-width: 80%
+    }
+
+   }
+
 /** HOME **/
 
 @media screen and (max-width: 375px) { 
@@ -741,6 +799,7 @@ p.about {
     }
 
     p.intro {
+        font-size: 2.2rem;
         width: 75%;
         margin-left: 1.5rem;
     }
