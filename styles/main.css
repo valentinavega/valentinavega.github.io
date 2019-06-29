@@ -172,11 +172,12 @@ div.down-arrow {
 
  nav.navigation {
      display: grid;
+     margin: 0 auto;
      grid-template-columns: repeat(10, 1fr);
-     grid-gap: 2rem;
      font-size: 2rem;
      font-family: 'Poppins', sans-serif;
      font-weight: 300;
+     max-width: 1190px;
      text-decoration: none;
      color: #282828;
      padding-top: 3rem;
@@ -184,26 +185,29 @@ div.down-arrow {
 
  .logo {
     grid-column-start: 1;
-    justify-self: right;
+    justify-self: left;
     align-self: center;
  }
  .home-link {
      grid-column-start: 8;
      text-decoration: none;
+     justify-self: right;
      color: #282828;
  }
 
  .work-link {
     grid-column-start: 9;
     text-decoration: none;
+    justify-self: right;
     color: #282828;
 }
 
 .about-link {
     grid-column-start: 10;
     text-decoration: none;
+    justify-self: right;
     color: #282828;
-}
+} 
 
 .info-rectangle.project1 {
     display: grid;
