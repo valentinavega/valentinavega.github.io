@@ -112,7 +112,7 @@ h2.project-title {
 }
 
 p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     line-height: 3rem;
@@ -280,9 +280,9 @@ img.mockup {
 h4 {
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     line-height: 153.36%;
-    margin: 3rem;
+    margin: 3rem 0 3rem 0;
 }
 
 div.project-overview {
@@ -503,7 +503,9 @@ div.final-mockup-images {
 
 
  h4.persona-name {
+    background: linear-gradient(89.26deg, #EAEBFD 0.4%, #E8EEFE 48.97%, #E8EEFF 99.61%);
      font-size: 2.6rem;
+     padding: .5rem .5rem .5rem 1rem;
      margin: 0;
  }
 
@@ -853,11 +855,16 @@ p.about {
         width: 26rem;
     }
 
+    p.copyright {
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+    }
+
 }
 
 /**TABLET**/
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
     
     nav.navigation {
         margin-left: 2rem;
