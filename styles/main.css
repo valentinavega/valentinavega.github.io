@@ -279,6 +279,10 @@ img.mockup {
     width: 80%;
 }
 
+img.usability-testing {
+    width: 100%
+}
+
 h4 {
     font-family: 'Poppins';
     font-weight: 500;
@@ -556,10 +560,6 @@ p.roles-column {
 .pref-3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-img.usability-testing {
-    width: 100%
 }
 
 
