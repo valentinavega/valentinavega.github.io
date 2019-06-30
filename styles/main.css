@@ -356,8 +356,12 @@ div.info-rectangle-survey {
 
 section {
     display: block;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+img.UT-test {
+    width: 100%;
 }
 
 p.case-study-paragraph {
@@ -705,6 +709,13 @@ p.about {
         margin-left: 3rem;
         margin-right: 3rem;
     }
+    section {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    div.info-rectangle-survey {
+        grid-gap: 2rem;
+    }
     div.info-rectangle.comp-analysis {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
@@ -715,6 +726,15 @@ p.about {
     div.pref-2 {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    img.persona {
+        width: 70%;
+        align-items: start;
+        margin: 0;
+    }
+    h4.persona-name,
+    ul.case-study-list {
+        width: 70%;
     }
     img {
         display: block;
@@ -843,8 +863,8 @@ p.about {
         grid-gap: 3rem;
     }
     .header-home {
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
     div.honeycomb {
         content: url("../images/honeycomb-tablet.svg");
@@ -874,5 +894,47 @@ p.about {
     }
     h3.footer-greeting {
         font-size: 2.4rem;
+    }
+}
+
+
+/** ABOUT PAGE **/
+
+
+/**MOBILE**/
+
+@media screen and (max-width: 375px) {
+    section.about-paragraphs {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    header.about {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 6rem;
+        margin: 0 auto;
+        max-width: 1190px;
+        padding: 6rem;
+    }
+    h1.opening-about {
+        font-size: 5.2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        line-height: 7.1rem;
+    }
+}
+
+
+/** TABLET **/
+
+@media screen and (max-width:768px) and (min-width: 376px) {
+    nav.navigation {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    a.logo {
+        width: 200%;
     }
 }
