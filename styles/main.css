@@ -1,7 +1,8 @@
 /**STYLING FOR ALL PAGES**/
+
 * {
     box-sizing: border-box;
-  }
+}
 
 html {
     font-size: 10px;
@@ -38,7 +39,7 @@ body {
 
 span.footer-line {
     display: block;
-    width:1190px;
+    width: 1190px;
     border-top: 1px solid #9F9F9F;
     margin: 0 auto;
     margin-top: 5rem;
@@ -57,8 +58,7 @@ img.icon {
     margin: 1.5rem;
 }
 
-
- .copyright {
+.copyright {
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -75,17 +75,17 @@ h3.footer-greeting {
 /**HOMEPAGE STYLING**/
 
 .header-home {
-  margin: 0 auto;
-  max-width: 1190px;
-  position: relative;
+    margin: 0 auto;
+    max-width: 1190px;
+    position: relative;
 }
 
 .honeycomb {
-   content: url("../images/honeycomb.svg");
-  position: absolute;
-  right: 0;
-  top: 16rem;
-  z-index: -1;
+    content: url("../images/honeycomb.svg");
+    position: absolute;
+    right: 0;
+    top: 16rem;
+    z-index: -1;
 }
 
 h1.opening {
@@ -146,57 +146,59 @@ div.down-arrow {
     padding-top: 30rem;
 }
 
+
 /** EDUBOX CASE STUDY STYLING**/
 
- h2 {
-     color: #4349FF;
-     font-family: 'Poppins', sans-serif;
-     font-size: 3.2rem;
-     font-weight: 600;
- }
+h2 {
+    color: #4349FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
 
- h3.section-subheading {
+h3.section-subheading {
     background-color: #E0F9FF;
-    display:inline-block;
+    display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 2.8rem;
     margin: 2rem 0 1rem 0;
     padding: .8rem;
- }
+}
 
- li {
-     font-size: 1.8rem;
-     font-family: 'Montserrat', sans-serif;
-     line-height: 2.8rem;
- }
+li {
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.8rem;
+}
 
- nav.navigation {
-     display: grid;
-     margin: 0 auto;
-     grid-template-columns: repeat(10, 1fr);
-     font-size: 2rem;
-     font-family: 'Poppins', sans-serif;
-     font-weight: 300;
-     max-width: 1190px;
-     text-decoration: none;
-     color: #282828;
-     padding-top: 3rem;
- }
+nav.navigation {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(10, 1fr);
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    max-width: 1190px;
+    text-decoration: none;
+    color: #282828;
+    padding-top: 3rem;
+}
 
- .logo {
+.logo {
     grid-column-start: 1;
     justify-self: left;
     align-self: center;
- }
- .home-link {
-     grid-column-start: 8;
-     text-decoration: none;
-     justify-self: right;
-     color: #282828;
- }
+}
 
- .work-link {
+.home-link {
+    grid-column-start: 8;
+    text-decoration: none;
+    justify-self: right;
+    color: #282828;
+}
+
+.work-link {
     grid-column-start: 9;
     text-decoration: none;
     justify-self: right;
@@ -208,7 +210,7 @@ div.down-arrow {
     text-decoration: none;
     justify-self: right;
     color: #282828;
-} 
+}
 
 .info-rectangle.project1 {
     display: grid;
@@ -223,15 +225,15 @@ div.down-arrow {
 }
 
 .mockup-home-container {
-  padding: 5rem;
+    padding: 5rem;
 }
 
 .mockup-home {
-  width: 100%;
+    width: 100%;
 }
 
 .project-info {
-  padding: 4rem;
+    padding: 4rem;
 }
 
 .edubox-case-study {
@@ -263,16 +265,16 @@ h1.projectTitle {
     padding-bottom: 3rem;
 }
 
-p.edubox-intro-paragraph{
+p.edubox-intro-paragraph {
     padding: 4rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 68rem;
-
 }
+
 img.mockup {
-    display:flex;
-    margin:auto;
+    display: flex;
+    margin: auto;
     padding: 5rem;
     width: 80%;
 }
@@ -293,7 +295,7 @@ div.project-overview {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .project-overview {
     padding: 2.5rem;
@@ -303,14 +305,13 @@ div.project-overview {
     border-radius: 8px;
     max-width: 90rem;
     background: linear-gradient(89.26deg, #EAEBFD 0.4%, #E8EEFE 48.97%, #E8EEFF 99.61%);
-
 }
-.section-heading{
+
+.section-heading {
     display: flex;
     padding: 6rem 0 6rem 0;
     font-size: 3.6rem;
 }
-
 
 .section-heading::after {
     content: ' ';
@@ -344,7 +345,6 @@ div.info-rectangle-survey {
     font-size: 4rem;
     line-height: 153.36%;
     text-align: left;
-  
 }
 
 .survey-note {
@@ -353,7 +353,6 @@ div.info-rectangle-survey {
     font-weight: 200;
     grid-column: 1 / span 2;
 }
-
 
 section {
     display: block;
@@ -399,8 +398,8 @@ div.info-rectangle.comp-analysis {
     border-radius: 8px;
     max-width: 90rem;
 }
- 
-.comp-analysis > div {
+
+.comp-analysis>div {
     text-align: center;
 }
 
@@ -417,10 +416,6 @@ div.personas {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
-}
-
-.ashley-text {
-    padding-left: 1rem;
 }
 
 .john-text {
@@ -467,66 +462,66 @@ div.final-mockup-images {
     margin-left: -50vw;
     margin-right: -50vw;
     width: 100vw;
-   }
-
+}
 
 .preftest1 {
     box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
 }
 
- ol {
-   counter-reset: li;
-   max-width: 60rem;
-   max-width: 68rem;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 2rem;
-   text-align: left;
- }
+ol {
+    counter-reset: li;
+    max-width: 60rem;
+    max-width: 68rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    text-align: left;
+}
 
- ol > li {
-   counter-increment: li;
-   margin-bottom: 0.5rem;
- }
+ol>li {
+    display: flex;
+    counter-increment: li;
+    margin-bottom: 0.5rem;
+}
 
- ol > li::before {
-   content: counter(li);
-   display: inline-block;
-   color: #FFFFFF;
-   background-color: #5E7CFF;
-   border-radius: 50%;
-   margin-right: 0.7rem;
-   text-align: center;
-   width: 2.8rem;
-   height: 2.8rem;
- }
+ol>li::before {
+    content: counter(li);
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #5E7CFF;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+    text-align: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    flex-shrink: 0;
+}
 
-
- h4.persona-name {
+h4.persona-name {
     background: linear-gradient(89.26deg, #EAEBFD 0.4%, #E8EEFE 48.97%, #E8EEFF 99.61%);
-     font-size: 2.6rem;
-     padding: .5rem .5rem .5rem 1rem;
-     margin: 0;
- }
+    font-size: 2.6rem;
+    padding: .5rem .5rem .5rem 1rem;
+    margin: 0;
+}
 
- h4.persona-heading {
+h4.persona-heading {
     font-size: 2.2rem;
     margin: 0;
     padding: 2rem 0 2rem 0;
- }
+}
 
- h4.designspecs-titles {
+h4.designspecs-titles {
     margin: 0;
     text-align: left;
     padding: 2rem 0 2rem 0;
- }
+}
 
+p.roles-column {
+    text-align: left;
+}
 
- p.roles-column {
-     text-align: left;
- }
-
- .section-subheading-problem, .section-subheading-solution {
+.section-subheading-problem,
+.section-subheading-solution {
     align-items: center;
     background-color: #E0F9FF;
     display: inline-flex;
@@ -535,9 +530,10 @@ div.final-mockup-images {
     font-size: 2.8rem;
     margin: 2rem 0 2rem 0;
     padding: .8rem;
- }
+}
 
- .section-subheading-problem::before, .section-subheading-solution::before { 
+.section-subheading-problem::before,
+.section-subheading-solution::before {
     background-size: 100%;
     background-repeat: no-repeat;
     content: '';
@@ -545,20 +541,23 @@ div.final-mockup-images {
     width: 4rem;
     height: 4rem;
     margin-right: 1.5rem;
- }
+}
 
- .section-subheading-problem::before {
+.section-subheading-problem::before {
     background-image: url("../images/sad-face.svg");
 }
 
- .section-subheading-solution::before {
+.section-subheading-solution::before {
     background-image: url("../images/happy-face.svg");
 }
 
-.pref-1, .pref-2, .pref-3 {
+.pref-1,
+.pref-2,
+.pref-3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 /** ABOUT PAGE STYLING **/
 
@@ -568,7 +567,7 @@ header.about {
     grid-gap: 6rem;
     margin: 0 auto;
     max-width: 1190px;
-    padding:6rem;
+    padding: 6rem;
 }
 
 h1.opening-about {
@@ -581,49 +580,46 @@ h1.opening-about {
 }
 
 .honeycomb-about {
-    margin-right:6rem;
+    margin-right: 6rem;
 }
-
 
 section.about-paragraphs {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
 }
 
-
 h2.about {
     margin-top: 1.5rem;
     padding-bottom: 1rem;
 }
-
 
 p.about {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
+
 /** MEDIA QUERIES **/
+
 
 /** EDUBOX PROJECT MEDIA QUERIES **/
 
-/** MOBILE SCREEN **/ 
 
-@media screen and (max-width: 375px) { 
+/** MOBILE SCREEN **/
+
+@media screen and (max-width: 375px) {
     .edubox-header {
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    
     nav.navigation {
         font-size: 1.5rem;
         padding-right: 1rem;
         padding-left: 1rem;
     }
-
     img.mockup {
-        padding-bottom: 4rem; 
+        padding-bottom: 4rem;
     }
-    
     div.project-overview {
         display: grid;
         grid-template-columns: 1fr;
@@ -631,77 +627,72 @@ p.about {
         justify-items: left;
         margin: 3rem;
     }
-
     div.info-rectangle-survey {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: .5rem;
         padding: 2rem;
     }
-
-    div.info-rectangle.comp-analysis, div.personas, div.wireframe-images, div.hifi1, div.logo-designing, div.final-mockup-images, div.pref-1, div.pref-2, div.pref-3 {
+    div.info-rectangle.comp-analysis,
+    div.personas,
+    div.wireframe-images,
+    div.hifi1,
+    div.logo-designing,
+    div.final-mockup-images,
+    div.pref-1,
+    div.pref-2,
+    div.pref-3 {
         display: grid;
         grid-template-columns: 1fr;
     }
-
     img {
         display: block;
         width: 90%;
     }
-
     img.persona {
         width: 95%;
     }
-
     .footer-line {
         max-width: 80%
     }
-
     h2.section-heading {
         font-size: 2.8rem;
     }
-
     h2.projectDesc {
         font-size: 1.8rem;
         margin: 1rem;
     }
-
     h3.section-subheading {
         font-size: 2.4rem;
     }
-
     p.case-study-paragraph {
         font-size: 1.6rem;
     }
-
     p.photo-caption {
         font-size: 1.5rem;
         font-weight: 500;
     }
-
-    img.icon, img.comp {
+    img.icon,
+    img.comp {
         width: 60%;
     }
-
     img.comp {
         width: 50%;
     }
-
     .edubox-header {
         background-size: cover;
     }
-   }
+}
 
-   /** TABLET SCREEN **/
+
+/** TABLET SCREEN **/
 
 @media screen and (max-width:768px) {
-
     nav.navigation {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
         grid-gap: 2rem;
     }
-   
     img.mockup {
         padding: 0;
     }
@@ -714,90 +705,81 @@ p.about {
         margin-left: 3rem;
         margin-right: 3rem;
     }
-
     div.info-rectangle.comp-analysis {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
-
-    div.personas, div.logo-designing, div.hifi1, div.pref-2 {
+    div.personas,
+    div.logo-designing,
+    div.hifi1,
+    div.pref-2 {
         display: grid;
         grid-template-columns: 1fr;
     }
-
     img {
         display: block;
         width: 100%;
     }
-
-    img.icon, img.comp {
+    img.icon,
+    img.comp {
         width: 60%;
     }
-
     img.comp {
         width: 50%;
     }
-
-    img.icon, img.comp {
+    img.icon,
+    img.comp {
         width: 60%;
     }
-
     div.wireframe-images {
         display: grid;
         grid-template-columns: 1fr;
     }
-
     div.final-mockup-images {
         display: grid;
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
-
     .footer-line {
         max-width: 80%
     }
-
 }
+
 
 /** HOME **/
 
+
 /**MOBILE**/
 
-@media screen and (max-width: 375px) { 
-
+@media screen and (max-width: 375px) {
     nav.navigation {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 2fr;
         padding-top: 2rem;
     }
-    
     a.logo {
         grid-column-start: 2;
         grid-row-start: 1;
         justify-self: center;
     }
-
     a.home-link {
         font-size: 1.8rem;
         grid-row-start: 2;
         grid-column-start: 1;
         justify-self: center;
     }
-
     a.work-link {
         font-size: 1.8rem;
         grid-row-start: 2;
         grid-column-start: 2;
         justify-self: center;
     }
-
     a.about-link {
         font-size: 1.8rem;
         grid-row-start: 2;
         grid-column-start: 3;
         justify-self: center;
     }
-
     header.header-home {
         margin: 1.6rem;
     }
@@ -805,73 +787,61 @@ p.about {
         opacity: 0.5;
         top: 9rem;
     }
-
     div.info-rectangle.project1 {
         display: grid;
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
         grid-gap: 0;
         margin: 1.6rem;
         justify-items: center;
     }
-
     .mockup-home-container {
         padding: 1rem;
     }
-
     img.mockup-home {
         width: 100%;
         margin: 0;
     }
-
     div.down-arrow {
         display: none;
     }
-
     p.recent-projects {
         font-size: 2.4rem;
         padding-bottom: 5rem;
         padding-top: 5rem;
     }
-
     h1.opening {
         padding-top: 10rem;
         margin-left: 1.5rem;
         width: 80%;
     }
-
     p.intro {
         font-size: 2.2rem;
         width: 90%;
         margin-left: 1.5rem;
     }
-
     div.project-info {
         text-align: center;
         padding: 2rem;
     }
-
     p.project-description {
         text-align: left;
         width: 26rem;
     }
-
     p.copyright {
         margin-left: 1.6rem;
         margin-right: 1.6rem;
     }
-
 }
+
 
 /**TABLET**/
 
-@media screen and (max-width:768px) {
-    
+@media screen and (max-width:768px) and (min-width: 376px) {
     nav.navigation {
         margin-left: 2rem;
         margin-right: 2rem;
         grid-gap: 3rem;
     }
-
     .header-home {
         margin-left: 2rem;
         margin-right: 2rem;
@@ -881,20 +851,16 @@ p.about {
         width: 62%;
         top: 9rem;
     }
-
     h1.opening {
         width: 65%;
         padding-top: 10rem;
     }
-
     p.intro {
         width: 65%;
     }
-
     div.down-arrow {
         display: none;
     }
-
     p.recent-projects {
         padding-top: 10rem;
     }
@@ -903,11 +869,9 @@ p.about {
         margin-left: 2rem;
         margin-right: 2rem;
     }
-
     img.mockup-home {
         width: 120%;
     }
-
     h3.footer-greeting {
         font-size: 2.4rem;
     }
