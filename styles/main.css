@@ -100,7 +100,7 @@ h3.footer-greeting {
     margin: 0 auto;
     max-width: 1190px;
     position: relative;
-    animation: fadein 2s;
+    animation: fadein 3s;
 }
 
 @keyframes fadein {
