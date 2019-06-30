@@ -32,6 +32,24 @@ a.button:hover {
     background-color: #5C61FF;
 }
 
+a.nav-links:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #5C61FF;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a.nav-links:hover:after {
+    width: 100%;
+    left: 0;
+}
+
 body {
     background-color: white;
     color: #282828;
