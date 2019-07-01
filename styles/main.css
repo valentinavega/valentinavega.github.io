@@ -810,6 +810,10 @@ p.about {
     .edubox-header {
         background-size: cover;
     }
+    .survey-note {
+        grid-column: 1;
+        padding-bottom: 0;
+    }
 }
 
 
@@ -1043,6 +1047,13 @@ p.about {
         margin-right: 3rem;
     }
     a.logo {
-        width: 200%;
+        width: 150%;
+    }
+    section.about-paragraphs {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    h1.opening-about {
+        padding-top: 0;
     }
 }
