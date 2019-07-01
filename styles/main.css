@@ -1004,3 +1004,45 @@ p.about {
         font-size: 2.4rem;
     }
 }
+
+
+/** ABOUT PAGE **/
+
+
+/**MOBILE**/
+
+@media screen and (max-width: 375px) {
+    section.about-paragraphs {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    header.about {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 6rem;
+        margin: 0 auto;
+        max-width: 1190px;
+        padding: 6rem;
+    }
+    h1.opening-about {
+        font-size: 5.2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        line-height: 7.1rem;
+    }
+}
+
+
+/** TABLET **/
+
+@media screen and (max-width:768px) and (min-width: 376px) {
+    nav.navigation {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    a.logo {
+        width: 200%;
+    }
+}
