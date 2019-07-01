@@ -561,12 +561,14 @@
     }
     
     .w-100 {
-        width: 100%;
+        width: 90%;
+        box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
     }
     
     .logo-designing {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
     }
     
     .hifi1 {
@@ -596,6 +598,15 @@
     
     .preftest1 {
         box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
+        border-radius: .8rem;
+    }
+    
+    img.final-mockups {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 5rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
     }
     
     ol {
@@ -686,6 +697,7 @@
     .pref-3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
     }
     /** ABOUT PAGE STYLING **/
     
