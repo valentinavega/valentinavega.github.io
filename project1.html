@@ -24,10 +24,11 @@
             <a class="logo" href="index.html">
                 <img class="icon-logo" src="images/logo.svg" alt="Valentina logo">
             </a>
-            <a class="home-link nav-links" href="index.html">HOME</a>
-            <a class="work-link nav-links" href="project1.html">WORK</a>
-            <a class="about-link nav-links" href="about.html">ABOUT</a>
+            <a class="home-link nav-links" href="project1.html">WORK</a>
+            <a class="work-link nav-links" href="about.html">ABOUT</a>
+            <a class="about-link nav-links" href="">CONTACT</a>
         </nav>
+
         <h1 class="projectTitle">Edubox</h1>
         <h2 class="projectDesc">Create, store, organize and share all those files for class in one place.</h2>
         <img class="mockup" src="images/edubox-mockup.svg" alt="Edubox" />
@@ -76,6 +77,14 @@
             </p>
         </div>
     </div>
+
+
+    <!--design process-->
+    <section class="design-process">
+        <h2 class="section-heading">Design Process</h2>
+        <p>The iterative process undertaken in designing Edubox.</p>
+        <img class="design-process" src="images/design-process.png" alt="Ashley" />
+    </section>
 
     <!--overview-->
     <section class="overview">
@@ -179,6 +188,14 @@
             <li>Emphasize organization tools.</li>
             <li>Provide collaboration tools.</li>
         </ol>
+        <!--    <div class="survey-quote">
+            <p class="survey-quote">"Now that we're talking about it, better organization of my mess of files would be nice."</p>
+            <p class="survey-respondent">&mdash;Survey Respondent</p>
+        </div>-->
+
+
+
+
         <h3 class="section-subheading">Competitive Analysis</h3>
         <p class="case-study-paragraph">
             To begin clarifying my client’s request for the cloud storage app, I began by analyzing current cloud storage apps in the market. I narrowed down my analysis to three major players in the market: Google Drive, Dropbox and Evernote.
@@ -319,14 +336,14 @@
             To begin testing the usability of Edubox thus far, I created a prototype of the wireframes I had created. The usability testing revealed the following that required further analysis and resulted in some redesigns:
         </p>
         <h4 class="section-titles">Change #1</h4>
-        <img src="images/ut-change1.png" alt="Change 1" />
+        <img class="w-60" src="images/ut-change1.png" alt="Change 1" />
         <p class="case-study-paragraph">
             Users were confused when asked to “add content” and upload content.
         </p>
         <ol class="case-study-list">
             <li>Plus sign (+) added to make button feel like an action.</li>
         </ol>
-        <img src="images/ut-change2.png" alt="Change 2" />
+        <img class="w-60" src="images/ut-change2.png" alt="Change 2" />
         <p class="case-study-paragraph">
             Users were confused when asked to organize the file they just uploaded.
         </p>
@@ -377,11 +394,19 @@
                 Nunito (bold) was chosen as the main font in an effort to achieve the friendly and welcoming nature of the app. Montserrat was chosen as the complimentary font that provides contrast to main font and is legible.
             </p>
         </div>
+
         <h4 class="section-titles">Color Palette</h4>
-        <img src="images/color-palette.png" alt="Color Palette" />
-        <p class="case-study-paragraph">
-            The final color palette was based on the emotions Edubox should convey to users such as trustworthiness and calmness. Accessibility was also a top priority in the finalized color palette.
-        </p>
+        <div class="color-palette">
+            <div>
+                <img src="images/color-palette.png" alt="Color Palette" />
+            </div>
+            <div>
+                <p class="case-study-paragraph">
+                    The final color palette was based on the emotions Edubox should convey to users such as trustworthiness and calmness. Accessibility was also a top priority in the finalized color palette.
+                </p>
+            </div>
+        </div>
+
         <div class="center-button"><a class="button" href="https://drive.google.com/file/d/1OjpAF-fZA9eqs4H6FrGon_I_R0R8WK-y/view?usp=sharing">Style Guide</a></div>
         <br>
         <h3 class="section-subheading">High Fidelity Mockups: Version 1</h3>
@@ -405,7 +430,7 @@
         </p>
         <img class="w-100" src="images/hifiv2-dashboard.png" alt="Dashboard Version 2" />
         <p class="photo-caption">Dashboard with new color</p>
-        <img class="w-100" src="images/hifiv2-modal.png" alt="Modal" />
+        <img class="w-60" src="images/hifiv2-modal.png" alt="Modal" />
         <p class="photo-caption">
             Modals and buttons utilizing the new color - <strong>accessibility is key! 🔑</strong>
         </p>
@@ -414,11 +439,11 @@
             With a working high fidelity prototype, it was time to test users again. My second round of testing revealed the following to be updated in my design:
         </p>
         <h4 class="section-titles">Change #1:</h4>
-        <img class="w-100" src="images/ut2-change1before.png" alt="Before" />
+        <img class="w-60" src="images/ut2-change1before.png" alt="Before" />
         <p class="case-study-paragraph">
             When users were asked to sort documents by “file type”, there was some confusion on where to click in order to perform this action:
         </p>
-        <img class="w-100" src="images/ut2-change1after.png" alt="After" />
+        <img class="w-60" src="images/ut2-change1after.png" alt="After" />
         <p class="case-study-paragraph">
             The text “Sort by:” was added beside the drop down menu. Further testing revealed that this was a successful solution to the problem.
         </p>
@@ -427,9 +452,9 @@
             Testing also revealed that users were better able to navigate Edubox when a breadcrumb navigation was provided than when it was not. For example, users were confused on how to go back to the Dashboard from the documents page. Thus, simply clicking on
             the logo on the top left-hand corner of the screen to go back to the Dashboard was not intuitive.
         </p>
-        <img class="w-100" class="usability-testing" src="images/ut2-change2before.png" alt="Before" />
+        <img class="w-60" class="usability-testing" src="images/ut2-change2before.png" alt="Before" />
         <p class="photo-caption">Screen without the breadcrumb navigation</p>
-        <img class="w-100" class="usability-testing" src="images/ut2-change2after.png" alt="After" />
+        <img class="w-60" class="usability-testing" src="images/ut2-change2after.png" alt="After" />
         <p class="photo-caption">Final design with breadcrumb navigation</p>
         <h3 class="section-subheading">Finishing Touches: A/B Testing</h3>
         <p class="case-study-paragraph">

@@ -23,7 +23,7 @@
         text-decoration: none;
         display: inline-block;
         font-size: 1.6rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Avenir', sans-serif;
         font-weight: 400;
         margin-top: 2rem;
     }
@@ -158,7 +158,7 @@
     
     .intro {
         font-size: 2.4rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Avenir', sans-serif;
         font-weight: 200;
         padding-top: 2rem;
         line-height: 147%;
@@ -174,7 +174,7 @@
     
     p {
         font-size: 1.8rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Avenir', sans-serif;
         font-weight: 200;
         line-height: 3rem;
     }
@@ -268,7 +268,7 @@
     
     li {
         font-size: 1.8rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Avenir', sans-serif;
         line-height: 2.8rem;
     }
     
@@ -359,7 +359,7 @@
     
     .projectDesc {
         color: #282828;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Avenir', sans-serif;
         font-weight: 300;
         font-size: 2.2rem;
         text-align: center;
@@ -463,9 +463,34 @@
     
     .survey-note {
         font-size: 1.4rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Avenir', sans-serif;
         font-weight: 200;
         grid-column: 1 / span 2;
+    }
+    
+    div.survey-quote {
+        background-color: #4349FF;
+        width: 100vw;
+        padding: 2rem;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 20rem;
+    }
+    
+    p.survey-quote {
+        color: #FFFFFF;
+        font-size: 5rem;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+    
+    p.survey-respondent {
+        color: #FFFFFF;
     }
     
     section {
@@ -485,7 +510,7 @@
     
     p.case-study-paragraph {
         font-size: 1.8rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Avenir', sans-serif;
         font-weight: 300;
         max-width: 68rem;
         margin-left: auto;
@@ -504,7 +529,7 @@
     
     ul.case-study-list {
         font-size: 1.8rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Avenir', sans-serif;
         font-weight: 200;
         max-width: 65rem;
     }
@@ -561,11 +586,26 @@
     }
     
     .w-100 {
-        width: 90%;
+        width: 100%;
         box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
     }
     
+    .w-60 {
+        width: 70%;
+        box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.25);
+    }
+    
+    .design-process {
+        width: 100%;
+    }
+    
     .logo-designing {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+    
+    div.color-palette {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2rem;
@@ -629,6 +669,7 @@
         content: counter(li);
         display: inline-block;
         color: #FFFFFF;
+        font-family: 'Montserrat';
         background-color: #5E7CFF;
         border-radius: 50%;
         margin-right: 0.7rem;

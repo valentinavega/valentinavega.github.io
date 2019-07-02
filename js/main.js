@@ -15,7 +15,7 @@ btn.on('click', function(e) {
     $('html, body').animate({ scrollTop: 0 }, '300');
 });
 
-// This makes it so that each Section appears on scroll-- thereby making it easier for readers of the case study to see that it is an entirely new section of the design process.
+// This makes it so that each Section appears on scroll-- thereby making it easier for readers of the case study to see that it is an entirely new section of the design
 
 $(document).on("scroll", function() {
     var pageTop = $(document).scrollTop()
@@ -27,6 +27,8 @@ $(document).on("scroll", function() {
 
         if ($(tag).position().top < pageBottom) {
             $(tag).addClass("visible")
+        } else {
+            $(tag).removeClass("visible")
         }
     }
 })
