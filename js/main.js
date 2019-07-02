@@ -20,11 +20,12 @@ btn.on('click', function(e) {
 $(document).on("scroll", function() {
     var pageTop = $(document).scrollTop()
     var pageBottom = pageTop + $(window).height()
-    var tags = $("section")
+    var tags = $(".fade-image")
+
 
     for (var i = 0; i < tags.length; i++) {
         var tag = tags[i]
-
+        debugger
         if ($(tag).position().top < pageBottom) {
             $(tag).addClass("visible")
         } else {

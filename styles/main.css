@@ -467,8 +467,7 @@
         font-weight: 200;
         grid-column: 1 / span 2;
     }
-    
-    div.survey-quote {
+    /**div.survey-quote {
         background-color: #4349FF;
         width: 100vw;
         padding: 2rem;
@@ -491,19 +490,22 @@
     
     p.survey-respondent {
         color: #FFFFFF;
-    }
+    }**/
     
     section {
         display: block;
         margin-left: 15%;
         margin-right: 15%;
         max-width: 1015px;
+    }
+    
+    .fade-image {
         opacity: 0;
         transform: translate(0, 20px);
         transition: all 1s;
     }
     
-    section.visible {
+    .fade-image.visible {
         opacity: 1;
         transform: translate(0, 0);
     }
