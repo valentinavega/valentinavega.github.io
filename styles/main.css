@@ -154,6 +154,11 @@
             font-weight: 500;
         }
         
+        strong.home-intro {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+        
         @keyframes fadein {
             from {
                 opacity: 0;
