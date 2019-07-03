@@ -92,211 +92,178 @@ div.down-arrow {
 
 /**MOBILE**/
 
-@media screen and (max-width: 375px) nav.navigation {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr;
-    padding-top: 2rem;
+@media screen and (max-width: 375px) {
+    nav.navigation {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr;
+        padding-top: 2rem;
+    }
+    a.logo {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        justify-self: center;
+    }
+    a.home-link {
+        font-size: 1.8rem;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        justify-self: center;
+    }
+    a.work-link {
+        font-size: 1.8rem;
+        grid-row-start: 2;
+        grid-column-start: 2;
+        justify-self: center;
+    }
+    a.about-link {
+        font-size: 1.8rem;
+        grid-row-start: 2;
+        grid-column-start: 3;
+        justify-self: center;
+    }
+    header.header-home {
+        margin: 1.6rem;
+    }
+    div.honeycomb {
+        opacity: 0.5;
+        top: 9rem;
+    }
+    div.info-rectangle.project1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        margin: 1.6rem;
+        justify-items: center;
+    }
+    .mockup-home-container {
+        padding: 1rem;
+    }
+    img.mockup-home {
+        width: 100%;
+        margin: 0;
+    }
+    div.down-arrow {
+        display: none;
+    }
+    p.recent-projects {
+        font-size: 2.4rem;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+    h1.opening {
+        padding-top: 10rem;
+        margin-left: 1.5rem;
+        width: 80%;
+    }
+    p.intro {
+        font-size: 2.2rem;
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+    div.project-info {
+        text-align: center;
+        padding: 2rem;
+    }
+    p.project-description {
+        text-align: left;
+        width: 26rem;
+    }
+    p.copyright {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
 }
 
-a.logo {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    justify-self: center;
-}
-
-a.home-link {
-    font-size: 1.8rem;
-    grid-row-start: 2;
-    grid-column-start: 1;
-    justify-self: center;
-}
-
-a.work-link {
-    font-size: 1.8rem;
-    grid-row-start: 2;
-    grid-column-start: 2;
-    justify-self: center;
-}
-
-a.about-link {
-    font-size: 1.8rem;
-    grid-row-start: 2;
-    grid-column-start: 3;
-    justify-self: center;
-}
-
-header.header-home {
-    margin: 1.6rem;
-}
-
-div.honeycomb {
-    opacity: 0.5;
-    top: 9rem;
-}
-
-div.info-rectangle.project1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-    margin: 1.6rem;
-    justify-items: center;
-}
-
-.mockup-home-container {
-    padding: 1rem;
-}
-
-img.mockup-home {
-    width: 100%;
-    margin: 0;
-}
-
-div.down-arrow {
-    display: none;
-}
-
-p.recent-projects {
-    font-size: 2.4rem;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-}
-
-h1.opening {
-    padding-top: 10rem;
-    margin-left: 1.5rem;
-    width: 80%;
-}
-
-p.intro {
-    font-size: 2.2rem;
-    width: 90%;
-    margin-left: 1.5rem;
-}
-
-div.project-info {
-    text-align: center;
-    padding: 2rem;
-}
-
-p.project-description {
-    text-align: left;
-    width: 26rem;
-}
-
-p.copyright {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
-
-
-}
 
 /**TABLET**/
+
 @media screen and (max-width:768px) and (min-width: 376px) {
     nav.navigation {
         margin-left: 2rem;
         margin-right: 2rem;
         grid-gap: 3rem;
     }
-    
     .header-home {
         margin-left: 2rem;
         margin-right: 2rem;
     }
-    
     div.honeycomb {
         content: url("../images/honeycomb-tablet.svg");
         width: 62%;
         top: 9rem;
     }
-    
     h1.opening {
         width: 65%;
         padding-top: 10rem;
     }
-    
     p.intro {
         width: 65%;
     }
-    
     div.down-arrow {
         display: none;
     }
-    
     p.recent-projects {
         padding-top: 10rem;
     }
-    
     div.info-rectangle.project1 {
         grid-gap: 0;
         margin-left: 2rem;
         margin-right: 2rem;
     }
-    
     img.mockup-home {
         width: 120%;
     }
-    
     h3.footer-greeting {
         font-size: 2.4rem;
     }
-    
     img.icon-logo {
         width: 100%;
     }
 }
 
+
 /** TABLET LANDSCAPE **/
+
 @media screen and @media screen and (max-width:1024px) and (min-width: 769px) {
     nav.navigation {
         margin-left: 1rem;
         margin-right: 1rem;
         grid-gap: 3rem;
     }
-    
     .contact-link {
         margin-left: 0;
     }
-    
     .header-home {
         margin-left: 4rem;
         margin-right: 4rem;
     }
-    
     div.honeycomb {
         content: url("../images/honeycomb-tablet.svg");
         width: 45%;
         top: 7rem;
     }
-    
     h1.opening {
         width: 70%;
         padding-top: 15rem;
     }
-    
     p.intro {
         width: 65%;
     }
-    
     div.down-arrow {
         display: none;
     }
-    
     p.recent-projects {
         padding-top: 10rem;
     }
-    
     div.info-rectangle.project1 {
         grid-gap: 0;
         margin-left: 2rem;
         margin-right: 2rem;
     }
-    
     img.mockup-home {
         width: 100%;
     }
-    
     h3.footer-greeting {
         font-size: 2.4rem;
     }
