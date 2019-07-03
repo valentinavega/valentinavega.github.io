@@ -254,8 +254,8 @@
         
         @media screen and (max-width:1024px) and (min-width: 769px) {
             nav.navigation {
-                margin-left: 1rem;
-                margin-right: 1rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
                 grid-gap: 2rem;
                 padding-left: 0;
                 padding-right: 0;
