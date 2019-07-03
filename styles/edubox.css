@@ -223,17 +223,6 @@ section {
     max-width: 1015px;
 }
 
-.fade-image {
-    opacity: 0;
-    transform: translate(0, 20px);
-    transition: all 1s;
-}
-
-.fade-image.visible {
-    opacity: 1;
-    transform: translate(0, 0);
-}
-
 p.case-study-paragraph {
     font-size: 1.8rem;
     font-family: 'Avenir', sans-serif;
@@ -504,11 +493,6 @@ p.roles-column {
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    nav.navigation {
-        font-size: 1.5rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
     img.mockup {
         padding-bottom: 4rem;
     }
@@ -582,18 +566,6 @@ p.roles-column {
 /** TABLET SCREEN **/
 
 @media screen and (max-width:768px) and (min-width: 376px) {
-    nav.navigation {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        grid-gap: 2rem;
-    }
-    .contact-link {
-        grid-column-start: 10;
-        text-decoration: none;
-        justify-self: right;
-        color: #282828;
-        margin-left: 0;
-    }
     img.mockup {
         padding: 0;
     }
@@ -665,18 +637,6 @@ p.roles-column {
 /** TABLET LANDSCAPE **/
 
 @media screen and (max-width:1024px) and (min-width: 769px) {
-    nav.navigation {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        grid-gap: 2rem;
-    }
-    .contact-link {
-        grid-column-start: 10;
-        text-decoration: none;
-        justify-self: right;
-        color: #282828;
-        margin-left: 0;
-    }
     img.mockup {
         padding: 0;
     }
