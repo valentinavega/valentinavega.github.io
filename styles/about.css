@@ -56,6 +56,7 @@
         section.about-paragraphs {
             display: grid;
             grid-template-columns: 1fr;
+            padding: 1.6rem;
         }
         header.about {
             display: grid;
@@ -63,7 +64,7 @@
             grid-gap: 6rem;
             margin: 0 auto;
             max-width: 1190px;
-            padding: 3rem 3rem 0 3rem;
+            padding: 4rem 1.6rem 1.6rem 1.6rem;
         }
         h1.opening-about {
             font-size: 5.2rem;
@@ -84,7 +85,6 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-gap: 2rem;
-            padding: 6rem 6rem 0 6rem;
         }
         img.me {
             float: left;
@@ -101,7 +101,7 @@
         }
     }
     
-    @media screen and (max-width:1024px) and (min-width: 376px) {
+    @media screen and (max-width:1024px) and (min-width: 769px) {
         header.about {
             display: grid;
             grid-template-columns: 1fr 1fr;

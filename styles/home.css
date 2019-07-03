@@ -164,7 +164,7 @@ div.down-arrow {
         padding-top: 10rem;
     }
     p.intro {
-        width: 65%;
+        width: 55%;
     }
     div.down-arrow {
         display: none;
@@ -182,9 +182,6 @@ div.down-arrow {
     }
     h3.footer-greeting {
         font-size: 2.4rem;
-    }
-    img.icon-logo {
-        width: 100%;
     }
 }
 
@@ -206,7 +203,7 @@ div.down-arrow {
         padding-top: 15rem;
     }
     p.intro {
-        width: 65%;
+        width: 55%;
     }
     div.down-arrow {
         display: none;
