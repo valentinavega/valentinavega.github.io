@@ -1,111 +1,132 @@
-             /** ABOUT PAGE STYLING **/
-             
-             header.about {
-                 display: grid;
-                 grid-template-columns: 1.5fr 1.5fr;
-                 /**grid-gap: 6rem;**/
-                 margin: 0 auto;
-                 max-width: 1190px;
-                 padding: 6rem;
-             }
-             
-             h1.opening-about {
-                 font-size: 5.2rem;
-                 font-family: 'Poppins', sans-serif;
-                 font-weight: 400;
-                 padding-bottom: 1rem;
-                 padding-top: 20rem;
-                 line-height: 7.1rem;
-                 margin: 0 auto;
-             }
-             
-             .honeycomb-about {
-                 margin-right: 6rem;
-             }
-             
-             section.about-paragraphs {
-                 display: grid;
-                 grid-template-columns: 1fr 1.5fr;
-                 margin: 0 auto;
-                 max-width: 1190px;
-                 padding: 6rem;
-             }
-             
-             h2.about {
-                 margin-top: 1.5rem;
-                 padding-bottom: 1rem;
-             }
-             
-             p.about {
-                 padding-top: 1rem;
-                 padding-bottom: 1rem;
-             }
-             
-             div.about-intro {
-                 max-width: 42.8rem;
-             }
-             
-             img.me {
-                 display: block;
-                 float: right;
-             }
-             /** ABOUT PAGE **/
-             /**MOBILE**/
-             
-             @media screen and (max-width: 375px) {
-                 section.about-paragraphs {
-                     display: grid;
-                     grid-template-columns: 1fr;
-                 }
-                 header.about {
-                     display: grid;
-                     grid-template-columns: 1fr;
-                     grid-gap: 6rem;
-                     margin: 0 auto;
-                     max-width: 1190px;
-                     padding: 6rem;
-                 }
-                 h1.opening-about {
-                     font-size: 5.2rem;
-                     font-family: 'Poppins', sans-serif;
-                     font-weight: 400;
-                     padding-bottom: 1rem;
-                     padding-top: 2rem;
-                     line-height: 7.1rem;
-                 }
-             }
-             /** TABLET **/
-             
-             @media screen and (max-width:768px) and (min-width: 376px) {
-                 nav.navigation {
-                     margin-left: 1.5rem;
-                     margin-right: 1.5rem;
-                     grid-gap: 2rem;
-                 }
-                 .contact-link {
-                     grid-column-start: 10;
-                     text-decoration: none;
-                     justify-self: right;
-                     color: #282828;
-                     margin-left: 0;
-                 }
-                 header.about {
-                     display: grid;
-                     grid-template-columns: 1fr;
-                     grid-gap: 2rem;
-                     padding: 6rem 6rem 0 6rem;
-                 }
-                 img.me {
-                     float: left;
-                 }
-                 a.logo {
-                     width: 100%;
-                 }
-                 section.about-paragraphs {
-                     display: grid;
-                     grid-template-columns: 1fr;
-                 }
-                 h1.opening-about {
-                     padding-top: 0;
-                 }
-             }
+                         /** ABOUT PAGE STYLING **/
+                         
+                         header.about {
+                             display: grid;
+                             grid-template-columns: 1.5fr 1.5fr;
+                             /**grid-gap: 6rem;**/
+                             margin: 0 auto;
+                             max-width: 1190px;
+                             padding: 6rem;
+                         }
+                         
+                         h1.opening-about {
+                             font-size: 5.2rem;
+                             font-family: 'Poppins', sans-serif;
+                             font-weight: 400;
+                             padding-bottom: 1rem;
+                             padding-top: 20rem;
+                             line-height: 7.1rem;
+                             margin: 0 auto;
+                         }
+                         
+                         .honeycomb-about {
+                             margin-right: 6rem;
+                         }
+                         
+                         section.about-paragraphs {
+                             display: grid;
+                             grid-template-columns: 1fr 1.5fr;
+                             margin: 0 auto;
+                             max-width: 1190px;
+                             padding: 6rem;
+                         }
+                         
+                         h2.about {
+                             margin-top: 1.5rem;
+                             padding-bottom: 1rem;
+                         }
+                         
+                         p.about {
+                             padding-top: 1rem;
+                             padding-bottom: 1rem;
+                         }
+                         
+                         div.about-intro {
+                             max-width: 42.8rem;
+                         }
+                         
+                         img.me {
+                             display: block;
+                             float: right;
+                         }
+                         /** ABOUT PAGE **/
+                         /**MOBILE**/
+                         
+                         @media screen and (max-width: 375px) {
+                             section.about-paragraphs {
+                                 display: grid;
+                                 grid-template-columns: 1fr;
+                             }
+                             header.about {
+                                 display: grid;
+                                 grid-template-columns: 1fr;
+                                 grid-gap: 6rem;
+                                 margin: 0 auto;
+                                 max-width: 1190px;
+                                 padding: 6rem;
+                             }
+                             h1.opening-about {
+                                 font-size: 5.2rem;
+                                 font-family: 'Poppins', sans-serif;
+                                 font-weight: 400;
+                                 padding-bottom: 1rem;
+                                 padding-top: 2rem;
+                                 line-height: 7.1rem;
+                             }
+                         }
+                         /** TABLET **/
+                         
+                         @media screen and (max-width:768px) and (min-width: 376px) {
+                             nav.navigation {
+                                 margin-left: 1.5rem;
+                                 margin-right: 1.5rem;
+                                 grid-gap: 2rem;
+                             }
+                             .contact-link {
+                                 grid-column-start: 10;
+                                 text-decoration: none;
+                                 justify-self: right;
+                                 color: #282828;
+                                 margin-left: 0;
+                             }
+                             header.about {
+                                 display: grid;
+                                 grid-template-columns: 1fr;
+                                 grid-gap: 2rem;
+                                 padding: 6rem 6rem 0 6rem;
+                             }
+                             img.me {
+                                 float: left;
+                             }
+                             a.logo {
+                                 width: 100%;
+                             }
+                             section.about-paragraphs {
+                                 display: grid;
+                                 grid-template-columns: 1fr;
+                             }
+                             h1.opening-about {
+                                 padding-top: 0;
+                             }
+                         }
+                         
+                         @media screen and (max-width:1024px) {
+                             nav.navigation {
+                                 margin-left: 1rem;
+                                 margin-right: 1rem;
+                                 grid-gap: 2rem;
+                             }
+                             .contact-link {
+                                 grid-column-start: 10;
+                                 text-decoration: none;
+                                 justify-self: right;
+                                 color: #282828;
+                                 margin-left: 0;
+                             }
+                             header.about {
+                                 display: grid;
+                                 grid-template-columns: 1fr 1fr;
+                                 grid-gap: 3rem;
+                                 padding: 6rem 6rem 0 6rem;
+                             }
+                         }
