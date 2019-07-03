@@ -144,6 +144,12 @@ div.project-overview {
     background: linear-gradient(89.26deg, #EAEBFD 0.4%, #E8EEFE 48.97%, #E8EEFF 99.61%);
 }
 
+div.design-process {
+    content: url("../images/design-process.png");
+    width: 80%;
+    margin: 0 auto;
+}
+
 .section-heading {
     display: flex;
     padding: 6rem 0 3rem 0;
@@ -503,6 +509,9 @@ p.roles-column {
         padding: 1fr;
         justify-items: left;
         margin: 3rem;
+    }
+    div.design-process {
+        content: url("../images/design-process-mobile.png");
     }
     div.info-rectangle-survey {
         display: grid;
