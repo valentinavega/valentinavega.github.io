@@ -252,6 +252,7 @@
             height: 20rem;
             width: 350px;
             padding: 10px 0 0 10px;
+            resize: none;
         }
         
         .form-button {
@@ -267,6 +268,7 @@
             font-weight: 400;
             max-width: 400px;
             margin: 0;
+            margin-bottom: 10px;
         }
         
         button.form-button:hover {
