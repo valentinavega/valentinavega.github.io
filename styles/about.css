@@ -6,7 +6,8 @@
         /**grid-gap: 6rem;**/
         margin: 0 auto;
         max-width: 1190px;
-        padding: 6rem;
+        padding: 6rem 6rem 0 6rem;
+        animation: fadein 3s;
     }
     
     h1.opening-about {
