@@ -14,6 +14,10 @@
             margin-right: auto;
         }
         
+        body {
+            background: #FFFFFF;
+        }
+        
         a.button {
             background-color: #4349FF;
             border: none;
@@ -194,6 +198,79 @@
             to {
                 opacity: 1;
             }
+        }
+        /**CONTACT PAGE STYLING**/
+        
+        body.contact-page {
+            background: rgb(225, 230, 252);
+            background: radial-gradient(circle, rgba(225, 230, 252, 1) 0%, rgba(255, 255, 255, 1) 100%);
+        }
+        
+        .contact-container {
+            box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
+            background: #FFFFFF;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 8rem;
+            margin-bottom: 10rem
+        }
+        
+        .contact-section {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+        
+        label {
+            color: #282828;
+            font-size: 18px;
+            font-family: 'Avenir', sans-serif;
+            font-weight: 400;
+            padding: 1rem 0 1rem 0;
+        }
+        
+        input {
+            border-width: 1px;
+            border-style: none;
+            border-bottom: 1px solid #4349FF;
+            font-size: 16px;
+            font-family: 'Avenir', sans-serif;
+            font-weight: 200;
+            margin: 20 0 20px 0px;
+            padding: 10px 0 0 10px;
+        }
+        
+        textarea {
+            border-radius: 2px;
+            border-style: none;
+            font: 400 16px 'Avenir';
+            border-width: 1px;
+            border: 1px solid #4349FF;
+            height: 20rem;
+            width: 350px;
+            padding: 10px 0 0 10px;
+        }
+        
+        .form-button {
+            background-color: #4349FF;
+            border: none;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: 'Avenir', sans-serif;
+            font-weight: 400;
+            max-width: 400px;
+            margin: 0;
+        }
+        
+        button.form-button:hover {
+            background-color: #5C61FF;
         }
         
         @media screen and (max-width: 375px) {

@@ -1,6 +1,81 @@
-<form method="POST" action="https://formspree.io/valentinavega94@gmail.com">
-    <input type="text" name="name" placeholder="Your name, please">
-    <input type="email" name="email" placeholder="Your email">
-    <textarea name="message" placeholder="Test Message"></textarea>
-    <button type="submit">Send</button>
-</form>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio | Val Vega</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="UX Designer" />
+    <meta name="keywords" content="UX,Designer,UI,Atlanta" />
+    <meta name="author" content="Valentina Vega" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap" rel="stylesheet">
+</head>
+
+<body class="contact-page">
+    <nav class="navigation">
+        <a class="logo" href="index.html">
+            <img class="icon-logo" src="images/logo.svg" alt="Valentina logo">
+        </a>
+        <a class="work-link nav-links" href="project1.html">WORK</a>
+        <a class="about-link nav-links" href="about.html">ABOUT</a>
+        <a class="contact-link nav-links" href="contact.html">CONTACT</a>
+    </nav>
+    <main>
+        <div class="contact-container">
+            <form action="https://formcarry.com/s/zKYghWz9dIi" method="POST" accept-charset="UTF-8">
+                <div class="contact-section">
+                    <label for="name">Your Name, Please</label>
+                    <input type="text" name="name" placeholder="e.g. Jeff Andonuts">
+                </div>
+                <div class="contact-section">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" placeholder="e.g. ness@earthbound.com">
+                </div>
+                <div class="contact-section">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" placeholder="Hi there!"></textarea>
+                </div>
+                <div class="contact-section">
+                    <button type="submit" class="form-button">Send</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <span class="footer-line"></span>
+        <h3 class="footer-greeting">Let’s work together!</h3>
+        <ul class="social-links">
+            <li>
+                <a href="mailto:valvegadesign@gmail.com" target="_blank"><img class="icon" src="images/email-icon.svg" alt="LinkedIn icon"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/valentinavega/" target="_blank"><img class="icon" src="images/linkedin-icon.svg" alt="LinkedIn icon"></a>
+            </li>
+            <li>
+                <a href="https://github.com/valentinavega" target="_blank"></a><img class="icon" src="images/github-icon.svg" alt="Github icon"></li>
+        </ul>
+        <p class="copyright">© 2019. Designed & developed by Valentina Vega</p>
+    </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143051503-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-143051503-1');
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

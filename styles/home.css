@@ -68,7 +68,7 @@ div.down-arrow {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 4rem;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     border-radius: .8rem;
     max-width: 119rem;
     margin: 0 auto;
