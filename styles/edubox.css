@@ -1,47 +1,7 @@
 /** EDUBOX CASE STUDY STYLING**/
 
 
-/** Back to top button **/
 
-#scroll-to-top {
-    display: inline-block;
-    background-color: #4349FF;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    border-radius: 35px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    transition: background-color .3s, opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
-}
-
-#scroll-to-top::after {
-    content: "\f077";
-    font-family: FontAwesome;
-    font-weight: light;
-    font-style: normal;
-    font-size: 1.5em;
-    line-height: 35px;
-    color: #fff;
-}
-
-#scroll-to-top:hover {
-    cursor: pointer;
-    background-color: #5C61FF;
-}
-
-#scroll-to-top:active {
-    background-color: #555;
-}
-
-#scroll-to-top.show {
-    opacity: 1;
-    visibility: visible;
-}
 
 h3.section-subheading {
     background-color: #E0F9FF;
