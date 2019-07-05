@@ -53,6 +53,16 @@ h3.section-subheading {
     padding: .8rem;
 }
 
+.conclusion-subheading {
+    background-color: #E0F9FF;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin: 0;
+    padding: .8rem;
+}
+
 li {
     font-size: 1.8rem;
     font-family: 'Avenir', sans-serif;
