@@ -27,7 +27,7 @@
             text-decoration: none;
             display: inline-block;
             font-size: 1.6rem;
-            font-family: 'Avenir', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             margin-top: 2rem;
         }
@@ -98,7 +98,7 @@
         
         p {
             font-size: 1.8rem;
-            font-family: 'Avenir', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-weight: 200;
             line-height: 3rem;
         }
@@ -152,7 +152,7 @@
         }
         
         strong {
-            font-family: 'Avenir', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-weight: 500;
         }
         
@@ -269,7 +269,7 @@
         label {
             color: #282828;
             font-size: 18px;
-            font-family: 'Avenir', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             padding: 1rem 0 1rem 0;
         }
@@ -279,7 +279,7 @@
             border-style: none;
             border-bottom: 1px solid #4349FF;
             font-size: 16px;
-            font-family: 'Avenir', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-weight: 200;
             margin: 20 0 20px 0px;
             padding: 10px 0 0 10px;
@@ -288,7 +288,7 @@
         textarea {
             border-radius: 2px;
             border-style: none;
-            font: 400 16px 'Avenir';
+            font: 400 16px 'Montserrat';
             border-width: 1px;
             border: 1px solid #4349FF;
             height: 20rem;
@@ -306,7 +306,7 @@
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
-            font-family: 'Avenir', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             max-width: 400px;
             margin: 0;

@@ -50,7 +50,7 @@ h2.project-title {
 
 .project-description {
     line-height: 141%;
-    width: 25rem;
+    width: 28rem;
     margin-top: 2rem;
 }
 
@@ -82,9 +82,7 @@ div.down-arrow {
     width: 100%;
 }
 
-.project-info {
-    padding: 4rem;
-}
+
 
 
 /** HOME **/
