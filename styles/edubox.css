@@ -492,7 +492,7 @@ p.roles-column {
 
 /** MOBILE SCREEN **/
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
     .pref-img-3 {
         width: 90%;
 }
