@@ -29,6 +29,9 @@ li {
     line-height: 2.8rem;
 }
 
+img.comp {
+    margin: 0 auto;
+}
 .edubox-header {
     background-image: url("../images/edubox-hero-bg.png");
     background-size: cover;
@@ -63,7 +66,7 @@ p.edubox-intro-paragraph {
 img.mockup {
     display: flex;
     margin: auto;
-    padding: 5rem;
+    padding: 2rem 5rem 2rem 5rem;
     width: 80%;
 }
 
@@ -265,12 +268,24 @@ div.personas {
     max-width: 60%;
     box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     border-radius: .8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .w-80 {
     max-width: 80%;
     box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     border-radius: .8rem;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pref-img-3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p.visual-section1 {
@@ -449,6 +464,29 @@ p.roles-column {
     padding: 1fr;
     margin: 1.6rem;
   }
+  div.info-rectangle.comp-analysis,
+  div.personas,
+  div.wireframe-images,
+  div.hifi1,
+  div.logo-designing,
+  div.final-mockup-images,
+  div.pref-1,
+  div.pref-2,
+  div.pref-3 {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+
+  img.persona-image {
+    width: 84.5%;
+  }
+
+  .section-heading {
+      font-size: 3rem;
+  }
+  img.comp {
+    width: 30%;
+    }
 }
 
 
@@ -486,6 +524,7 @@ p.roles-column {
     img {
         display: block;
     }
+    
     .footer-line {
         max-width: 80%
     }
@@ -494,7 +533,7 @@ p.roles-column {
     }
     h2.projectDesc {
         font-size: 1.8rem;
-        margin: 1rem;
+        padding: 2rem;
     }
     h3.section-subheading {
         font-size: 2.4rem;
@@ -543,6 +582,10 @@ p.roles-column {
         background-size: 100%;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    h2.projectDesc {
+        font-size: 1.8rem;
+        padding: 2rem;
     }
     div.info-rectangle.comp-analysis {
         margin-left: 1.5rem;
@@ -598,6 +641,10 @@ p.roles-column {
         background-size: 100%;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    h2.projectDesc {
+        font-size: 1.8rem;
+        padding: 2rem;
     }
     div.hifi1,
     div.pref-2 {
