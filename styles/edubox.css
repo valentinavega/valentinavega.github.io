@@ -492,6 +492,11 @@ p.roles-column {
 
 /** MOBILE SCREEN **/
 
+@media screen and (max-width: 320px) {
+    .pref-img-3 {
+        width: 90%;
+}
+
 @media screen and (max-width: 375px) {
     .edubox-header {
         background-size: 100%;
@@ -509,9 +514,7 @@ p.roles-column {
         text-align: left;
         padding: 1rem 0 1rem 0;
     }
-    .pref-img-3{
-        width:100%;
-    }
+
     div.info-rectangle.comp-analysis,
     div.personas,
     div.wireframe-images,
