@@ -315,6 +315,11 @@
       justify-content: space-evenly;
     }
   
+    p {
+      font-size: 1.6rem;
+    }
+
+
     .logo {
       flex: 0 0 100%;
       text-align: center;
