@@ -593,7 +593,7 @@ p.roles-column {
     }
     div.personas,
     div.hifi1,
-    div.pref-2 {
+    div.pref-2, div.pref-3 {
         display: grid;
         grid-template-columns: 1fr;
     }
