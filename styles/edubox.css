@@ -403,7 +403,7 @@ h4.persona-heading {
 h4.designspecs-titles {
     margin: 0;
     text-align: left;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 p.roles-column {
@@ -508,6 +508,9 @@ p.roles-column {
         margin: 0;
         text-align: left;
         padding: 1rem 0 1rem 0;
+    }
+    .pref-img-3{
+        width:100%;
     }
     div.info-rectangle.comp-analysis,
     div.personas,
