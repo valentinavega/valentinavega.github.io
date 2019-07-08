@@ -472,7 +472,7 @@ p.roles-column {
   div.final-mockup-images,
   div.pref-1,
   div.pref-2,
-  div.pref-3 {
+  div.pref-3, .pref-img-3 {
       display: grid;
       grid-template-columns: 1fr;
   }
