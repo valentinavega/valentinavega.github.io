@@ -556,6 +556,10 @@ p.roles-column {
     p.case-study-paragraph, p.case-study-paragraph-overview, p.edubox-intro-paragraph, p.percentage-desc, p.competitive-desc, p.copyright, li {
         font-size: 1.6rem;
     }
+
+    p.edubox-intro-paragraph {
+        padding: 1.6rem;
+    }
    
     p.photo-caption {
         font-size: 1.5rem;
