@@ -108,6 +108,11 @@ div.down-arrow {
   }
 
   .project-description {
+    text-align: left;
+    width: 28rem;
+  }
+
+  .project-description {
     margin: 0 auto;
   }
 
@@ -133,5 +138,11 @@ div.down-arrow {
 @media screen and (max-width: 1000px) {
   .honeycomb {
     opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .project-description {
+        width: 100%;
   }
 }

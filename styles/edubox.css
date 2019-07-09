@@ -352,6 +352,10 @@ img.final-mockups {
     padding: 2rem;
 }
 
+.w-40 {
+    margin: 0 auto;   
+}
+
 ol {
     counter-reset: li;
     max-width: 60rem;
@@ -492,12 +496,8 @@ p.roles-column {
 
 /** MOBILE SCREEN **/
 
-@media screen and (min-width: 320px) {
-    .pref-img-3 {
-        width: 90%;
-}
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
     .edubox-header {
         background-size: 100%;
         background-repeat: no-repeat;
@@ -552,8 +552,6 @@ p.roles-column {
         padding: 0;
     }
 
-
-
     p.case-study-paragraph, p.case-study-paragraph-overview, p.edubox-intro-paragraph, p.percentage-desc, p.competitive-desc, p.copyright, li {
         font-size: 1.6rem;
     }
@@ -585,6 +583,7 @@ p.roles-column {
     }
     .w-40 {
         max-width: 90%;
+        margin: 0 auto;   
     }
     .w-60 {
         max-width: 90%;
@@ -596,6 +595,7 @@ p.roles-column {
         grid-gap: 2rem;
     }
 }
+
 
 
 /** TABLET SCREEN **/
