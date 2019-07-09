@@ -1,134 +1,128 @@
 /**HOMEPAGE STYLING**/
 
 .header-home {
-  position: relative;
-  animation: fadein 3s;
-  margin-top: 20rem;
+    position: relative;
+    animation: fadein 3s;
+    margin-top: 20rem;
 }
 
 .honeycomb {
-  content: url("../images/honeycomb.svg");
-  position: absolute;
-  top: -4rem;
-  right: -3rem;
-  z-index: -1;
+    content: url("../images/honeycomb.svg");
+    position: absolute;
+    top: -4rem;
+    right: -3rem;
+    z-index: -1;
 }
 
 h1.opening {
-  font-size: 5.2rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  line-height: 71px;
+    font-size: 5.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 71px;
 }
 
 .intro {
-  font-size: 2.4rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  padding-top: 2rem;
-  line-height: 147%;
-  max-width: 600px;
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    padding-top: 2rem;
+    line-height: 147%;
+    max-width: 600px;
 }
 
 h2.project-title {
-  color: #282828;
-  font-size: 4.5rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+    color: #282828;
+    font-size: 4.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .recent-projects {
-  font-family: 'Poppins';
-  font-weight: 400;
-  font-size: 2.8rem;
-  line-height: 42px;
-  text-align: center;
-  padding-bottom: 7rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 42px;
+    text-align: center;
+    padding-bottom: 7rem;
 }
 
 div.down-arrow {
-  margin: 0 auto;
-  width: 100px;
-  width: 36px;
-  padding-bottom: 7rem;
-  padding-top: 30rem;
+    margin: 0 auto;
+    width: 100px;
+    width: 36px;
+    padding-bottom: 7rem;
+    padding-top: 30rem;
 }
 
 .info-rectangle.project1 {
-  display: flex;
-  align-items: center;
-  box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
-  border-radius: .8rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
+    border-radius: .8rem;
 }
 
 .project-info {
-padding: 4rem;
+    padding: 4rem;
 }
 
 .mockup-home-container {
-  padding: 4rem;
+    padding: 4rem;
 }
 
 .mockup-home {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 .project-description {
-text-align: left;
-max-width: 40rem;
-margin: 0 auto;
-line-height: 141%;
-margin-top: 2rem;
+    text-align: left;
+    max-width: 40rem;
+    margin: 0 auto;
+    line-height: 141%;
+    margin-top: 2rem;
 }
 
 @media screen and (max-width: 375px) {
-.honeycomb {
-  content: url("../images/honeycomb.svg") !important;
-}
+    .honeycomb {
+        content: url("../images/honeycomb.svg") !important;
+        margin-right: 1.6rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
-.honeycomb {
-  top: 0;
-}
-
-.info-rectangle.project1 {
-  flex-wrap: wrap;
-}
-
-.project-title {
-  margin-bottom: 2rem;
-}
-
-.project-info {
-  flex: 100%;
-  padding: 2rem;
-  text-align: center;
-}
-
-.mockup-home-container {
-    flex: 100%;
-    padding: 1rem;
-}
-
-.mockup-home {
-  max-width: 400px;
-}
-
-.down-arrow {
-  display: none;
-}
-
-.header-home {
-  margin-top: 9rem;
-  margin-bottom: 6rem;
-}
+    .honeycomb {
+        top: 0;
+    }
+    .info-rectangle.project1 {
+        flex-wrap: wrap;
+    }
+    .project-title {
+        margin-bottom: 2rem;
+    }
+    .project-info {
+        flex: 100%;
+        padding: 2rem;
+        text-align: center;
+    }
+    .mockup-home-container {
+        flex: 100%;
+        padding: 1rem;
+    }
+    .mockup-home {
+        max-width: 400px;
+    }
+    .down-arrow {
+        display: none;
+    }
+    .header-home {
+        margin-top: 9rem;
+        margin-bottom: 6rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-.honeycomb {
-  opacity: 0.5;
-}
+    .honeycomb {
+        opacity: 0.5;
+    }
 }
