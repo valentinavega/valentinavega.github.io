@@ -1,5 +1,21 @@
 /**STYLING FOR ALL PAGES**/
 
+.icon-logo {
+  border: 2px solid red;
+  position: relative;
+}
+
+.icon-logo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  border-right: 2px solid blue;
+}
+
 * {
     box-sizing: border-box;
   }
