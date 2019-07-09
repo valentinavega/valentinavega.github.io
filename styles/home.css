@@ -86,7 +86,7 @@ div.down-arrow {
 @media screen and (max-width: 375px) {
     .honeycomb {
         content: url("../images/honeycomb.svg") !important;
-        margin-right: 1.6rem;
+        margin-right: 1.8rem;
     }
 }
 
