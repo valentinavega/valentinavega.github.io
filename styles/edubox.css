@@ -22,7 +22,7 @@ h3.section-subheading {
 
 li {
     font-size: 1.8rem;
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 2.8rem;
 }
 
@@ -47,7 +47,7 @@ h1.projectTitle {
 
 .projectDesc {
     color: #282828;
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 2.2rem;
     text-align: center;
@@ -156,14 +156,14 @@ div.design-process {
 
 .survey-note {
     font-size: 1.4rem;
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     grid-column: 1 / -1;
 }
 
 p.case-study-paragraph {
     font-size: 1.8rem;
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 68rem;
     margin-left: auto;
     margin-right: auto;
@@ -174,7 +174,7 @@ p.case-study-paragraph {
 
 p.case-study-paragraph-overview {
     font-size: 1.8rem;
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 68rem;
     margin-left: auto;
     margin-right: auto;
@@ -201,7 +201,7 @@ p.photo-caption {
 
 ul.case-study-list {
     font-size: 1.8rem;
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     max-width: 65rem;
 }
@@ -366,7 +366,7 @@ ol>li::before {
     content: counter(li);
     display: inline-block;
     color: #FFFFFF;
-    font-family: 'Gilroy-Regular';
+    font-family: 'Montserrat';
     background-color: #5E7CFF;
     border-radius: 50%;
     margin-right: 0.7rem;
