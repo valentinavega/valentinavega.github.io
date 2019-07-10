@@ -21,6 +21,28 @@ h1.opening {
     line-height: 71px;
 }
 
+span.color-text {
+    color: #4349FF;
+    font-weight: 400;
+    padding: .2rem;
+}
+
+p.project-tag {
+    background-color: #D7DDFF;
+    border-radius: 10px;
+    color: #0009FF;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0 .5rem 0 .5rem;
+    display: inline-flex;
+    height: 2.8rem;
+    margin-right: .5rem;
+}
+
+div.project-tags {
+    margin-top: 1.5rem;
+}
+
 .intro {
     font-size: 2.4rem;
     font-family: 'Poppins', sans-serif;
@@ -76,11 +98,12 @@ div.down-arrow {
 }
 
 .project-description {
+    font-weight: 400;
     text-align: left;
     max-width: 40rem;
     margin: 0 auto;
     line-height: 141%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 @media screen and (max-width: 375px) {
