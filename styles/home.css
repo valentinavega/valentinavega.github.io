@@ -1,12 +1,5 @@
 /**HOMEPAGE STYLING**/
 
-@import url("//hello.myfonts.net/count/39bcc5");
-@font-face {
-    font-family: 'Gilroy-Regular';
-    src: url('webfonts/39BCC5_0_0.eot');
-    src: url('webfonts/39BCC5_0_0.eot?#iefix') format('embedded-opentype'), url('../webfonts/39BCC5_0_0.woff2') format('woff2'), url('../webfonts/39BCC5_0_0.woff') format('woff'), url('../webfonts/39BCC5_0_0.ttf') format('truetype');
-}
-
 .header-home {
     position: relative;
     animation: fadein 3s;
@@ -30,7 +23,7 @@ h1.opening {
 
 .intro {
     font-size: 2.4rem;
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 200;
     padding-top: 2rem;
     line-height: 147%;

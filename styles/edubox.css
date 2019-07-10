@@ -1,8 +1,5 @@
 /** EDUBOX CASE STUDY STYLING**/
 
-
-
-
 h3.section-subheading {
     background-color: #E0F9FF;
     display: inline-block;
@@ -25,13 +22,14 @@ h3.section-subheading {
 
 li {
     font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
     line-height: 2.8rem;
 }
 
 img.comp {
     margin: 0 auto;
 }
+
 .edubox-header {
     background-image: url("../images/edubox-hero-bg.png");
     background-size: cover;
@@ -49,7 +47,7 @@ h1.projectTitle {
 
 .projectDesc {
     color: #282828;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
     font-weight: 300;
     font-size: 2.2rem;
     text-align: center;
@@ -93,9 +91,6 @@ h4 {
     position: relative;
     width: 100%;
 }
-
-
- 
 
 .project-overview {
     display: grid;
@@ -156,20 +151,19 @@ div.design-process {
 }
 
 .percentages {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .survey-note {
     font-size: 1.4rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
     font-weight: 200;
     grid-column: 1 / -1;
 }
 
 p.case-study-paragraph {
     font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-family: 'Gilroy-Regular', sans-serif;
     max-width: 68rem;
     margin-left: auto;
     margin-right: auto;
@@ -180,8 +174,7 @@ p.case-study-paragraph {
 
 p.case-study-paragraph-overview {
     font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-family: 'Gilroy-Regular', sans-serif;
     max-width: 68rem;
     margin-left: auto;
     margin-right: auto;
@@ -208,7 +201,7 @@ p.photo-caption {
 
 ul.case-study-list {
     font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
     font-weight: 200;
     max-width: 65rem;
 }
@@ -277,7 +270,7 @@ div.personas {
     max-width: 80%;
     box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     border-radius: .8rem;
-     display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -345,7 +338,7 @@ img.final-mockups {
 }
 
 .w-40 {
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 ol {
@@ -373,7 +366,7 @@ ol>li::before {
     content: counter(li);
     display: inline-block;
     color: #FFFFFF;
-    font-family: 'Montserrat';
+    font-family: 'Gilroy-Regular';
     background-color: #5E7CFF;
     border-radius: 50%;
     margin-right: 0.7rem;
@@ -448,61 +441,55 @@ p.roles-column {
 
 /** MEDIA QUERIES **/
 
-
-
 @media screen and (max-width: 768px) {
-  .typography-colors {
-    grid-template-columns: 1fr;
-    align-items: center;
-  }
-
-  .typography-colors-side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .typography-colors-side .button {
-    margin-bottom: 3rem;
-  }
+    .typography-colors {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .typography-colors-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .typography-colors-side .button {
+        margin-bottom: 3rem;
+    }
 }
 
 
 /** EDUBOX PROJECT MEDIA QUERIES **/
 
-
 @media screen and (max-width: 600px) {
-  .project-overview {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: left;
-    padding: 1fr;
-    margin: 1.6rem;
-  }
-  div.info-rectangle.comp-analysis,
-  div.personas,
-  div.wireframe-images,
-  div.hifi1,
-  div.logo-designing,
-  div.final-mockup-images,
-  div.pref-1,
-  div.pref-2,
-  div.pref-3, .pref-img-3 {
-      display: grid;
-      grid-template-columns: 1fr;
-  }
-
-  .section-heading {
-      font-size: 3rem;
-  }
-  img.comp {
-    width: 30%;
+    .project-overview {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: left;
+        padding: 1fr;
+        margin: 1.6rem;
+    }
+    div.info-rectangle.comp-analysis,
+    div.personas,
+    div.wireframe-images,
+    div.hifi1,
+    div.logo-designing,
+    div.final-mockup-images,
+    div.pref-1,
+    div.pref-2,
+    div.pref-3,
+    .pref-img-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section-heading {
+        font-size: 3rem;
+    }
+    img.comp {
+        width: 30%;
     }
 }
 
 
 /** MOBILE SCREEN **/
-
 
 @media screen and (max-width: 375px) {
     .edubox-header {
@@ -521,7 +508,6 @@ p.roles-column {
         text-align: left;
         padding: 1rem 0 1rem 0;
     }
-
     div.info-rectangle.comp-analysis,
     div.personas,
     div.wireframe-images,
@@ -537,7 +523,6 @@ p.roles-column {
     img {
         display: block;
     }
-    
     .footer-line {
         max-width: 80%
     }
@@ -552,20 +537,22 @@ p.roles-column {
         font-size: 2.4rem;
         margin: 0;
     }
-
-    p.case-study-paragraph, p.case-study-paragraph-overview, p.edubox-intro-paragraph, p.percentage-desc, p.competitive-desc, p.copyright, li {
+    p.case-study-paragraph,
+    p.case-study-paragraph-overview,
+    p.edubox-intro-paragraph,
+    p.percentage-desc,
+    p.competitive-desc,
+    p.copyright,
+    li {
         font-size: 1.6rem;
     }
-
     p.edubox-intro-paragraph {
         padding: 1.6rem;
     }
-   
     p.photo-caption {
         font-size: 1.5rem;
         font-weight: 500;
     }
-
     ol {
         padding: 0 1.6rem 0 1.6rem;
     }
@@ -585,17 +572,15 @@ p.roles-column {
     }
     .w-40 {
         max-width: 90%;
-        margin: 0 auto;   
+        margin: 0 auto;
     }
     .w-60 {
         max-width: 90%;
     }
-
     .button {
-      margin: 2rem;
+        margin: 2rem;
     }
 }
-
 
 
 /** TABLET SCREEN **/
@@ -619,7 +604,8 @@ p.roles-column {
     }
     div.personas,
     div.hifi1,
-    div.pref-2, div.pref-3 {
+    div.pref-2,
+    div.pref-3 {
         display: grid;
         grid-template-columns: 1fr;
     }
