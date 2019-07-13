@@ -22,7 +22,7 @@ h3.section-subheading {
 
 li {
     font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     line-height: 2.8rem;
 }
 
@@ -47,7 +47,7 @@ h1.projectTitle {
 
 .projectDesc {
     color: #282828;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     font-size: 2.2rem;
     text-align: center;
@@ -101,11 +101,15 @@ h4 {
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 2.5rem;
+    padding: 2rem;
     justify-items: center;
     box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     background: linear-gradient(89.26deg, #EAEBFD 0.4%, #E8EEFE 48.97%, #E8EEFF 99.61%);
+}
+
+div.role-secetion4 {
+    grid-column-start: 1;
 }
 
 div.design-process {
@@ -156,14 +160,14 @@ div.design-process {
 
 .survey-note {
     font-size: 1.4rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 200;
     grid-column: 1 / -1;
 }
 
 p.case-study-paragraph {
     font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     max-width: 68rem;
     margin-left: auto;
     margin-right: auto;
@@ -174,7 +178,7 @@ p.case-study-paragraph {
 
 p.case-study-paragraph-overview {
     font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     max-width: 68rem;
     margin-left: auto;
     margin-right: auto;
@@ -194,14 +198,14 @@ p.case-study-paragraph-persona {
 
 p.photo-caption {
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
     padding: 2rem 0 2rem 0;
 }
 
 ul.case-study-list {
     font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 200;
     max-width: 65rem;
 }
@@ -366,7 +370,7 @@ ol>li::before {
     content: counter(li);
     display: inline-block;
     color: #FFFFFF;
-    font-family: 'Montserrat';
+    font-family: 'Nunito Sans';
     background-color: #5E7CFF;
     border-radius: 50%;
     margin-right: 0.7rem;
@@ -391,12 +395,13 @@ h4.persona-heading {
 
 h4.designspecs-titles {
     margin: 0;
-    text-align: left;
+    text-align: center;
     padding-bottom: 1rem;
 }
 
 p.roles-column {
-    text-align: left;
+    text-align: center;
+    font-size: 1.6rem;
 }
 
 .section-subheading-problem,
