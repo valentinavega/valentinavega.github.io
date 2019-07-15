@@ -37,6 +37,34 @@
 
     <!-- Back to top button -->
     <a id="scroll-to-top" alt="Back to top"></a>
+    <div class="project-nav">
+        <ul class="project-nav">
+            <li>
+                <a class="project-nav-link" href=#overview>Overview</a>
+            </li>
+            <li>
+                <a class="project-nav-link" href=#process> Process</a>
+            </li>
+            <li>
+                <a class="project-nav-link" href=#research>Research</a>
+            </li>
+            <li>
+                <a class="project-nav-link" href=#info-arch>Information Architecture</a>
+            </li>
+            <li>
+                <a class="project-nav-link" href=#visual-design>Visual Design</a>
+            </li>
+            <li>
+                <a class="project-nav-link" href=#prototype-testing>Testing</a>
+            </li>
+            <li>
+                <a class="project-nav-link" href=#final-product>Final Product</a>
+            </li>
+            <li>
+                <a class="project-nav-link" href=#final-product>Reflection</a>
+            </li>
+        </ul>
+    </div>
 
     <!--summary-->
     <div class="center-button"><a class="button" href="https://invis.io/XBRQZOUF2M8" target="_blank">View Prototype</a></div>
@@ -83,15 +111,9 @@
     </div>
 
 
-    <!--design process-->
-    <section class="design-process">
-        <h2 class="section-heading">Design Process</h2>
-        <p>The iterative process undertaken in designing Edubox.</p>
-        <div class="design-process"></div>
-    </section>
 
     <!--overview-->
-    <section class="overview">
+    <section id="overview" class="overview">
         <h2 class="section-heading">Overview</h2>
         <h3 class="section-subheading-problem">Problem</h3>
         <p class="case-study-paragraph-overview">
@@ -120,8 +142,16 @@
         </ol>
     </section>
 
+    <!--design process-->
+    <section id="process" class="design-process">
+        <h2 class="section-heading">Design Process</h2>
+        <p>The iterative process undertaken in designing Edubox.</p>
+        <div class="design-process"></div>
+    </section>
+
+
     <!--research-->
-    <section class="research">
+    <section id="research" class="research">
         <h2 class="section-heading">01 User Research</h2>
         <h3 class="section-subheading">User Surveys</h3>
         <p class="case-study-paragraph">
@@ -242,31 +272,29 @@
         <p class="case-study-paragraph-persona">
             With the user research I had at this point, I was able to construct personas representative of the users Edubox would cater to:
         </p>
+
         <div class="personas">
-            <div class="Ashley">
+            <div class="info-rectangle-personas">
                 <img class="persona-image" src="images/ashley.png" alt="Ashley" />
-                <div class="ashley-text">
-                    <h4 class="persona-name">Ashley</h4>
-                    <p class="persona-description">
-                        Undergraduate student, 19 years old
-                    </p>
-                    <h4 class="persona-heading">Goals</h4>
-                    <ol class="persona-list">
-                        <li>Have files organized by classes.</li>
-                        <li>Create text documents for class notes within the cloud.</li>
-                        <li>Easily access recently added files.</li>
-                    </ol>
-                    <h4 class="persona-heading">Frustrations</h4>
-                    <ol class="persona-list">
-                        <li>Difficult to find specific files.</li>
-                        <li>Unable to easily create notes for class.</li>
-                        <li>Can’t tell for what class a file is for.</li>
-                    </ol>
-                </div>
+                <h4 class="persona-name">Ashley</h4>
+                <p class="persona-description">
+                    Undergraduate student, 19 years old
+                </p>
+                <h4 class="persona-heading">Goals</h4>
+                <ol class="persona-list">
+                    <li>Have files organized by classes.</li>
+                    <li>Create text documents for class notes within the cloud.</li>
+                    <li>Easily access recently added files.</li>
+                </ol>
+                <h4 class="persona-heading">Frustrations</h4>
+                <ol class="persona-list">
+                    <li>Difficult to find specific files.</li>
+                    <li>Unable to easily create notes for class.</li>
+                    <li>Can’t tell for what class a file is for.</li>
+                </ol>
             </div>
-            <div class="John">
+            <div class="info-rectangle-personas">
                 <img class="persona-image" src="images/john.png" alt="John" />
-                <div class="john-text"></div>
                 <h4 class="persona-name">John</h4>
                 <p class="persona-description">Graduate student, 24 years old</p>
                 <h4 class="persona-heading">Goals</h4>
@@ -287,11 +315,11 @@
                 </ol>
             </div>
         </div>
-        </div>
+
     </section>
 
     <!--information architecture-->
-    <section class="info-architecture">
+    <section id="info-arch" class="info-architecture">
         <h2 class="section-heading">02 Information Architecture</h2>
         <h3 class="section-subheading">User Stories</h3>
         <p class="case-study-paragraph">
@@ -360,10 +388,9 @@
         </ol>
     </section>
 
+
     <!--visual design-->
-
-
-    <section class="visual-design">
+    <section id="visual-design" class="visual-design">
         <h2 class="section-heading">03 Visual Design</h2>
         <img id="landing-mockup" src="images/edubox-landing.jpg" />
         <h3 class="section-subheading">Branding</h3>
@@ -371,7 +398,7 @@
             At this state in the process, the skeletal structure of Edubox was complete and the purpose of the product was clear. The next step was to reinforce the purpose of Edubox with branding work. I began the branding process by first creating a mind map and
             sketches for a logo that would communicate to users the features that make Edubox stand out: organization tools to simplify your schoolwork.
         </p>
-        <img class="w-100" src="images/mindmap.png" alt="Mindmap" />
+        <img class="mindmap" src="images/mindmap.png" alt="Mindmap" />
         <p class="case-study-paragraph">
             I began the branding process by first creating a mindmap to flesh out ideas. For the mindmapping, I used words associated with schoolwork and the product features. Since the product is geared toward college students, I focused on friendly branding that
             would enhance the (often stressed) college student’s experience when using Edubox. The friendly branding idea was derived through my competitive analysis of Dropbox. In analyzing Dropbox, I noted that the product was pushed towards businesses
@@ -417,7 +444,8 @@
         </div>
     </section>
 
-    <section class="prototype-testing">
+    <!--Prototype and Testing-->
+    <section id="prototype-testing" class="prototype-testing">
         <h2 class="section-heading">04 Prototype & Testing</h2>
         <h3 class="section-subheading">High Fidelity Mockups: Version 1</h3>
         <p class="case-study-paragraph">
@@ -511,7 +539,7 @@
 
 
     <!--final mockups-->
-    <section class="final-product">
+    <section id="final-product" class="final-product">
         <h2 class="section-heading">Final Product</h2>
         <div class="final-mockup-images">
             <img class="final-mockups" src="images/fp-1.png" alt="Final Product" />
@@ -528,9 +556,11 @@
         </div>
         <div class="center-button"><a class="button" href="https://invis.io/XBRQZOUF2M8" target="_blank">View Prototype</a></div>
     </section>
+
+
     <!--conclusion-->
-    <section class="conclusion">
-        <h2 class="section-heading">Conclusion</h2>
+    <section id="reflection" class="conclusion">
+        <h2 class="section-heading">Reflection</h2>
         <p class="case-study-paragraph">
             The process of creating Edubox was both exhilarating and challenging. I encountered my first challenge at the start of the process when trying to narrow down a viable product based on the client’s proposal. At first, this was a difficult prospect as the
             proposal was quite vague, however the user research I performed directly after this was extremely helpful in generating an idea for a unique product. This brings me to my next challenge: the existing market. Performing the competitive analysis

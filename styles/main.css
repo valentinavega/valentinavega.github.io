@@ -21,7 +21,6 @@
 
 html {
     font-size: 10px;
-    scroll-behavior: smooth;
 }
 
 img {
@@ -160,7 +159,7 @@ h2 {
 
 strong {
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 strong.home-intro {

@@ -1,5 +1,9 @@
 /**HOMEPAGE STYLING**/
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header-home {
     position: relative;
     animation: fadein 3s;
