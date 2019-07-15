@@ -12,18 +12,18 @@ h3.section-subheading {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 2.8rem;
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 50% 1rem;
     text-decoration: none;
-    text-align: center;
     position: relative;
     padding-bottom: 1.5rem;
     display: inline-block;
+    transform: translateX(-50%);
+    white-space: nowrap;
 }
 
 h3.section-subheading:after {
     content: ' ';
     position: absolute;
-    width: 200px;
     border: 2px solid #4349FF;
     border-radius: 4px;
     display: block;
@@ -178,13 +178,13 @@ div.design-process {
     display: flex;
     padding: 6rem 0 3rem 0;
     font-size: 4.8rem;
-    color: #111240;
+    color: #282828;
 }
 
 .section-heading::after {
     content: ' ';
     margin-left: 1em;
-    border-top: 1px solid #111240;
+    border-top: 1px solid #282828;
     display: block;
     flex-grow: 1;
     align-self: center;
