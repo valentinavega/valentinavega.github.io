@@ -8,6 +8,11 @@ nav {
     background-color: transparent;
 }
 
+div.heading-paragraph {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h3.section-subheading {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -24,7 +29,7 @@ h3.section-subheading {
 h3.section-subheading:after {
     content: ' ';
     position: absolute;
-    border: 2px solid #4349FF;
+    border: 2px solid #5E7CFF;
     border-radius: 4px;
     display: block;
     bottom: 0;
@@ -500,6 +505,8 @@ p.roles-column {
     font-size: 2.8rem;
     margin: 2rem 0 2rem 0;
     padding: .8rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-subheading-problem::before,
