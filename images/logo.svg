@@ -1,5 +1,16 @@
-<svg width="60" height="44" viewBox="0 0 60 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M42.4795 4.47818L50.0717 4.47817L29.3877 40.0546L21.9415 40.0546L42.4795 4.47818Z" fill="#4349FF"/>
-<path d="M10.3585 4.47821L0.0165269 4.47821L20.5345 40.0546L25.7018 31.0686L10.3585 4.47821Z" fill="#4349FF"/>
-<path d="M51.7264 4.47816L60 4.47816L39.4578 40.0546L31.1619 40.0546L51.7264 4.47816Z" fill="#4349FF"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="37px" viewBox="0 0 58 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-SVGS" transform="translate(-124.000000, -52.000000)" stroke="#100DFC" stroke-width="4">
+            <g id="Group-3" transform="translate(128.000000, 54.000000)">
+                <g id="Group-2">
+                    <polygon id="Triangle" transform="translate(32.048041, 14.961007) rotate(180.000000) translate(-32.048041, -14.961007) " points="32.0480408 5.31521758e-14 49.9051836 29.9220149 14.1908979 29.9220149 26.4228429 9.52271082"></polygon>
+                    <path d="M15.6762313,-5.68434189e-14 L0,-5.68434189e-14 C13.1552333,20.5015119 20.7955855,31.3313202 22.9210566,32.4894251" id="Path-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
