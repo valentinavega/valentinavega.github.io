@@ -10,6 +10,10 @@ html {
     margin-top: 20rem;
 }
 
+a.button {
+    margin-top: 2rem;
+}
+
 .honeycomb {
     content: url("../images/honeycomb.svg");
     position: absolute;

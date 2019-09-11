@@ -38,7 +38,6 @@ a.button {
     font-size: 1.6rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    margin-top: 2rem;
     border-radius: 4px;
 }
 
@@ -48,12 +47,16 @@ a.button:hover {
 
 body,
 .navigation {
-    max-width: 1200px;
     margin: 0 auto;
 }
 
-body {
-    padding: 0 2rem;
+.container,
+.navigation {
+    max-width: 1200px;
+}
+
+.container {
+    margin: 0 auto;
 }
 
 .fullscreen {
@@ -315,8 +318,8 @@ textarea {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     max-width: 400px;
     margin: 0;
