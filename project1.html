@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/edubox.css" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -65,7 +66,7 @@
 
 
     <!--introduction-->
-    <section class="white-bg-overview">
+    <section class="white-bg">
         <div class="container">
             <h2 class="main-heading">Overview</h2>
             <p class="edubox-intro-paragraph">Cloud storage can get messy. This is a big problem for college students wanting to organize their assignments. Edubox is a cloud storage service for busy college students. Edubox simplifies the cloud storage experience for college students
@@ -155,7 +156,7 @@
                     </li>
                     <li>Ability to save web links for future use.</li>
                 </ol>
-                <img class="solution-mockups" src="images/solution-image.png" alt="Solution" />
+                <img data-aos="fade-up" data-aos-duration="800"  class="solution-mockups" src="images/solution-image.png" alt="Solution" />
         </div>
     </section>
 
@@ -172,10 +173,10 @@
                 potentially go about solving their frustrations.
             </p>
             <div class="survey-graphics">
-                <img class="left-survey-graphic" src="images/product-percentages.svg" alt="percentages" />
-                <img class="right-survey-graphic" src="images/percentage-highlight.svg" alt="percentages" />
+                <img data-aos="fade-right" class="left-survey-graphic" src="images/product-percentages.svg" alt="percentages" />
+                <img data-aos="fade-left" class="right-survey-graphic" src="images/percentage-highlight.svg" alt="percentages" />
             </div>
-            <div class="info-rectangle-survey">
+            <div data-aos="fade-up" class="info-rectangle-survey">
                 <div class="percent">
                     <p class="percentages">60%</p>
                     <p class="percentage-desc">
@@ -225,14 +226,18 @@
                     <li>Provide collaboration tools.</li>
                 </ol>
             </section>
+
+            <div class="survey-quote-section">
+              <div class="quote-line-decoration">
+                <p class="survey-quote">"Now that we're talking about it, better organization of my mess of files would be nice."</p>
+              </div>
+                <p class="survey-respondent">&mdash;Survey Respondent</p>
+                </div>
+
         </div>
     </section>
 
 
-    <!--    <div class="survey-quote">
-      <p class="survey-quote">"Now that we're talking about it, better organization of my mess of files would be nice."</p>
-      <p class="survey-respondent">&mdash;Survey Respondent</p>
-      </div>-->
 
 
 
@@ -243,7 +248,7 @@
                 To begin clarifying my client’s request for the cloud storage app, I began by analyzing current cloud storage apps in the market. I narrowed down my analysis to three major players in the market: Google Drive, Dropbox and Evernote.
             </p>
 
-            <div class="info-rectangle comp-analysis">
+            <div data-aos="flip-up" class="info-rectangle comp-analysis">
                 <div class="comp-analysis-inner">
                     <img class="comp" src="images/dropbox.svg" alt="Dropbox" />
                     <h4 class="competitor-names">Dropbox</h4>
@@ -251,26 +256,26 @@
                         ✅ Accessibility across devices<br /> 👎 Target audience: professionals
                 </div>
                 <div class="comp-analysis-inner">
-                    <img class="comp" src="images/googledrive.svg" alt="Google Drive" />
-                    <h4 class="competitor-names">Google Drive</h4>
-                    <p class="competitive-desc">
+                    <img class=" comp " src="images/googledrive.svg " alt="Google Drive " />
+                    <h4 class="competitor-names ">Google Drive</h4>
+                    <p class="competitive-desc ">
                         ✅ Content creation<br /> 👎 Not targeted for students
                     </p>
                 </div>
-                <div class="comp-analysis-inner">
-                    <img class="comp" src="images/evernote.svg" alt="Evernote" />
-                    <h4 class="competitor-names">Evernote</h4>
-                    <p class="competitive-desc">
+                <div class="comp-analysis-inner ">
+                    <img class="comp " src="images/evernote.svg " alt="Evernote " />
+                    <h4 class="competitor-names ">Evernote</h4>
+                    <p class="competitive-desc ">
                         ✅ Content creation for students<br /> 👎 Absence of standard cloud storage features
                     </p>
                 </div>
             </div>
         </div>
 
-        <p class="case-study-paragraph">
+        <p class="case-study-paragraph ">
             In analyzing these three competitors, I discovered ways in which my product could differentiate itself in this market:
         </p>
-        <ol class="case-study-paragraph">
+        <ol class="case-study-paragraph ">
             <li>Clear organization through categorization.</li>
             <li>Creation of web links for future use.</li>
             <li>Reduction of clicks to acheive a specific task.</li>
@@ -281,53 +286,45 @@
 
 
 
-    <section class="gray-bg">
-        <div class="container">
-            <h3 class="section-subheading">User Personas</h3>
+    <section class="gray-bg ">
+        <div class="container ">
+            <h3 class="section-subheading ">User Personas</h3>
 
-            <p class="case-study-paragraph-persona">
+            <p class="case-study-paragraph-persona ">
                 With the user research I had at this point, I was able to construct personas representative of the users Edubox would cater to:
             </p>
-            <div class="personas">
-                <div class="info-rectangle-personas">
-                    <img class="persona-image" src="images/ashley.png" alt="Ashley" />
-                    <h4 class="persona-name">Ashley</h4>
-                    <p class="persona-description">
-                        Undergraduate student, 19 years old
+            <div class="personas ">
+                <div class="info-rectangle-personas ">
+                    <img class="persona-image" src="images/ashley.png " alt="Ashley " />
+                    <h5 class="persona-heading">Goals</h5>
+                    <p class="persona-text-top">
+                        • Have files organized by classes.<br> • Create text documents for class notes within the cloud.<br> • Easily access recently added files.
                     </p>
-                    <h4 class="persona-heading">Goals</h4>
-                    <ol class="persona-list">
-                        <li>Have files organized by classes.</li>
-                        <li>Create text documents for class notes within the cloud.</li>
-                        <li>Easily access recently added files.</li>
-                    </ol>
-                    <h4 class="persona-heading">Frustrations</h4>
-                    <ol class="persona-list">
-                        <li>Difficult to find specific files.</li>
-                        <li>Unable to easily create notes for class.</li>
-                        <li>Can’t tell for what class a file is for.</li>
-                    </ol>
+                    <div class="quote-line-decoration">
+                        <p class="persona-quote ">
+                            “I can’t stand rummaging through Dropbox before class trying to find a file to print out 15 minutes before class!”
+                        </p>
+                    </div>
+                    <h5 class="persona-heading ">Frustrations</h5>
+                    <p class="persona-text-bottom ">
+                        • Difficult to find specific files.<br> • Unable to easily create notes for class.<br> • Can’t tell for what class a file is for.
+                    </p>
                 </div>
                 <div class="info-rectangle-personas">
-                    <img class="persona-image" src="images/john.png" alt="John" />
-                    <h4 class="persona-name">John</h4>
-                    <p class="persona-description">Graduate student, 24 years old</p>
-                    <h4 class="persona-heading">Goals</h4>
-                    <ol class="persona-list">
-                        <li>Better organization of files.</li>
-                        <li>
-                            Create text documents and collaborate with other graduate students on research papers.
-                        </li>
-                        <li>Easily save links to articles.</li>
-                    </ol>
-                    <h4 class="persona-heading">Frustrations</h4>
-                    <ol class="persona-list">
-                        <li>Disorganized file system.</li>
-                        <li>Collaboration features are confusing.</li>
-                        <li>
-                            Too many menu options to sift through just to perform a specific task.
-                        </li>
-                    </ol>
+                    <img class="persona-image " src="images/john.png " alt="John " />
+                    <h5 class="persona-heading ">Goals</h5>
+                    <p class="persona-text-top ">
+                        • Better organization of files.<br> • Create text documents and collaborate with other graduate students on research papers.<br> • Easily save links to articles.<br>
+                    </p>
+                    <div class="quote-line-decoration ">
+                        <p class="persona-quote ">
+                            “Last night I was looking up articles and had ~30 tabs with different articles open! I wish I could just start saving them somewhere for future reading.”
+                        </p>
+                    </div>
+                    <h5 class="persona-heading ">Frustrations</h5>
+                    <p class="persona-text-bottom ">
+                        • Disorganized file system. <br> • Collaboration features are confusing.<br> • Too many menu options to sift through just to perform a specific task.
+                    </p>
                 </div>
             </div>
         </div>
@@ -335,82 +332,84 @@
 
 
     <!--information architecture-->
-    <section class="white-bg">
-        <div class="container">
-            <h2 class="main-heading">02 Information Architecture</h2>
-            <h3 class="section-subheading">User Stories</h3>
-            <p class="case-study-paragraph">
+    <section class="white-bg ">
+        <div class="container ">
+            <h2 class="main-heading ">02 Information Architecture</h2>
+            <h3 class="section-subheading ">User Stories</h3>
+            <p class="case-study-paragraph ">
                 With the results of my survey and user personas, I was able to analyze this information and create user stories. The user stories were prioritized from low to high importance, and the user stories with highest importance were prioritized when creating
                 Edubox. Below are some of the high priority user stories that I needed to incorporate:
             </p>
-            <ol class="case-study-paragraph">
+            <ol class="case-study-paragraph ">
                 <li>
                     I want to easily add new content such as text documents and weblinks.
                 </li>
                 <li>I want to easily organize files or folders.</li>
                 <li>I want to share links to files or folders with others.</li>
             </ol>
-            <a class="button" href="https://docs.google.com/spreadsheets/d/1uhcxXo5XOMYXuRLA6s-ZXxeOgHpwAi_zsw2ksG22wB0/edit?usp=sharing" target="_blank">View User Stories</a>
+            <div class="center-button ">
+                <a class="button " href="https://docs.google.com/spreadsheets/d/1uhcxXo5XOMYXuRLA6s-ZXxeOgHpwAi_zsw2ksG22wB0/edit?usp=sharing " target="_blank ">View User Stories</a>
+            </div>
             <br>
         </div>
     </section>
 
-    <section class="gray-bg">
-        <div class="container">
-            <h3 class="section-subheading">User Flows</h3>
-            <p class="case-study-paragraph">
+    <section class="gray-bg ">
+        <div class="container ">
+            <h3 class="section-subheading ">User Flows</h3>
+            <p class="case-study-paragraph ">
                 Upon completing the user stories, it became easier to see exactly what tasks users wanted to complete in Edubox. It was now time to think about how exactly these tasks would be performed within Edubox. I asked myself questions such as, “is this dialog
                 box truly necessary here?” and “could this step be combined in the previous pop-up?”. Asking myself these questions helped me prepare for future testing and enabled me to think out solutions for simplified and seamless user flows. Below
                 are some user flows I created in this process:
             </p>
-            <img class="w-100" src="images/flow2.png" alt="User Flow" />
-            <p class="photo-caption">
+            <img class="flow-images " src="images/flow2.png " alt="User Flow " />
+            <p class="photo-caption ">
                 “I want to easily organize files or folders”
             </p>
-            <img class="w-100" src="images/flow3.png" alt="User Flow" />
-            <p class="photo-caption">
+            <img class="flow-images " src="images/flow3.png " alt="User Flow " />
+            <p class="photo-caption ">
                 “I want to share links to files or folders with others”
             </p>
-            <div class="center-button"><a class="button" href="https://drive.google.com/drive/folders/1jh9oGcAQfPAiBnVh7nQLopbsb61_VySk?usp=sharing" target="_blank">View User Flows</a></div>
+            <div class="center-button "><a class="button " href="https://drive.google.com/drive/folders/1jh9oGcAQfPAiBnVh7nQLopbsb61_VySk?usp=sharing " target="_blank ">View User Flows</a></div>
         </div>
     </section>
 
-    <h3 class="section-subheading">Wireframes</h3>
-    <p class="case-study-paragraph">
+    <h3 class="section-subheading ">Wireframes</h3>
+    <p class="case-study-paragraph ">
         After organizing how users would seamlessly flow throughout tasks in Edubox, it was time to put these designed flows to test. I started by sketching and designing what the user flows would actually look like on a screen.
     </p>
-    <img class="w-100" src="images/initial-sketches2.png" alt="Sketches" />
-    <p class="photo-caption">Initial sketches</p>
-    <div class="wireframe-images fullscreen">
-        <div class="wireframe-img"><img class="w-100" src="images/wireframe1.png" /></div>
-        <div class="wireframe-img"><img class="w-100" src="images/wireframe2.png" /></div>
-        <div class="wireframe-img"><img class="w-100" src="images/wireframe3.png" /></div>
-        <div class="wireframe-img"><img class="w-100" src="images/wireframe4.png" /></div>
+    <img class="w-100 " src="images/initial-sketches2.png " alt="Sketches " />
+    <p class="photo-caption ">Initial sketches</p>
+    <div class="wireframe-images fullscreen ">
+        <div class="wireframe-img"><img data-aos="zoom-in" data-aos-duration="800" class="w-100 " src="images/wireframe1.png " /></div>
+        <div class="wireframe-img"><img data-aos="zoom-in" data-aos-duration="800" class="w-100 " src="images/wireframe2.png " /></div>
+        <div class="wireframe-img "><img data-aos="zoom-in" data-aos-duration="800" class="w-100 " src="images/wireframe3.png " /></div>
+        <div class="wireframe-img "><img data-aos="zoom-in" data-aos-duration="800" class="w-100 " src="images/wireframe4.png " /></div>
     </div>
-    <p class="photo-caption">Low fidelity Wireframes</p>
+    <p class="photo-caption ">Low fidelity Wireframes</p>
 
 
 
-    <section class="gray-bg">
-        <div class="container">
-            <h3 class="section-subheading">Usability Testing: Round 1</h3>
-            <p class="case-study-paragraph">
+    <section class="gray-bg ">
+        <div class="container ">
+            <h3 class="section-subheading ">Usability Testing: Round 1</h3>
+            <p class="case-study-paragraph ">
                 To begin testing the usability of Edubox thus far, I created a prototype of the wireframes I had created. The usability testing revealed the following that required further analysis and resulted in some redesigns:
             </p>
-            <h4 class="section-titles">Change #1</h4>
-            <img class="w-60" src="images/ut-change1.png" alt="Change 1" />
-            <p class="case-study-paragraph">
+            <h4 class="section-titles ">Change #1</h4>
+            <img class="ut1 " src="images/ut-change1.png " alt="Change 1 " />
+            <p class="case-study-paragraph ">
                 Users were confused when asked to “add content” and upload content.
             </p>
-            <ol class="case-study-list">
+            <ol class="case-study-list ">
                 <li>Plus sign (+) added to make button feel like an action.</li>
             </ol>
-            <h4 class="section-titles">Change #2</h4>
-            <img class="w-60" src="images/ut-change2.png" alt="Change 2" />
-            <p class="case-study-paragraph">
+            <h4 class="section-titles ">Change #2</h4>
+            <img class="ut1 " src="images/ut-change2.png " alt="Change 2 " />
+            <p class="case-study-paragraph ">
                 Users were confused when asked to organize the file they just uploaded.
             </p>
-            <ol class="case-study-list">
+            <ol class="case-study-list ">
                 <li>
                     Redesigned files as they appear on the dashboard for a more uniform look.
                 </li>
@@ -421,216 +420,234 @@
 
 
     <!--visual design-->
-    <section id="visual-design" class="visual-design">
-        <h2 class="section-heading">03 Visual Design</h2>
-        <img id="landing-mockup" src="images/edubox-landing.jpg" />
-        <h3 class="section-subheading">Branding</h3>
-        <p class="case-study-paragraph">
-            At this state in the process, the skeletal structure of Edubox was complete and the purpose of the product was clear. The next step was to reinforce the purpose of Edubox with branding work. I began the branding process by first creating a mind map and
-            sketches for a logo that would communicate to users the features that make Edubox stand out: organization tools to simplify your schoolwork.
-        </p>
-        <img class="mindmap" src="images/mindmap.png" alt="Mindmap" />
-        <p class="case-study-paragraph">
-            I began the branding process by first creating a mindmap to flesh out ideas. For the mindmapping, I used words associated with schoolwork and the product features. Since the product is geared toward college students, I focused on friendly branding that
-            would enhance the (often stressed) college student’s experience when using Edubox. The friendly branding idea was derived through my competitive analysis of Dropbox. In analyzing Dropbox, I noted that the product was pushed towards businesses
-            and the overall branding is very serious.
-        </p>
-        <h4 class="section-titles">Logo</h4>
-        <div class="logo-designing">
-            <div class="logo-1">
-                <img class="w-80" src="images/logo-sketches.png" alt="Logo Sketches" />
+    <section class="white-bg ">
+        <div class="container ">
+            <h2 class="main-heading ">03 Visual Design</h2>
+            <img id="landing-mockup" src="images/edubox-landing.jpg " />
+            <h3 class="section-subheading ">Branding</h3>
+            <h4 class="section-titles ">Building a brand identity</h4>
+            <p class="case-study-paragraph ">
+                At this state in the process, the skeletal structure of Edubox was complete and the purpose of the product was clear. The next step was to reinforce the purpose of Edubox with branding work. I began the branding process by first creating a mind map and
+                sketches for a logo that would communicate to users the features that make Edubox stand out: organization tools to simplify your schoolwork.
+            </p>
+
+
+            <img class="mindmap " src="images/mindmap.png " alt="Mindmap " />
+            <p class="case-study-paragraph ">
+                I began the branding process by first creating a mindmap to flesh out ideas. For the mindmapping, I used words associated with schoolwork and the product features. Since the product is geared toward college students, I focused on friendly branding that
+                would enhance the (often stressed) college student’s experience when using Edubox. The friendly branding idea was derived through my competitive analysis of Dropbox. In analyzing Dropbox, I noted that the product was pushed towards businesses
+                and the overall branding is very serious.
+            </p>
+            <h4 class="section-titles ">Logo</h4>
+
+            <div class="logo-1 ">
+                <img class="logo-design-image " src="images/logo-sketches.png " alt="Logo Sketches " />
             </div>
-            <div class="logo-1">
-                <img class="w-60" src="images/digital-logo.png" alt="Digital Variations" />
-            </div>
-        </div>
-        <p class="case-study-paragraph">
-            For the Edubox logo, I ended up choosing a sketch that incorporated a smiley face to further evoke the friendliness of the app.
-        </p>
-        <h4 class="section-titles">Typography</h4>
-        <div class="typography">
-            <div>
-                <img class="w-80" src="images/typography.png" alt="Typography" />
-            </div>
-            <div>
-                <p class="case-study-paragraph visual-section1">
-                    Nunito (bold) was chosen as the main font in an effort to achieve the friendly and welcoming nature of the app. Montserrat was chosen as the complimentary font that provides contrast to main font and is legible.
-                </p>
-            </div>
+
+            <p class="case-study-paragraph ">
+                For the Edubox logo, I ended up choosing a sketch that incorporated a smiley face to further evoke the friendliness of the app.
+            </p>
+
         </div>
 
 
 
-        <h4 class="section-titles">Color Palette</h4>
-        <div class="color-palette">
-            <div>
-                <img class="w-80" src="images/color-palette.png" alt="Color Palette" />
-            </div>
-            <div>
-                <p class="case-study-paragraph  visual-section2">
-                    The final color palette was based on the emotions Edubox should convey to users such as trustworthiness and calmness. Accessibility was also a top priority in the finalized color palette.
-                </p>
-                <div class="center-button"><a class="button" href="https://drive.google.com/file/d/1OjpAF-fZA9eqs4H6FrGon_I_R0R8WK-y/view?usp=sharing" target="_blank">View Style Guide</a></div>
-            </div>
+        <h4 class="section-titles ">Color Palette and Typography</h4>
+        <div class="color-type-section ">
+            <img class="style-elements " src="images/style-elements.png " alt="Color and Typography " />
+            <p class="case-study-paragraph visual-section2 ">
+                The final color palette was based on the emotions Edubox should convey to users such as trustworthiness and calmness. Accessibility was also a top priority in the finalized color palette.
+                <br>
+                <br>
+                <br>
+                <br> Nunito (bold) was chosen as the main font in an effort to achieve the friendly and welcoming nature of the app. Montserrat was chosen as the complimentary font that provides contrast to main font and is legible.
+
+            </p>
+
         </div>
     </section>
 
     <!--Prototype and Testing-->
-    <section id="prototype-testing" class="prototype-testing">
-        <h2 class="section-heading">04 Prototype & Testing</h2>
-        <h3 class="section-subheading">High Fidelity Mockups: Version 1</h3>
-        <p class="case-study-paragraph">
-            Now that I had wireframes, real user testing data, and branding to work with, I began designing high fidelity mockups. I began by using the initial colors I had chosen for the brand, however this would change later down the line with the help of feedback
-            from other designers and user testing.
-        </p>
-        <div class="hifi1">
-            <div>
-                <img class="w-100" src="images/hifiv1-dashboard.png" alt="Dashboard Version 1" />
+    <section class="gray-bg ">
+        <div class="container ">
+            <h2 class="main-heading ">04 Prototype & Testing</h2>
+            <h3 class="section-subheading ">High Fidelity Mockups: Version 1</h3>
+            <p class="case-study-paragraph ">
+                Now that I had wireframes, real user testing data, and branding to work with, I began designing high fidelity mockups. I began by using the initial colors I had chosen for the brand, however this would change later down the line with the help of feedback
+                from other designers and user testing.
+            </p>
+            <div class="hifi1 fullscreen ">
+                <div>
+                    <img class="w-100 " src="images/hifiv1-dashboard.png " alt="Dashboard Version 1 " />
+                </div>
+                <div>
+                    <img class="w-100 " src="images/hifiv1-document.png " alt="Text Document " />
+                </div>
             </div>
-            <div>
-                <img class="w-100" src="images/hifiv1-document.png" alt="Text Document" />
-            </div>
-        </div>
-        <h3 class="section-subheading">High Fidelity Mockups: Version 2</h3>
-        <p class="case-study-paragraph">
-            I gained valuable feedback from another designer in the process of designing my mockups. For example, my initial mockups incorporated a great deal of a particular color, #05C9C2, the designer noted that this color choice was not the best in terms of accessibility.
-            For example, <span class="highlight-edubox">it was revealed that this color made it harder for users with lowered vision to read the white text when this color was used in buttons. As much as I personally found this color to be pleasing, the user is always right. Thus,
+
+
+            <h3 class="section-subheading ">High Fidelity Mockups: Version 2</h3>
+            <p class="case-study-paragraph ">
+                I gained valuable feedback from another designer in the process of designing my mockups. For example, my initial mockups incorporated a great deal of a particular color, #05C9C2, the designer noted that this color choice was not the best in terms of accessibility.
+                For example, <span class="highlight-edubox ">it was revealed that this color made it harder for users with lowered vision to read the white text when this color was used in buttons. As much as I personally found this color to be pleasing, the user is always right. Thus,
             I made changes to my mockups. I opted for a different color, #2869E1.</span> This color passed accessibility testing and was also derived from the Edubox logo.
-        </p>
-        <img class="w-100" src="images/hifiv2-dashboard.png" alt="Dashboard Version 2" />
-        <p class="photo-caption">Dashboard with new color</p>
-        <img class="w-60" src="images/hifiv2-modal.png" alt="Modal" />
-        <p class="photo-caption">
-            Modals and buttons utilizing the new color - <strong>accessibility is key! 🔑</strong>
-        </p>
-        <h3 class="section-subheading">Usability Testing: Round 2</h3>
-        <p class="case-study-paragraph">
-            With a working high fidelity prototype, it was time to test users again. My second round of testing revealed the following to be updated in my design:
-        </p>
-        <h4 class="section-titles">Change #1:</h4>
-        <img class="w-60" src="images/ut2-change1before.png" alt="Before" />
-        <p class="case-study-paragraph">
-            When users were asked to sort documents by “file type”, there was some confusion on where to click in order to perform this action:
-        </p>
-        <img class="w-60" src="images/ut2-change1after.png" alt="After" />
-        <p class="case-study-paragraph">
-            The text “Sort by:” was added beside the drop down menu. Further testing revealed that this was a successful solution to the problem.
-        </p>
-        <h4 class="section-titles">Change #2:</h4>
-        <p class="case-study-paragraph">
-            Testing also revealed that users were better able to navigate Edubox when a breadcrumb navigation was provided than when it was not. For example, users were confused on how to go back to the Dashboard from the documents page. Thus, simply clicking on
-            the logo on the top left-hand corner of the screen to go back to the Dashboard was not intuitive.
-        </p>
-        <img class="w-60" class="usability-testing" src="images/ut2-change2before.png" alt="Before" />
-        <p class="photo-caption">Screen without the breadcrumb navigation</p>
-        <img class="w-60" class="usability-testing" src="images/ut2-change2after.png" alt="After" />
-        <p class="photo-caption">Final design with breadcrumb navigation</p>
-        <h3 class="section-subheading">Finishing Touches: A/B Testing</h3>
-        <p class="case-study-paragraph">
-            At this stage in the process, it was time to clean up the visual design even further. The best way to do this was to perform A/B Testing of design elements on people.
-        </p>
-        <div class="pref-1">
-            <div><img class="w-60" src="images/pt1-a.png" alt="Option A" />
-                <p class="photo-caption">A</p>
-            </div>
-            <div><img class="w-60" src="images/pt1-b.png" alt="Option B" />
-                <p class="photo-caption">B</p>
-            </div>
+            </p>
+            <img class="hifi-2 " src="images/hifiv2-dashboard.png " alt="Dashboard Version 2 " />
+            <p class="photo-caption ">Dashboard with new color</p>
+            <img class="modal-2 " src="images/hifiv2-modal.png " alt="Modal " />
+            <p class="photo-caption ">
+                Modals and buttons utilizing the new color - <strong>accessibility is key! 🔑</strong>
+            </p>
         </div>
-        <p class="case-study-paragraph">
-            84% of respondents preferred the <strong>hover color in menus to be a light blue color (option A)</strong> over the light gray color (option B).
-        </p>
-        <div class="pref-2">
-            <div><img class="w-100" src="images/pt2-a.png" alt="Option A" />
-                <p class="photo-caption">A</p>
-            </div>
-            <div><img class="w-100" src="images/pt2-b.png" alt="Option B" />
-                <p class="photo-caption">B</p>
-            </div>
-
-        </div>
-        <p class="case-study-paragraph">
-            76% preferred the <strong>center-aligned to-do list (option A)</strong> over the left-aligned to-do list (option B).
-        </p>
-        <div class="pref-3">
-            <div><img class="w-40" src="images/pt3-a.png" alt="Option A" />
-                <p class="photo-caption">A</p>
-            </div>
-            <div><img class="w-40" src="images/pt3-b.png" alt="Option B" />
-                <p class="photo-caption">B</p>
-            </div>
-
-        </div>
-        <p class="case-study-paragraph">
-            65% preferred the <strong>smaller icons on the sidebar menu (option B)</strong> over the larger icons (option A). This change was considered and implemented to reduce potential misclicks of the icons.
-        </p>
-
     </section>
+
+    <section class="white-bg ">
+        <div class="container ">
+            <h3 class="section-subheading ">Usability Testing: Round 2</h3>
+            <p class="case-study-paragraph ">
+                With a working high fidelity prototype, it was time to test users again. My second round of testing revealed the following to be updated in my design:
+            </p>
+            <h4 class="section-titles ">Change #1:</h4>
+            <img class="ut2 " src="images/ut2-change1before.png " alt="Before " />
+            <p class="case-study-paragraph ">
+                When users were asked to sort documents by “file type”, there was some confusion on where to click in order to perform this action:
+            </p>
+            <img class="ut2 " src="images/ut2-change1after.png " alt="After " />
+            <p class="case-study-paragraph ">
+                The text “Sort by:” was added beside the drop down menu. Further testing revealed that this was a successful solution to the problem.
+            </p>
+            <h4 class="section-titles ">Change #2:</h4>
+            <p class="case-study-paragraph ">
+                Testing also revealed that users were better able to navigate Edubox when a breadcrumb navigation was provided than when it was not. For example, users were confused on how to go back to the Dashboard from the documents page. Thus, simply clicking on
+                the logo on the top left-hand corner of the screen to go back to the Dashboard was not intuitive.
+            </p>
+            <img class="ut2 " class="usability-testing " src="images/ut2-change2before.png " alt="Before " />
+            <p class="photo-caption ">Screen without the breadcrumb navigation</p>
+            <img class="ut2 " class="usability-testing " src="images/ut2-change2after.png " alt="After " />
+            <p class="photo-caption ">Final design with breadcrumb navigation</p>
+        </div>
+    </section>
+
+
+
+
+    <section class="gray-bg ">
+        <div class="container ">
+            <h3 class="section-subheading ">Finishing Touches: A/B Testing</h3>
+            <p class="case-study-paragraph ">
+                At this stage in the process, it was time to clean up the visual design even further. The best way to do this was to perform A/B Testing of design elements on people.
+            </p>
+            <div class="pref-1 ">
+                <img class="pref-image-1 " src="images/pt1-a.png " alt="Option A " />
+                <p class="photo-caption ">A</p>
+                <img class="pref-image-1 " src="images/pt1-b.png " alt="Option B " />
+                <p class="photo-caption ">B</p>
+            </div>
+            <p class="case-study-paragraph ">
+                84% of respondents preferred the <strong>hover color in menus to be a light blue color (option A)</strong> over the light gray color (option B).
+            </p>
+            <div class="pref-2 ">
+                <div><img class="w-100 " src="images/pt2-a.png " alt="Option A " />
+                    <p class="photo-caption ">A</p>
+                </div>
+                <div><img class="w-100 " src="images/pt2-b.png " alt="Option B " />
+                    <p class="photo-caption ">B</p>
+                </div>
+
+            </div>
+            <p class="case-study-paragraph ">
+                76% preferred the <strong>center-aligned to-do list (option A)</strong> over the left-aligned to-do list (option B).
+            </p>
+            <div class="pref-3 ">
+                <div><img class="w-40 " src="images/pt3-a.png " alt="Option A " />
+                    <p class="photo-caption ">A</p>
+                </div>
+                <div><img class="w-40 " src="images/pt3-b.png " alt="Option B " />
+                    <p class="photo-caption ">B</p>
+                </div>
+
+            </div>
+            <p class="case-study-paragraph ">
+                65% preferred the <strong>smaller icons on the sidebar menu (option B)</strong> over the larger icons (option A). This change was considered and implemented to reduce potential misclicks of the icons.
+            </p>
+        </div>
+    </section>
+
+
 
 
 
     <!--final mockups-->
-    <section id="final-product" class="final-product">
-        <h2 class="section-heading">Final Product</h2>
-        <div class="final-mockup-images">
-            <img class="final-mockups" src="images/fp-1.png" alt="Final Product" />
+    <section class="white-bg ">
+        <div class="container ">
+            <h2 class="main-heading-final">Final Product</h2>
+            <div class="final-mockup-images fullscreen ">
 
-            <img class="final-mockups" src="images/fp-2.png" alt="Final Product" />
+                <img  data-aos="zoom-in" class="final-mockups " src="images/fp-1.png " alt="Final Product " />
 
-            <img class="final-mockups" src="images/fp-3.png" alt="Final Product" />
+                <img data-aos="zoom-in" data-aos-duration="800" class="final-mockups " src="images/fp-2.png " alt="Final Product " />
 
-            <img class="final-mockups" src="images/fp-4.png" alt="Final Product" />
+                <img data-aos="zoom-in" data-aos-duration="800" class="final-mockups " src="images/fp-3.png " alt="Final Product " />
 
-            <img class="final-mockups" src="images/fp-5.png" alt="Final Product" />
+                <img data-aos="zoom-in" data-aos-duration="800" class="final-mockups " src="images/fp-4.png " alt="Final Product " />
 
-            <img class="final-mockups" src="images/fp-6.png" alt="Final Product" />
-        </div>
-        <div class="center-button"><a class="button" href="https://invis.io/XBRQZOUF2M8" target="_blank">View Prototype</a></div>
-    </section>
+                <img data-aos="zoom-in" data-aos-duration="800" class="final-mockups " src="images/fp-5.png " alt="Final Product " />
+
+                <img data-aos="zoom-in" data-aos-duration="800" class="final-mockups " src="images/fp-6.png " alt="Final Product " />
+                </div>
+                <div class="center-button "><a class="button" href="https://invis.io/XBRQZOUF2M8 " target="_blank ">View Prototype</a></div>
 
 
-    <!--conclusion-->
-    <section id="reflection" class="conclusion">
-        <h2 class="section-heading">Reflection</h2>
-        <p class="case-study-paragraph">
-            The process of creating Edubox was both exhilarating and challenging. I encountered my first challenge at the start of the process when trying to narrow down a viable product based on the client’s proposal. At first, this was a difficult prospect as the
-            proposal was quite vague, however the user research I performed directly after this was extremely helpful in generating an idea for a unique product. This brings me to my next challenge: the existing market. Performing the competitive analysis
-            for Edubox was initially daunting when realizing you are competing with big names like Google. Nevertheless, the challenge became exciting when analyzing the existing products and realizing all the potential improvements that could be made,
-            which I would end up incorporating into Edubox. This was propelled further with the additional features I added to Edubox based on user research. I was genuinely surprised in realizing how these already well-established products could be drastically
-            improved. Something that did not work when creating this project was personal biases when it came to color choice.
-        </p>
-        <h3 class="conclusion-subheading">Lesson learned</h3>
-        <p class="case-study-paragraph">
-            As previously noted, the visually appealing color I chose at the beginning of this project simply did not work when it came to accessibility. However, I learned to accept this and quickly move on for the sake of time. Having to change the color also helped
-            me accept criticism, especially when it is backed by research. I also realized the importance of accessibility over designs that look pretty but may not be accessible to all.
-        </p>
-        <h3 class="conclusion-subheading">If I had more time...</h3>
-        <p class="case-study-paragraph">
-            Another valuable lesson I learned from designing Edubox was the importance of user testing. User testing revealed to me issues that I simply overlooked myself. In the future, I will certainly use this experience I gained by putting more emphasis on critiques
-            and performing even more user tests. This brings me to my final point: If I had more time, I would have performed a greater variety of user testing on a larger sample. The more data, the more accurately you can incorporate user feedback into
-            making the best possible product.
-        </p>
+
+                <!--conclusion-->
+                <h2 class="main-heading ">Reflection</h2>
+                <p class="case-study-paragraph ">
+                    The process of creating Edubox was both exhilarating and challenging. I encountered my first challenge at the start of the process when trying to narrow down a viable product based on the client’s proposal. At first, this was a difficult prospect as the
+                    proposal was quite vague, however the user research I performed directly after this was extremely helpful in generating an idea for a unique product. This brings me to my next challenge: the existing market. Performing the competitive
+                    analysis for Edubox was initially daunting when realizing you are competing with big names like Google. Nevertheless, the challenge became exciting when analyzing the existing products and realizing all the potential improvements that
+                    could be made, which I would end up incorporating into Edubox. This was propelled further with the additional features I added to Edubox based on user research. I was genuinely surprised in realizing how these already well-established
+                    products could be drastically improved. Something that did not work when creating this project was personal biases when it came to color choice.
+                </p>
+                <h3 class="section-subheading ">Lesson learned</h3>
+                <p class="case-study-paragraph ">
+                    As previously noted, the visually appealing color I chose at the beginning of this project simply did not work when it came to accessibility. However, I learned to accept this and quickly move on for the sake of time. Having to change the color also helped
+                    me accept criticism, especially when it is backed by research. I also realized the importance of accessibility over designs that look pretty but may not be accessible to all.
+                </p>
+                <h3 class="section-subheading ">If I had more time...</h3>
+                <p class="case-study-paragraph ">
+                    Another valuable lesson I learned from designing Edubox was the importance of user testing. User testing revealed to me issues that I simply overlooked myself. In the future, I will certainly use this experience I gained by putting more emphasis on critiques
+                    and performing even more user tests. This brings me to my final point: If I had more time, I would have performed a greater variety of user testing on a larger sample. The more data, the more accurately you can incorporate user feedback
+                    into making the best possible product.
+                </p>
+            </div>
     </section>
 
     <footer>
-        <span class="footer-line"></span>
-        <h3 class="footer-greeting">Let’s work together!</h3>
-        <ul class="social-links">
+        <span class="footer-line "></span>
+        <h3 class="footer-greeting ">Thanks for stopping by!</h3>
+        <p class="footer-paragraph">Like my work and want to talk more? Email me!<br>
+Also, feel free to view my resume.</p>
+        <ul class="social-links ">
             <li>
-                <a href="mailto:valvegadesign@gmail.com" target="_blank"><img class="icon" src="images/email-icon.svg" alt="LinkedIn icon"></a>
+                <a href="mailto:valvegadesign@gmail.com " target="_blank "><img class="icon " src="images/email-icon.svg " alt="LinkedIn icon "></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/valentinavega/" target="_blank"><img class="icon" src="images/linkedin-icon.svg" alt="LinkedIn icon"></a>
+                <a href="https://www.linkedin.com/in/valentinavega/ " target="_blank "><img class="icon " src="images/linkedin-icon.svg " alt="LinkedIn icon "></a>
             </li>
             <li>
-                <a href="https://github.com/valentinavega" target="_blank"><img class="icon" src="images/github-icon.svg" alt="Github icon"></a>
+                <a href="https://github.com/valentinavega " target="_blank "><img class="icon " src="images/github-icon.svg " alt="Github icon "></a>
             </li>
         </ul>
-        <p class="copyright">© 2019. Designed & developed by Valentina Vega</p>
+        <p class="copyright ">© 2019. Designed & developed by Valentina Vega</p>
     </footer>
 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143051503-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143051503-1 "></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -641,8 +658,9 @@
 
         gtag('config', 'UA-143051503-1');
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="js/main.js "></script>
+
 
 </body>
 

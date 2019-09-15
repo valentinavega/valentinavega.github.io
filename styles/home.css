@@ -30,7 +30,7 @@ h1.opening {
 }
 
 span.color-text {
-    color: #0051e6;
+    color: #2700ff;
     font-weight: 400;
     padding: .2rem;
 }
@@ -38,7 +38,7 @@ span.color-text {
 p.project-tag {
     background-color: #D7DDFF;
     border-radius: 10px;
-    color: #0009FF;
+    color: #2700ff;
     font-size: 1.2rem;
     font-weight: 400;
     padding: 0 .5rem 0 .5rem;
