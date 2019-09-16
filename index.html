@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <!--Fonts-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,13 +36,29 @@
         <h1 class="opening">Hi! 👋 I’m <strong class="home-intro">Valentina</strong>,
             </br>a <strong class="home-intro">UX/UI Designer </strong>based in <strong class="home-intro">Los Angeles.</strong></h1>
         <p class="intro">I use my background in <span class="color-text">psychology</span> and <span class="color-text">customer support</span> to create meaningful digital experiences for <span class="color-text">people</span>.</p>
-        <div class="honeycomb"></div>
+        <div data-aos="fade-left" data-aos-duration="800" class="honeycomb"></div>
         <div class="down-arrow">
             <i class="fa fa-caret-down" style="font-size:42px;color:blue;"></i>
         </div>
     </header>
 
     <p class="recent-projects">Recent Projects</p>
+
+    <div id="projects-section" class="info-rectangle project1">
+        <div class="mockup-home-container">
+            <img class="mockup-home" src="images/musiclink-mockup-homepage.png" alt="MusicLink"></li>
+        </div>
+
+        <div class="project-info">
+            <h2 class="project-title">MusicLink</h2>
+            <div class="project-tags">
+                <p class="project-tag">User Experience Design</p>
+                <p class="project-tag">Branding</p>
+            </div>
+            <p class="project-description">MusicLink is an app to connect music enthusiasts and simplify the music discovery process. </p>
+            <a class="button home-case-study" href="project2.html">Case Study</a>
+        </div>
+    </div>
 
     <div id="projects-section" class="info-rectangle project1">
         <div class="mockup-home-container">
@@ -62,8 +80,8 @@
     <footer>
         <span class="footer-line "></span>
         <h3 class="footer-greeting ">Thanks for stopping by!</h3>
-        <p class="footer-paragraph">Like my work and want to talk more? Email me!<br>
-Also, feel free to view my resume.</p>
+        <p class="footer-paragraph">Like my work and want to talk more? <a class="footer-link" href="mailto:valvegadesign@gmail.com">Email me</a>!<br>
+Also, feel free to view my <a class="footer-link" href="https://drive.google.com/file/d/1zi6iIfAg_YRn7ZS2kmQ08FjAIwU7qVQK/view?usp=sharing" target="_blank">resume</a>.</p>
         <ul class="social-links ">
             <li>
                 <a href="mailto:valvegadesign@gmail.com " target="_blank "><img class="icon " src="images/email-icon.svg " alt="LinkedIn icon "></a>
@@ -77,6 +95,12 @@ Also, feel free to view my resume.</p>
         </ul>
         <p class="copyright ">© 2019. Designed & developed by Valentina Vega</p>
     </footer>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143051503-1"></script>

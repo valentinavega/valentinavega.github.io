@@ -4,6 +4,14 @@
     position: relative;
 }
 
+
+a.footer-link {
+  text-decoration: none;
+  color: #2700ff;
+  font-weight: 700;
+}
+
+
 .icon-logo::after {
     content: "";
     display: block;
@@ -57,15 +65,6 @@ body,
 
 .container {
     margin: 0 auto;
-}
-
-.fullscreen {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
 }
 
 .nav-links {
@@ -319,7 +318,7 @@ textarea {
 }
 
 .form-button {
-    background-color: #0051e6;
+    background-color: #2700ff;
     border: none;
     color: #FFFFFF;
     padding: 10px;
@@ -336,7 +335,7 @@ textarea {
 }
 
 button.form-button:hover {
-    background-color: rgb(148, 152, 253);
+    background-color: #5C61FF;
 }
 
 @media screen and (max-width: 375px) {
@@ -360,4 +359,12 @@ button.form-button:hover {
         font-size: 1.8rem;
         margin-left: 0;
     }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
 }

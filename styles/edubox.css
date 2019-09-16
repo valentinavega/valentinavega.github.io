@@ -58,7 +58,7 @@
     }
 
     section.gray-bg {
-      background-color: #F4F6F7;
+      background-color: #F4F4F4;
       padding: 5rem 0;
     }
 
@@ -68,6 +68,7 @@
       margin-left: auto;
       margin-right: auto;
       padding: 2rem 0 2rem 0;
+      justify-content: center;
     }
 
     img.left-survey-graphic {
@@ -510,9 +511,6 @@
       border-radius: .8rem;
     }
 
-    .pref-image-1 {
-      max-width: 80%;
-    }
 
     .ut1 {
       max-width: 60%;
@@ -657,24 +655,8 @@
       margin-right: auto;
     }
 
-    .section-subheading-problem::before,
-    .section-subheading-solution::before {
-      background-size: 100%;
-      background-repeat: no-repeat;
-      content: '';
-      display: block;
-      width: 4rem;
-      height: 4rem;
-      margin-right: 1.5rem;
-    }
 
-    .section-subheading-problem::before {
-      background-image: url("../images/sad-face.svg");
-    }
 
-    .section-subheading-solution::before {
-      background-image: url("../images/happy-face.svg");
-    }
 
     .pref-1,
     .pref-2,
@@ -684,8 +666,10 @@
       grid-gap: 1rem;
     }
 
-    .pref-1 {
-      justify-items: center;
+    .pref-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     /** MEDIA QUERIES **/

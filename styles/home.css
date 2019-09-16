@@ -2,12 +2,14 @@
 
 html {
     scroll-behavior: smooth;
+      font-size: 10px;
 }
 
 .header-home {
     position: relative;
     animation: fadein 3s;
-    margin-top: 20rem;
+    margin: 20rem auto 0 auto;
+    max-width: 1200px;
 }
 
 a.button {
@@ -73,7 +75,7 @@ h2.project-title {
     font-size: 2.8rem;
     line-height: 42px;
     text-align: center;
-    padding-bottom: 7rem;
+    padding-bottom: 1.5rem;
 }
 
 div.down-arrow {
@@ -87,8 +89,14 @@ div.down-arrow {
 .info-rectangle.project1 {
     display: flex;
     align-items: center;
-    /**box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
-    border-radius: .8rem;**/
+    justify-content: center;
+    box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
+    border-radius: .8rem;
+    max-width: 1129px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .project-info {
@@ -97,6 +105,7 @@ div.down-arrow {
 
 .mockup-home-container {
     padding: 4rem;
+    max-width: 700px;
 }
 
 .mockup-home {
