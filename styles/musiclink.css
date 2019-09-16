@@ -43,6 +43,7 @@ ol>li::before {
   font-family: 'DM Sans', sans-serif;
   font-size: 2.2rem;
   font-weight: 500;
+  margin-top: 2rem;
 }
 
 .musiclink-mockup-solutions-container {
@@ -70,6 +71,14 @@ h2 {
   .musiclink-header-aside {
     margin-right: 6rem;
   }
+
+  .nav-links:after {
+      background: #FF098E;
+    }
+
+    a.button:hover {
+        background-color: #fc72bc;
+    }
 
 /* html {
     font-size: 10px;
