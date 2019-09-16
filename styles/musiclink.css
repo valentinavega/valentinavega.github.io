@@ -80,6 +80,14 @@ h2 {
         background-color: #fc72bc;
     }
 
+    .section-subheading {
+      text-decoration-line: underline;
+      text-decoration-color: #FF098E;
+      max-width: 68rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
 /* html {
     font-size: 10px;
 }
