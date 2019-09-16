@@ -48,6 +48,7 @@ ol>li::before {
 
 .musiclink-mockup-solutions-container {
   display: flex;
+  margin-top: 2rem;
 }
 
 .musiclink-mockup-solution {
