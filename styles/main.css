@@ -7,7 +7,7 @@
 
 a.footer-link {
   text-decoration: none;
-  color: #2700ff;
+  color: #4349FF;
   font-weight: 700;
 }
 
@@ -36,7 +36,7 @@ img {
 }
 
 a.button {
-    background-color: #2700ff;
+    background-color: #4349FF;
     border: none;
     color: #FFFFFF;
     padding: 1.5rem 2rem 1.5rem 2rem;
@@ -80,7 +80,7 @@ body,
     display: block;
     height: .2rem;
     position: absolute;
-    background: #2700ff;
+    background: #4349FF;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     left: 50%;
     width: 0;
@@ -318,7 +318,7 @@ textarea {
 }
 
 .form-button {
-    background-color: #2700ff;
+    background-color: #4349FF;
     border: none;
     color: #FFFFFF;
     padding: 10px;
