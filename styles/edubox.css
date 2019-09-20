@@ -7,6 +7,11 @@
       background-color: transparent;
     }
 
+    #scroll-to-top {
+        display: inline-block;
+        background-color: #0051e6;
+    }
+
     div.survey-quote-section {
       font-family: 'DM Sans';
       font-size: 3rem;
