@@ -1,14 +1,14 @@
     /** ABOUT PAGE STYLING **/
-    
+
     header.about {
         display: grid;
         grid-template-columns: 1.5fr 1.5fr;
         align-items: center;
         margin: 0 auto;
-        padding: 6rem 6rem 0 6rem;
-        animation: fadein 3s;
+        padding: 6rem 0;
+        max-width: 1200px;
     }
-    
+
     h1.opening-about {
         font-size: 5.2rem;
         font-family: 'DM Sans', sans-serif;
@@ -17,33 +17,34 @@
         line-height: 7.1rem;
         margin: 0 auto;
     }
-    
+
     .honeycomb-about {
         margin-right: 6rem;
     }
-    
+
     section.about-paragraphs {
         display: grid;
         grid-template-columns: 1fr 1.5fr;
         grid-gap: 3rem;
         margin: 0 auto;
-        padding: 6rem;
+        padding: 3rem 0 6rem 0;
+        max-width: 1200px;
     }
-    
+
     h2.about {
         margin-top: 1.5rem;
         padding-bottom: 1rem;
     }
-    
+
     p.about {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-    
+
     div.about-intro {
         max-width: 42.8rem;
     }
-    
+
     img.me {
         display: block;
         float: right;
@@ -51,7 +52,7 @@
     }
     /** ABOUT PAGE **/
     /**MOBILE**/
-    
+
     @media screen and (max-width: 375px) {
         section.about-paragraphs {
             display: grid;
@@ -79,7 +80,7 @@
         }
     }
     /** TABLET **/
-    
+
     @media screen and (max-width:768px) and (min-width: 375px) {
         header.about {
             display: grid;
@@ -100,7 +101,7 @@
             padding-top: 0;
         }
     }
-    
+
     @media screen and (max-width:1024px) and (min-width: 769px) {
         header.about {
             display: grid;
