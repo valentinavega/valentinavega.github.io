@@ -10,12 +10,144 @@ ol>li::before {
    background-color: #EC34AD;
 }
 
+ol>li.changes::before {
+   background-color: #ff0000;
+   content: counter(li);
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    border-radius: 50%;
+    margin-right: 0.7rem;
+    text-align: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    flex-shrink: 0;
+}
+
+hr {
+    background-color: #FF098E;
+    border: none;
+    display: block;
+    height: 1.5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 20%;
+}
+
+div.info-rectangle.comp-analysis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    padding: 5rem;
+    margin: auto;
+    justify-items: center;
+    max-width: 130rem;
+}
+
+ol.usability-changes {
+    counter-reset: li;
+    max-width: 68rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    text-align: left;
+    background-color: #fff1f1;
+    color: #282828;
+    border-radius: 8px;
+    }
+
+.musiclink-section-titles {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 153.36%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 68rem;
+    padding: 5rem 0 2rem 0;
+}
+
+.musiclink-hifi-titles {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 153.36%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    max-width: 68rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h3.section-subheading {
+  text-decoration-color: #FF098E;
+}
 
 .musiclink-big-heading {
   color: #FF098E;
   font-family: 'DM Sans', sans-serif;
   font-size: 9rem;
   font-weight: 700;
+}
+
+p.persona-quote {
+  color: #fc00d4;
+}
+
+div.quote-line-decoration {
+    border-left: 5px solid #fc00d4;
+}
+
+
+.flow-images {
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.flow-images-ml-2 {
+    width: 65%;
+    box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin: 2rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.mindmapping {
+    width: 70%;
+    box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin: 2rem;
+    margin: 0 auto;
+}
+
+
+.logo-design {
+    width: 70%;
+    box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.case-study-paragraph-logo {
+    font-size: 1.8rem;
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 68rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
 }
 
 
@@ -46,6 +178,22 @@ ol>li::before {
   margin-top: 2rem;
 }
 
+.musiclink-wireframes, .usability-1 {
+    width: 100%;
+}
+
+
+
+.maze-paragraph {
+    margin-top: 10rem;
+    background-color: #fff1f1;
+    border-radius: 8px;
+    color: red;
+    margin-bottom: 20rem;
+    padding: 2rem;
+    font-weight: 400;
+}
+
 .musiclink-mockup-solutions-container {
   display: flex;
   margin-top: 2rem;
@@ -58,6 +206,22 @@ ol>li::before {
   align-items: center;
   text-align: center;
   margin: 0 2rem;
+}
+
+img.usability-1 {
+    margin: 0 auto;
+    max-width: 68rem;
+}
+img.usability-2 {
+    margin: 0 auto;
+    max-width: 100rem;
+}
+
+.lofi-maze {
+    display: flex;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .musiclink-mockup-solution > img {

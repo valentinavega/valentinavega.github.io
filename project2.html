@@ -3,6 +3,7 @@
 
 <head>
   <title>Portfolio | Val Vega</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <meta charset="UTF-8" />
   <meta name="description" content="UX Designer" />
   <meta name="keywords" content="UX,Designer,UI,Atlanta" />
@@ -96,7 +97,7 @@
   <!--Problem-->
   <section class="gray-bg">
     <div class="container">
-      <h2 class="main-heading">Problem</h2>
+      <h2 class="main-heading-ps">Problem</h2>
       <p class="case-study-paragraph">
         Music is an essential component of the human experience. People enjoy music and socialization, but user research revealed that people have a hard time expressing their interests in music with friends in a common place. Research showed that
         the following were problems experienced by users:
@@ -116,7 +117,7 @@
 
   <section class="white-bg">
       <div class="container">
-          <h2 class="main-heading">Solution</h2>
+          <h2 class="main-heading-ps">Solution</h2>
               <p class="case-study-paragraph">
                 MusicLink provides an enhanced social experience created through music. Users can create friendships through shared interests in music with other users. Users are also able to discover new music through these interactions with other users in a fun and engaging way.
               </p>
@@ -144,6 +145,7 @@
   <!-- Survey -->
   <section class="gray-bg">
       <div class="container">
+          <hr>
           <h2 class="main-heading">01 User Research</h2>
           <h3 class="section-subheading">Survey</h3>
           <p class="case-study-paragraph">
@@ -173,16 +175,250 @@
 
   <section class="white-bg">
       <div class="container">
-        <h2>Full case study coming soon!<br />
-        Thanks for your patience.</h2>
-      </div>
+        <h3 class="section-subheading">Competitive Analysis</h3>
+        <p class="case-study-paragraph">
+            We began analyzing the current market in music streaming apps by looking at the three apps identified in user research: <strong>Youtube, Spotify,</strong> and <strong>Apple Music</strong>. All three music services allow users to stream music.
+        </p>
+
+                    <div data-aos="flip-up" class="info-rectangle comp-analysis">
+                        <div class="comp-analysis-inner">
+                            <img class="comp" src="images/spotify.svg" alt="Spotify" />
+                            <h4 class="competitor-names">Spotify</h4>
+                            <p class="competitive-desc">
+                                ✅ Recommendations catered to user.<br /> 👎 Social features remain hidden.
+                        </div>
+                        <div class="comp-analysis-inner">
+                            <img class=" comp " src="images/applemusic.svg " alt="Apple Music " />
+                            <h4 class="competitor-names ">Apple Music</h4>
+                            <p class="competitive-desc ">
+                                ✅ Large library of music.<br /> 👎 Social features <strong>very</strong> hidden and almost non-existent.
+                            </p>
+                        </div>
+                        <div class="comp-analysis-inner ">
+                            <img class="comp " src="images/youtube.svg " alt="YouTube " />
+                            <h4 class="competitor-names ">YouTube</h4>
+                            <p class="competitive-desc ">
+                                ✅ Ability to engage in the comment section with other users.<br /> 👎 Is not meant for music and YouTube Music requires subscription.
+                            </p>
+                        </div>
+                    </div>
   </section>
 
+<section class="gray-bg">
+    <div class="container">
+        <h3 class="section-subheading">User Interviews and User Personas</h3>
+        <p class="case-study-paragraph-persona ">
+            Through further user research consisting of interviews, we were able to narrow down key product features to cater to the following personas that would assist in producing the MVP:
+        </p>
+        <div class="personas">
+            <div class="info-rectangle-personas ">
+                <img class="persona-image" src="images/kyle.png " alt="Kyle" />
+                <h5 class="persona-heading">Goals</h5>
+                <p class="persona-text-top">
+                    • Ability to see what his friends are listening to for inspiration.<br> • Easily reccommend music to friends and share playlists he creates.<br> • Ability to interact with others online about music he enjoys.
+                </p>
+                <div class="quote-line-decoration">
+                    <p class="persona-quote">
+                        “I'm tired of rummaging through Apple Music just to be able to see what my friends are listening to and I end up sending them YouTube links to music they should check out anyway...”
+                    </p>
+                </div>
+                <h5 class="persona-heading">Frustrations</h5>
+                <p class="persona-text-bottom">
+                    • Cannot see what his friends are currently listening to.<br>• No dashboard catered to his music interests.<br>• Annoyed with content from YouTubers appearing on his recommendations.
+                </p>
+            </div>
+
+            <div class="info-rectangle-personas">
+                <img class="persona-image" src="images/jennifer.png " alt="Jennifer" />
+                <h5 class="persona-heading">Goals</h5>
+                <p class="persona-text-top">
+                    • Centralized app for seeing upcoming concerts in her area.<br>• Easy access to trending music.<br> • Place to discover music out of her comfort zone.<br>
+                </p>
+                <div class="quote-line-decoration ">
+                    <p class="persona-quote ">
+                        “I don't like using Facebook in general, but I end up having to use it for seeing upcoming concerts. At the end of the day, I'm using around ~3 services for music and any information I need regarding music.”
+                    </p>
+                </div>
+                <h5 class="persona-heading ">Frustrations</h5>
+                <p class="persona-text-bottom ">
+                    • Doesn’t want to use Facebook just to track music events.<br>• No display of trending music or music rising in popularity on homepage.<br> • No display of upcoming concerts in her area.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="white-bg">
+    <div class="container">
+        <hr>
+        <h2 class="main-heading">02 Information Architecture</h2>
+        <h3 class="section-subheading">User Stories</h3>
+        <p class="case-study-paragraph">
+        Through user stories and personas, we were now able to create user stories to further narrow down the tasks that would be performed on the app. We prioritized the features based on the highest percentages found in the features section of the survey as well as the frustrations expressed in the round of user interviews.
+        </p>
+        <ol class="case-study-paragraph">
+            <li>
+                I want to easily see what music my friends are currently listening to.
+            </li>
+            <li>I want to easily see upcoming concerts in my area.</li>
+            <li>I want to recommend music to friends within the same app.</li>
+            <li>I want to easily create and share playlists with friends within the same app.</li>
+        </ol>
+        <div class="center-button ">
+            <a class="button " href="https://docs.google.com/spreadsheets/d/1R8gFCEDyiMmFoD2qgLyo-xztU6UW1aSqr3uBueKbtaU/edit?usp=sharing " target="_blank ">View User Stories</a>
+        </div>
+    </div>
+</section>
+
+<section class="gray-bg">
+    <div class="container">
+        <h3 class="section-subheading">User Flows</h3>
+        <p class="case-study-paragraph">
+            Now that we had user stories and narrowed down the key features needed for the MVP, it was time to figure out how users would complete these tasks within the app. We created user flows to map out precisely how these tasks would be accomplished. Below are some of the flows we created for key tasks.
+        </p>
+        <p class="photo-caption ">
+            “As a returning user I want to recommend music to my friends via the app.”
+        </p>
+        <img class="flow-images " src="images/musiclink-flow1.png " alt="User Flow 1" />
+        <p class="photo-caption ">
+            “As a new user I want to see upcoming music concerts or events in my local area.”
+        </p>
+        <img class="flow-images-ml-2 " src="images/musiclink-flow2.png " alt="User Flow 2" />
+    </div>
+</section>
+
+<section class="white-bg">
+    <div class="container">
+        <h3 class="section-subheading">Sketching & Site Map</h3>
+        <p class="case-study-paragraph">
+            With user flows in place, it was time to visualize how all of these tasks would be completed. We started the process by first creating sitemap, which would later by refined by the sketches we created to further visualize the screens needed to complete the user flows.
+        </p>
+        <h4 class="section-titles">Initial site map<h4>
+        <img class="w-100 " src="images/musiclink-initial-sitemap.png" alt="Sketches " />
+        <h4 class="section-titles">Sketches<h4>
+        <img class="w-100 " src="images/musiclink-sketches.png" alt="Sketches " />
+<h4 class="section-titles">Refined site map<h4>
+<img class="w-100 " src="images/musiclink-refined-sitemap.png " alt="Sketches " />
+    </div>
+</section>
+
+<section class="gray-bg">
+    <div class="container">
+        <h3 class="section-subheading">Wireframes</h3>
+        <p class="case-study-paragraph">With rough sketches and the foundation for the architecture of the app, We began creating low-fidelity wireframes using Figma.  In creating these wireframes, we focused on creating a seamless navigation experience throughout the app since this was something that was lacking in the apps analyzed in our competitive analysis.</p>
+    </div>
+    <img class="musiclink-wireframes " src="images/musiclink-wireframes.png " alt="Sketches " />
+
+</section>
+
+<section class="white-bg">
+    <div class="container">
+        <h3 class="section-subheading">Usability Testing: Round 1</h3>
+        <p class="case-study-paragraph">The wireframes created allowed us to make a small prototype of key features we felt needed to be evaluated by users before moving forward. We created a prototype utilizing Maze which allowed us to test key features early on in the design process. Key emphasis was placed on completing tasks utilizing navigation because this was something we felt needed to be further researched and polished. Follow-up remote testing via Zoom was also conducted.</p>
+        <div class="lofi-maze">
+            <img class="maze" src="images/musiclink-maze.png" alt="Maze results " />
+            <p class="maze-paragraph" data-aos="fade-left">When asked to open the song menu and recommend a song to a friend on the app, users were confused on where to click. Users said they were confused by the “add to playlist” icon and thought that it represented a “more” icon. This may be due to the fact that the icon has a plus sign and that it is at the end, suggesting more options.</p>
+        </div>
+        <h4 class="musiclink-section-titles ">First set of changes</h4>
+        <img class="usability-1" src="images/musiclink-ut1.png " alt="Usability changes " />
+        <ol class="usability-changes" data-aos="fade-up">
+            <li class="changes">The menu option was removed from this location.</li>
+            <li class="changes">The menu option was moved to the location where the ‘add to playlist’ icon was for better visibility.</li>
+            <li class="changes">The add to playlist option was embedded into the menu that follows after users click on the menu icon.</li>
+        </ol>
+        <h4 class="musiclink-section-titles">Second set of changes</h4>
+        <img class="usability-1" src="images/musiclink-ut2.png " alt="Usability changes " />
+        <ol class="usability-changes" data-aos="fade-up">
+            <li class="changes">Through further research on the navigation of the app, we realized playlists would be the only type of content to be created within the app. The option to create a new playlist was therefore moved to a more appropriate place. </li>
+            <li class="changes">The tab bar was simplified and included everything that was accessible in the app.</li>
+        </ol>
+    </div>
+</section>
+
+<section class="gray-bg">
+    <div class ="container">
+        <hr>
+        <h2 class="main-heading">03 Visual Design</h2>
+        <h3 class="section-subheading">Branding</h3>
+        <p class="case-study-paragraph">To give life to the wireframes with visual design, the first step was to begin branding for the app. We started with a mind mapping exercise to get a feel for what the app would potentially be. We focused on words such as <strong>music</strong>, <strong>friendship</strong> and <strong>connected</strong>. The mind mapping activity ultimately led to us to choose the name “MusicLink” for the app.
+        </p>
+        <img class="mindmapping" src="images/musiclink-mindmapping.png " alt="Logo Designing " />
+        <h4 class="musiclink-section-titles">Logo & Color Palette</h4>
+        <p class="case-study-paragraph">The logo sketches and digital renditions utilized concepts explored in the mind mapping exercise. The final logo incorporates the shape of the letter “M” with the ends representing music notes.</p>
+        <img class="mindmapping" src="images/musiclink-logo-design.png " alt="Logo Designing " />
+        <p class="case-study-paragraph-logo">The first rendition of the logo utilized a color palette that would later be changed. Through advice from other designers, it was suggested that the main color of the app be changed due to it being similar to the color used in Apple Music.</p>
+        <img class="mindmapping" src="images/musiclink-logo-changes.png " alt="Logo Designing " />
+        <h4 class="musiclink-section-titles">Establishing a Design System</h4>
+        <p class="case-study-paragraph">In an effort to keep designs consistent across different screens, we established a small design system. Using Figma's color styles, text styles, and assets features made it easier to establish a cohesive system and simplified the overall design process. This was especially valuable when having to make overall edits to designs based on user testing.</p>
+        <img class="w-100" src="images/musiclink-design-system.png " alt="Design System " />
+    </div>
+</section>
+
+<section class="white-bg">
+    <div class="container">
+        <hr>
+        <h2 class="main-heading">04 High Fidelity Mockups & Testing</h2>
+        <h3 class="section-subheading">Usability Testing: Round 2</h3>
+        <p class="case-study-paragraph">With visuals and a small design system incorporated into the wireframes that were iterated upon after user testing, it was time to conduct further usability testing. Remote testing and another Maze test were completed in order to test out the usability of the app.</p>
+        <h4 class="musiclink-hifi-titles">Task 1: Sharing a playlist from user profile</h4>
+        <div class="lofi-maze">
+            <img class="maze" src="images/musiclink-maze-2.png" alt="Maze results " />
+            <p class="maze-paragraph" data-aos="fade-left">Maze testing revealed a 83% misclick rate, meaning users were very confused as to where to click to open the menu that would enable them to share a playlist. Users that asked to complete this task via the Zoom testing exhibited the same confusion on this screen.</p>
+        </div>
+        <img class="usability-2" src="images/musiclink-maze-ut1.png " alt="Usability changes " />
+        <ol class="usability-changes" data-aos="fade-up">
+            <li class="changes">Maze testing revealed that users thought the “edit profile” button meant to share or make a post, so this was changed to a button that distinctly reads “edit profile”.</li>
+            <li class="changes">Users were confused by the prototype where it referred to “Max” on the user profile, so the wording was changed to “Your playlists” for an experience centered around the user.</li>
+            <li class="changes">The playlist cards were edited to include the last time they were played and the icon to open the menu, where users would select to share the playlist, was moved and made into a clearer call to action.</li>
+            <li class="changes">With further discussion with other designers, we came to the agreement that this screen felt stark and distinct from the rest of the app. Changes in the overall UI were implemented for an overall cleaner look that followed the design system previously established.</li>
+        </ol>
+
+        <h4 class="musiclink-hifi-titles">Task 2: Creating a playlist</h4>
+        <p class="case-study-paragraph">When completing this task, some users commented on this flow being unnecessarily long. To shorten and simplify the flow a user would take to create a new playlist, the CTA for creating a new playlist was moved up to the first screen in the flow. In addition to simplifying this flow, it made sense to move this CTA here because this screen felt bare before and simply served as a navigational screen.</p>
+        <div class="musiclink-mockup-solutions-container">
+                    <div class="musiclink-mockup-solution">
+                    <p class="solution-caption">Initial flow</p>
+                    <video controls=""><source src="images/musiclink-playlist-1.mp4" type="video/mp4"></video>
+                    </div>
+
+                    <div class="musiclink-mockup-solution">
+                    <p class="solution-caption">Redesigned flow</p>
+                    <video controls=""><source src="images/musiclink-playlist-2.mp4" type="video/mp4"></video>
+                    </div>
+            </div>
 
 
+            <h4 class="musiclink-hifi-titles">Task 3: Visiting friend's profile via the home feed</h4>
+            <p class="case-study-paragraph">User testing revealed that users found the card system showing what friends were listening to on the home feed to be confusing when trying to click on certain things. Particularly, users found it confusing if they wanted to click on the fried's profile rather than the song they are listening to, and vice versa.</p>
+            <div class="musiclink-mockup-solutions-container">
+                        <div class="musiclink-mockup-solution">
+                        <p class="solution-caption">Initial design</p>
+                        <video controls=""><source src="images/musiclink-profile-1.mov" type="video/mp4"></video>
+                        </div>
 
+                        <div class="musiclink-mockup-solution">
+                        <p class="solution-caption">Redesign</p>
+                        <video controls=""><source src="images/musiclink-profile-2.mov" type="video/mp4"></video>
+                        </div>
+                </div>
+                <ol class="usability-changes" data-aos="fade-up">
+                    <li class="changes">Friend information and music information were ungrouped.</li>
+                    <li class="changes">More space alotted to the song the friend is listening because this is the most pertinent information for this section.</li>
+                </ol>
 
+            <h4 class="musiclink-hifi-titles">Task 4: Finding local music events to attend</h4>
+            <div class="lofi-maze">
+                <img class="maze" src="images/musiclink-maze-3.png" alt="Maze results " />
+                <p class="maze-paragraph" data-aos="fade-left">Testing revealed that users found it confusing to begin browsing local music events. Maze testing showed that some users clicked on the "discover" icon on the tab bar rather than the "local" tab on the segmented navigation of the homepage.</p>
+            </div>
 
+            <img class="usability-2" src="images/musiclink-maze-ut2.png " alt="Usability changes " />
+            <ol class="usability-changes" data-aos="fade-up">
+                <li class="changes">The "local" tab was renamed to "events".</li>
+                <li class="changes">A search function was added to this screen because users would ideally want to look for events in other locations, especially if they are travelling.</li>
+            </ol>
+    </div>
+</section>
 
 
   <footer>
