@@ -66,6 +66,7 @@
     .white-bg-conclusion {
         background-color: #FFFFFF;
         padding-bottom: 5rem;
+        padding-top: 0;
     }
 
     .white-bg-solution {

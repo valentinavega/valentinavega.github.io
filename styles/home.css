@@ -12,6 +12,9 @@ html {
     max-width: 1200px;
 }
 
+
+
+
 a.button {
     margin-top: 2rem;
 }
@@ -22,6 +25,14 @@ a.button {
     top: -4rem;
     right: -3rem;
     z-index: -1;
+}
+
+
+
+.mockup-home-musiclink {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 h1.opening {
@@ -102,9 +113,6 @@ div.down-arrow {
     padding: 4rem 0 4rem 10.1rem;
 }
 
-.mockup-home-container {
-    max-width: 700px;
-}
 
 .mockup-home {
     width: 100%;
@@ -146,10 +154,16 @@ div.down-arrow {
     .mockup-home-container {
         flex: 100%;
         padding: 1rem;
+        max-width: 700px;
     }
     .mockup-home {
         max-width: 400px;
     }
+
+    .mockup-home-edubox {
+        max-width: 400px;
+    }
+
     .down-arrow {
         display: none;
     }
@@ -162,5 +176,24 @@ div.down-arrow {
 @media screen and (max-width: 1000px) {
     .honeycomb {
         opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .navigation {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .honeycomb {
+        display: none;
+    }
+
+    .opening {
+        text-align: center;
+    }
+
+    .intro {
+        text-align: center;
     }
 }
