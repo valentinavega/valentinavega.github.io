@@ -30,17 +30,17 @@
                 <text id="iCloud" font-family="DMSans-Regular, DM Sans" font-size="21" font-weight="normal" letter-spacing="-0.644" fill="#282828">
                     <tspan x="24" y="202">iCloud</tspan>
                 </text>
-                <text id="88%" font-family="DMSans-Medium, DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#2869E1">
-                    <tspan x="366" y="115">88%</tspan>
+                <text id="58%" font-family="DMSans-Medium, DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#2869E1">
+                    <tspan x="366" y="115">58%</tspan>
                 </text>
-                <text id="44%" font-family="DMSans-Medium, DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#2869E1">
-                    <tspan x="366" y="158">44%</tspan>
+                <text id="37%" font-family="DMSans-Medium, DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#2869E1">
+                    <tspan x="366" y="158">37%</tspan>
                 </text>
-                <text id="8%" font-family="DMSans-Medium, DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#2869E1">
-                    <tspan x="366" y="245">8%</tspan>
+                <text id="3%" font-family="DMSans-Medium, DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#2869E1">
+                    <tspan x="366" y="245">3%</tspan>
                 </text>
-                <text id="20%" font-family="DMSans-Medium, DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#2869E1">
-                    <tspan x="366" y="199">20%</tspan>
+                <text id="3%" font-family="DMSans-Medium, DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#2869E1">
+                    <tspan x="366" y="199">3%</tspan>
                 </text>
             </g>
         </g>
