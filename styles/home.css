@@ -182,11 +182,6 @@ h2.project-title {
 }
 
 @media screen and (max-width: 1220px) {
-    .navigation {
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
-
     .honeycomb {
         display: none;
     }

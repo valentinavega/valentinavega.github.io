@@ -372,8 +372,14 @@ button.form-button:hover {
   flex: 1;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1300px) {
+      .navigation, .about-container {
+          margin-left: 4rem;
+          margin-right: 4rem;
+      }
+
   footer {
     padding-left: 4rem;
     padding-right: 4rem;
   }
+}
