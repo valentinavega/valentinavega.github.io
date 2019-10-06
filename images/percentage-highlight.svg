@@ -4,6 +4,10 @@
     <title>Group 4</title>
     <desc>Created with Sketch.</desc>
     <defs>
+        <style>
+          @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700");
+          @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700");
+        </style>
         <circle id="path-1" cx="83.5" cy="84.420954" r="83.5"></circle>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -17,11 +21,11 @@
                     <use id="Mask" fill="#2869E1" xlink:href="#path-1"></use>
                     <polygon fill="#C8E4FF" mask="url(#mask-2)" points="83 84.420954 62.4494384 -13 104.167869 -13"></polygon>
                 </g>
-                <text id="90%" font-family="DMSans-Bold, DM Sans" font-size="44" font-weight="bold" letter-spacing="-1.34933333" fill="#2869E1">
+                <text id="90%" font-family="DM Sans" font-size="44" font-weight="bold" letter-spacing="-1.34933333" fill="#2869E1">
                     <tspan x="19" y="244">90%</tspan>
                     <tspan x="19" y="302"></tspan>
                 </text>
-                <text id="Utilized-more-than-o" font-family="NunitoSans-Regular, Nunito Sans" font-size="18" font-weight="normal" line-spacing="26" letter-spacing="-0.552" fill="#282828">
+                <text id="Utilized-more-than-o" font-family="Nunito Sans" font-size="18" font-weight="normal" line-spacing="26" letter-spacing="-0.552" fill="#282828">
                     <tspan x="131" y="222">Utilized more than one </tspan>
                     <tspan x="131" y="248">cloud storage service.</tspan>
                 </text>

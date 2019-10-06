@@ -93,12 +93,12 @@
       justify-content: center;
     }
 
-    img.left-survey-graphic {
+    .left-survey-graphic {
       margin-right: 2rem;
       box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     }
 
-    img.right-survey-graphic {
+    .right-survey-graphic {
       box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     }
 
