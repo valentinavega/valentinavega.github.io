@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="334px" height="389px" viewBox="0 0 334 389" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>surveygraphics3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <style>
+          @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700");
+          @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700");
+        </style>
+      </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MusicLink" transform="translate(-726.000000, -3528.000000)">
+            <g id="surveygraphics3" transform="translate(726.000000, 3528.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="334" height="389" rx="8"></rect>
+                <text id="65%" font-family="DM Sans" font-size="44" font-weight="bold" letter-spacing="-1.34933333" fill="#FF098E">
+                    <tspan x="26" y="311">65% </tspan>
+                    <tspan x="26" y="369"></tspan>
+                    <tspan x="26" y="427"> </tspan>
+                </text>
+                <text id="of-respondents-find" font-family="Nunito Sans" font-size="18" font-weight="normal" line-spacing="26" letter-spacing="-0.552" fill="#282828">
+                    <tspan x="135" y="289">of respondents find the </tspan>
+                    <tspan x="135" y="315">process of sharing </tspan>
+                    <tspan x="135" y="341">music with friends </tspan>
+                    <tspan x="135" y="367">online difficult.</tspan>
+                </text>
+                <g id="Group-4" transform="translate(58.000000, 34.000000)">
+                    <circle id="Oval" fill="#FDDAFB" cx="110" cy="110" r="110"></circle>
+                    <path d="M109.159,0.006 L109.613339,111 L205.517655,164.594014 C186.556596,197.696849 150.882888,220 110,220 C49.2486775,220 1.98951966e-13,170.751322 1.98951966e-13,110 C1.98951966e-13,49.2486775 49.2486775,0 110,0 L109.159,0.006 Z" id="Combined-Shape" fill="#FF098E"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

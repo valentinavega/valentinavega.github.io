@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680px" height="326px" viewBox="0 0 680 326" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>survey-graphics-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <style>
+          @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700");
+        </style>
+      </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MusicLink" transform="translate(-380.000000, -3172.000000)">
+            <g id="survey-graphics-1" transform="translate(380.000000, 3172.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="680" height="326" rx="8"></rect>
+                <text id="*Without-a-YouTube-M" font-family="DM Sans" font-size="16" font-weight="normal" letter-spacing="-0.490666667" fill="#FF098E">
+                    <tspan x="38" y="294">*Without a YouTube Music subscription</tspan>
+                </text>
+                <rect id="Rectangle" fill="#FDDAFB" x="169" y="102" width="391" height="15" rx="7.5"></rect>
+                <rect id="Rectangle" fill="#FF098E" x="168" y="102" width="336" height="15" rx="7.5"></rect>
+                <rect id="Rectangle" fill="#FDDAFB" x="169" y="144" width="391" height="15" rx="7.5"></rect>
+                <rect id="Rectangle" fill="#FDDAFB" x="169" y="229" width="391" height="15" rx="7.5"></rect>
+                <rect id="Rectangle" fill="#FF098E" x="168" y="144" width="262" height="17" rx="7.5"></rect>
+                <rect id="Rectangle" fill="#FF098E" x="169" y="229" width="54" height="15" rx="7.5"></rect>
+                <rect id="Rectangle" fill="#FDDAFB" x="169" y="186" width="391" height="15" rx="7.5"></rect>
+                <rect id="Rectangle" fill="#FF098E" x="169" y="187" width="130" height="16" rx="7.5"></rect>
+                <text id="TOP-PRODUCTS-USED" font-family="DM Sans" font-size="24" font-weight="normal" letter-spacing="-0.736" fill="#282828">
+                    <tspan x="219" y="51">TOP PRODUCTS USED</tspan>
+                </text>
+                <text id="Spotify" font-family="DM Sans" font-size="21" font-weight="normal" letter-spacing="-0.644" fill="#282828">
+                    <tspan x="38" y="117">Spotify</tspan>
+                </text>
+                <text id="YouTube*" font-family="DM Sans" font-size="21" font-weight="normal" letter-spacing="-0.644" fill="#282828">
+                    <tspan x="38" y="161">YouTube*</tspan>
+                </text>
+                <text id="Other" font-family="DM Sans" font-size="21" font-weight="normal" letter-spacing="-0.644" fill="#282828">
+                    <tspan x="38" y="243">Other</tspan>
+                </text>
+                <text id="Apple-Music" font-family="DM Sans" font-size="21" font-weight="normal" letter-spacing="-0.644" fill="#282828">
+                    <tspan x="38" y="202">Apple Music</tspan>
+                </text>
+                <text id="45%" font-family="DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#FF098E">
+                    <tspan x="579" y="115">45%</tspan>
+                </text>
+                <text id="35%" font-family="DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#FF098E">
+                    <tspan x="579" y="158">35%</tspan>
+                </text>
+                <text id="3%" font-family="DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#FF098E">
+                    <tspan x="579" y="245">3%</tspan>
+                </text>
+                <text id="17%" font-family="DM Sans" font-size="20" font-weight="400" letter-spacing="-0.613333333" fill="#FF098E">
+                    <tspan x="579" y="199">17%</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
