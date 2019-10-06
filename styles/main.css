@@ -33,6 +33,7 @@ a.footer-link {
 
 html {
     font-size: 10px;
+    overflow-x: hidden;
 }
 
 img {
@@ -106,7 +107,7 @@ body {
 footer {
     width: 100%;
     background-color: #F9F9F9;
-    padding: 6rem 0 2rem 0;
+    padding: 6rem 0 2rem;
 }
 
 .social-links {
@@ -370,3 +371,9 @@ button.form-button:hover {
 .flex-1 {
   flex: 1;
 }
+
+@media screen and (max-width: 1220px) {
+  footer {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
