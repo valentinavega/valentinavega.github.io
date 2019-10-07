@@ -94,15 +94,25 @@
       justify-content: center;
     }
 
-    .left-survey-graphic {
-      margin-right: 2rem;
-      box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
+    .survey-graphics-inner {
+      display: flex;
+      align-items: center;
       margin-bottom: 2rem;
     }
 
-    .right-survey-graphic {
+    .survey-graphics-inner:not(:last-of-type) {
+      margin-right: 2rem;
+    }
+
+    .left-survey-graphic {
+      width: 100%;
       box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
-      margin-bottom: 2rem;
+
+    }
+
+    .right-survey-graphic {
+      width: 100%;
+      box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     }
 
     div.heading-paragraph {
@@ -743,7 +753,6 @@
         display: grid;
         grid-template-columns: 1fr;
         justify-items: left;
-        padding: 1fr;
         margin: 1.6rem;
       }
 
