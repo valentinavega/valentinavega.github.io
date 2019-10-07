@@ -1,15 +1,6 @@
     /** EDUBOX CASE STUDY STYLING**/
-    html {
-      scroll-behavior: none;
-    }
-
     nav {
       background-color: transparent;
-    }
-
-    #scroll-to-top {
-        display: inline-block;
-        background-color: #0051e6;
     }
 
     hr {
@@ -87,6 +78,7 @@
     .surveys-container {
       max-width: 80rem;
       margin: 0 auto;
+      padding: 0 1rem;
     }
 
     .survey-graphics {
