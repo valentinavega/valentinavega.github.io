@@ -194,6 +194,11 @@
       margin-right: auto;
     }
 
+    .color-type {
+      margin-right: 20px;
+    }
+
+
     .conclusion-subheading {
       background-color: #E0F9FF;
       display: inline-block;
