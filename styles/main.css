@@ -4,6 +4,10 @@
     position: relative;
 }
 
+::selection {
+  background: #FFF7C1;
+}
+
 
 a.footer-link {
   text-decoration: none;
@@ -50,7 +54,7 @@ a.button {
     display: inline-block;
     font-size: 1.6rem;
     font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     border-radius: 4px;
 }
 
@@ -95,6 +99,10 @@ body,
 .nav-links:hover:after {
     width: 100%;
     left: 0;
+}
+
+.active-link {
+  font-weight: 700;
 }
 
 body {

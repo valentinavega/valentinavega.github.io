@@ -42,6 +42,18 @@ hr {
     width: 20%;
 }
 
+.musiclink-top-section {
+    background-image: url(/images/musiclink-top-image.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    background-size: 70%;
+    height: 80vh;
+    min-height: 456px;
+    overflow: hidden;
+    padding: 0 0;
+}
+
 img.musiclink-ab {
     width: 60%;
     box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
@@ -103,11 +115,11 @@ h3.section-subheading {
 }
 
 .musiclink-big-heading {
-  color: #FF098E;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 9rem;
-  font-weight: 700;
-}
+    color: #282828;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+  }
 
 p.persona-quote {
   color: #fc00d4;
@@ -167,10 +179,11 @@ div.quote-line-decoration {
 .header-subheading {
   color: #282828;
   font-family: 'DM Sans', sans-serif;
-  font-size: 2.4rem;
-  font-weight: 400;
+  font-size: 2.2rem;
+  font-weight: 100;
   max-width: 46.5rem;
-  line-height: 37px;
+  line-height: 32px;
+  padding: 20px 0;
 }
 
 .musiclink-header {
@@ -247,7 +260,8 @@ h2 {
   }
 
   .musiclink-header-aside {
-    margin-right: 18rem;
+    width: 80%;
+    margin-top: 80px;
   }
 
   .nav-links:after {

@@ -2,6 +2,9 @@
   margin-top: 8rem;
 }
 
+.marta-top {
+  max-width: 100%;
+}
 
 .marta-mockups-container {
   display: flex;
@@ -22,6 +25,7 @@
 
 .marta-logo {
   margin: 0 auto;
+  max-width: 33%;
 }
 
 .coming-soon {
@@ -38,10 +42,10 @@
 }
 
 .uc-bg {
-  background-color: #0084E8;
+  background-color: #003194;
   padding: 5rem 0;
 }
 
 ol>li::before {
-    background-color: #0084E8;
+    background-color: #003194;
   }
