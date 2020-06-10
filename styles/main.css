@@ -103,11 +103,8 @@ body {
 }
 
 .container {
-    max-width: 70%;
-}
-
-.container {
     margin: 0 auto;
+    max-width: 70%;
 }
 
 .nav-links {
