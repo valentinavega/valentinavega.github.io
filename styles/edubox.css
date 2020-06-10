@@ -4,8 +4,10 @@ nav {
     background-color: transparent;
 }
 
-.ICFW-top-section {
-    background-color: #FFE5C3;
+.icfw-top-section {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 238, 202);
     background-size: 70%;
     height: 80vh;
     overflow: hidden;
@@ -28,6 +30,7 @@ img.icfw-2 {
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 70%
 }
 
 .info-rectangle-ICFW {
@@ -1014,6 +1017,14 @@ p.roles-column {
     .edubox-header {
         background-size: 100%;
         background-repeat: no-repeat;
+    }
+    .marta-solution-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ml-top-grid {
+        display: grid;
+        grid-template-columns: 1fr;
     }
     p.case-study-paragraph {
         padding: 0 1.6rem 0 1.6rem;

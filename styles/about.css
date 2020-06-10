@@ -81,6 +81,10 @@
             grid-template-columns: 1fr;
             padding: 1.6rem;
         }
+        .about-intro {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
         header.about {
             display: grid;
             grid-template-columns: 1fr;
