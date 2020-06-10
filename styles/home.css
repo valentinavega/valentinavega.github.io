@@ -2,34 +2,38 @@
 
 html {
     scroll-behavior: smooth;
-      font-size: 10px;
+    font-size: 10px;
 }
-
 
 .header-wrapper {
-  position: relative;
-  animation: fadein 3s;
-  max-width: 1200px;
-  margin: 0 auto;
-
+    position: relative;
+    animation: fadein 4s;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
+body {
+    background-color: #FFFFFF;
+}
 
+div.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
 
 .header-home {
-  background-image: url("../images/hero-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 20rem;
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30rem;
 }
-
-a.button {
-    margin-top: 2rem;
-}
-
-
-
-
 
 .mockup-home-phones {
     margin: 0 auto;
@@ -54,45 +58,58 @@ span.color-text {
 }
 
 p.project-tag {
-    background-color: #D7DDFF;
+    background-color: #4349ff1f;
     border-radius: 4px;
-    color: #4349FF;
+    color: #000010b8;
     font-size: 1.4rem;
-    font-weight: 400;
-    padding: 0 .8rem;
+    font-weight: 700;
+    padding: 1rem;
     display: inline-flex;
+    align-items: center;
     height: 2.8rem;
     margin-right: .5rem;
 }
 
 div.project-tags {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
 }
 
 .intro {
+    color: #111240;
     font-size: 2.2rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 200;
     padding-top: 2rem;
     line-height: 147%;
     text-align: left;
-    max-width: 600px;
+    max-width: 800px;
     margin-left: 150px;
 }
 
-h2.project-title {
-    color: #282828;
-    font-size: 4rem;
+strong.home-intro {
+    color: #111240;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
 }
 
+h2.project-title {
+    color: #111240;
+    font-size: 3.4rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .recent-projects {
     font-family: 'DM Sans';
-    font-weight: 400;
+    font-weight: 700;
     font-size: 2.8rem;
     line-height: 42px;
-    text-align: center;
+    text-align: left;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 1.5rem;
 }
 
@@ -107,28 +124,21 @@ h2.project-title {
 }
 
 .info-rectangle.project1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(255, 255, 255);
     max-width: 1000px;
     min-height: 413px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
     box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     border-radius: 16px;
     transition: .3s;
 }
 
 .info-rectangle.project1:hover {
-  transform: scale(1.04);
+    transform: scale(1.02);
 }
 
 .project-info {
-    padding: 4rem 0 4rem 4rem;
+    padding: 2rem 0 2rem 2rem;
 }
-
 
 .mockup-home {
     width: 100%;
@@ -137,18 +147,56 @@ h2.project-title {
 }
 
 .project-description {
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 16px;
     text-align: left;
-    max-width: 36rem;
-    margin: 0 auto;
+    max-width: 35rem;
     line-height: 141%;
-    margin-top: 1.5rem;
+    color: #111240a8;
+    padding: 3rem 0;
 }
 
 
+/* Ipad and Tablet Portrait*/
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    h1.opening {
+        font-size: 30px;
+        line-height: 50px;
+        max-width: 800px;
+        margin: 0 34px;
+    }
+    p.intro {
+        font-size: 16px;
+        text-align: left;
+        max-width: 600px;
+        margin: 0 36px;
+    }
+    p.recent-projects {
+        max-width: 800px;
+        margin: 0 34px;
+    }
+    .info-rectangle.project1 {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+    p.project-tag {
+        margin-top: .5rem;
+    }
+    .mockup-home {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    .mockup-home-phones {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+}
 
+
+/* Phone Portrait*/
+
+@media screen and (max-width: 767px) {
     .info-rectangle.project1 {
         flex-wrap: wrap;
         margin-left: 16px;
@@ -170,50 +218,47 @@ h2.project-title {
     .mockup-home {
         max-width: 400px;
     }
-
     .mockup-home-edubox {
         max-width: 400px;
     }
-
     .down-arrow {
         display: none;
     }
     .header-home {
-      background-image: none;
+        background-image: none;
         margin-top: 9rem;
         margin-bottom: 6rem;
         padding-top: 1rem;
     }
     h1.opening {
-      font-size: 30px;
-      line-height: 50px;
-      max-width: 320px;
-      margin: 0 34px;
+        font-size: 24px;
+        line-height: 50px;
+        max-width: 320px;
+        margin: 0 34px;
     }
     p.intro {
-      font-size: 16px;
-      text-align: left;
-      max-width: 320px;
-      margin: 0 36px;
-
+        font-size: 16px;
+        text-align: left;
+        max-width: 320px;
+        margin: 0 36px;
     }
     p.recent-projects {
-      font-size: 24px;
+        font-size: 24px;
+        max-width: 320px;
     }
     img.mockup-home-phones {
-      max-width: 320px;
+        max-width: 320px;
     }
     footer {
-    width: 100%;
-    background-color: #F9F9F9;
-    padding: 20px 16px;
-  }
-  h3.footer-greeting {
-    font-size: 28px;
-    padding-bottom: 10px;
-  }
-  p.footer-paragraph {
-    font-size: 18px;
-  }
-
+        width: 100%;
+        background-color: #111240;
+        padding: 20px 16px;
+    }
+    h3.footer-greeting {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    p.footer-paragraph {
+        font-size: 18px;
+    }
 }

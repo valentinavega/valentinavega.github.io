@@ -1,22 +1,67 @@
 /**STYLING FOR ALL PAGES**/
 
+body {
+    background-color: white;
+    color: #111240;
+}
+
+footer {
+    width: 100%;
+    background-color: #111240;
+    padding: 6rem 0 2rem;
+}
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+}
+
 .icon-logo {
     position: relative;
 }
 
 ::selection {
-  background: #FFF7C1;
+    background: rgb(193, 199, 255);
 }
 
+p.contact-paragraph {
+    font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+.about-paragraph {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section.contact {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
 
 a.footer-link {
-  text-decoration: none;
-  color: #4349FF;
-  font-weight: 700;
+    text-decoration: none;
+    color: #FFFDF5;
+    font-weight: 700;
+}
+
+a.footer-link:hover {
+    color: #c5c7ff;
+    ;
 }
 
 .footer-section {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -33,15 +78,6 @@ a.footer-link {
 
 * {
     box-sizing: border-box;
-}
-
-html {
-    font-size: 10px;
-    overflow-x: hidden;
-}
-
-img {
-    display: block;
 }
 
 a.button {
@@ -62,14 +98,12 @@ a.button:hover {
     background-color: #5C61FF;
 }
 
-body,
-.navigation {
+body {
     margin: 0 auto;
 }
 
-.container,
-.navigation {
-    max-width: 1200px;
+.container {
+    max-width: 70%;
 }
 
 .container {
@@ -79,7 +113,7 @@ body,
 .nav-links {
     position: relative;
     text-decoration: none;
-    color: #282828;
+    color: #111240;
     margin-left: 3rem;
 }
 
@@ -102,39 +136,46 @@ body,
 }
 
 .active-link {
-  font-weight: 700;
-}
-
-body {
-    background-color: white;
-    color: #282828;
-}
-
-
-
-footer {
-    width: 100%;
-    background-color: #F9F9F9;
-    padding: 6rem 0 2rem;
+    font-weight: 700;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
+    padding: 1.5rem;
 }
 
-img.icon {
+a.logo svg g polygon {
+    fill: #4349FF;
+}
+
+a.logo svg g polygon:hover {
+    fill: #c5c7ff;
+}
+
+ul.social-links li a svg {
+    fill: #FFFDF5;
+}
+
+ul.social-links li a:hover svg {
+    fill: #c5c7ff;
+}
+
+li a svg {
     margin: 1.5rem;
 }
 
 .copyright {
+    color: #FFFDF5;
     text-align: center;
+    font-size: 1.6rem;
     margin-bottom: 2rem;
     font-weight: 400;
 }
 
 h3.footer-greeting {
-    font-size: 4.2rem;
+    color: #FFFDF5;
+    font-size: 3.8rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     padding: 2rem 0;
@@ -142,12 +183,13 @@ h3.footer-greeting {
 }
 
 p.footer-paragraph {
-  font-size: 2.2rem;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  line-height: 28px;
-  max-width: 100rem;
-  padding: 1rem 0;
+    color: #FFFDF5;
+    font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    line-height: 28px;
+    max-width: 100rem;
+    padding: 1rem 0;
 }
 
 p {
@@ -157,14 +199,23 @@ p {
     line-height: 3rem;
 }
 
-.navigation {
+.header {
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 1;
     display: flex;
     font-size: 2rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 300;
-    color: #282828;
-    padding-top: 3rem;
+    color: #111240;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 66, 129, .12);
 }
 
 .logo {
@@ -180,11 +231,6 @@ h2 {
 
 strong {
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
-}
-
-strong.home-intro {
-    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
 }
 
@@ -284,8 +330,9 @@ body.contact-page {
     display: flex;
     justify-content: center;
     max-width: 350px;
-    margin: 8rem auto 10rem auto;
+    margin: 1rem auto 10rem auto;
     padding: 1rem;
+    animation: fadein 2s;
 }
 
 .contact-container form {
@@ -299,7 +346,7 @@ body.contact-page {
 }
 
 label {
-    color: #282828;
+    color: #111240;
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
@@ -350,7 +397,7 @@ button.form-button:hover {
 }
 
 @media screen and (max-width: 375px) {
-    .navigation {
+    .header {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
@@ -373,21 +420,20 @@ button.form-button:hover {
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .flex-1 {
-  flex: 1;
+    flex: 1;
 }
 
 @media screen and (max-width: 1300px) {
-      .navigation, .about-container {
-          margin-left: 4rem;
-          margin-right: 4rem;
-      }
-
-  footer {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
+    .about-container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    footer {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
 }

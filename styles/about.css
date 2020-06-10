@@ -1,5 +1,5 @@
     /** ABOUT PAGE STYLING **/
-
+    
     header.about {
         display: grid;
         grid-template-columns: 1.5fr 1.5fr;
@@ -7,7 +7,11 @@
         align-items: center;
         padding: 6rem 0;
     }
-
+    
+    div.about-text {
+        align-self: center;
+    }
+    
     h1.opening-about {
         font-size: 5.2rem;
         font-family: 'DM Sans', sans-serif;
@@ -15,12 +19,27 @@
         padding-bottom: 1rem;
         line-height: 7.1rem;
         margin: 0 auto;
+        margin-bottom: 2rem;
     }
-
+    
+    .sunset-pics {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-gap: 1rem;
+        margin-bottom: 70px;
+    }
+    
+    img.sun {
+        width: 100%;
+    }
+    
     .honeycomb-about {
         margin-right: 6rem;
     }
-
+    
     section.about-paragraphs {
         display: grid;
         grid-template-columns: 1fr 1.5fr;
@@ -29,28 +48,33 @@
         padding: 3rem 0 6rem 0;
         max-width: 1200px;
     }
-
+    
     h2.about {
         margin-top: 1.5rem;
         padding-bottom: 1rem;
     }
-
+    
     p.about {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-
+    
     .about-intro {
-        max-width: 42.8rem;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 60px;
     }
-
+    
     img.me {
         display: block;
-        width: 100%;
     }
     /** ABOUT PAGE **/
     /**MOBILE**/
-
+    
     @media screen and (max-width: 375px) {
         section.about-paragraphs {
             display: grid;
@@ -78,23 +102,20 @@
         }
     }
     /** TABLET **/
-
+    
     @media screen and (max-width:768px) and (min-width: 375px) {
         header.about {
             display: grid;
             grid-template-columns: 1fr;
             grid-gap: 2rem;
         }
-
         .me {
-          max-width: 42.8rem;
-          margin: 0 auto;
+            max-width: 42.8rem;
+            margin: 0 auto;
         }
-
         .about-intro {
-          margin: 0 auto;
+            margin: 0 auto;
         }
-
         a.logo {
             width: 100%;
         }
