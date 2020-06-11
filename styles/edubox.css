@@ -1018,6 +1018,28 @@ p.roles-column {
         background-size: 100%;
         background-repeat: no-repeat;
     }
+    .musiclink-big-heading {
+        color: #111240;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 4rem;
+        padding-top: 3rem;
+    }
+    a.button {
+        margin: 20px 0;
+    }
+    img.edubox-top-mockup {
+        width: 100%;
+    }
+    .ml-top-grid {
+        grid-gap: 5px;
+    }
+    .musiclink-mockup-top {
+        animation: fadein 2s;
+        padding-top: 1rem;
+    }
+    .header-subheading {
+        max-width: 300px;
+    }
     .marta-solution-section {
         display: grid;
         grid-template-columns: 1fr;
