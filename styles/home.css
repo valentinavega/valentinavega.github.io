@@ -1,4 +1,4 @@
-    /**HOMEPAGE STYLING**/
+/**HOMEPAGE STYLING**/
 
 html {
     scroll-behavior: smooth;
@@ -18,8 +18,8 @@ body {
 
 div.projects-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     grid-column-gap: 3rem;
     grid-row-gap: 3rem;
     max-width: 1000px;
@@ -28,16 +28,45 @@ div.projects-grid {
     margin-bottom: 6rem;
 }
 
+div.projects-grid-2 {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-column-gap: 3rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
 .header-home {
-    background-image: url("../images/hero-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
     padding-top: 30rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-home-bg {
+    background: radial-gradient(circle, rgba(234, 239, 255, 1) 0%, rgba(255, 245, 213, 1) 50%, rgba(225, 233, 255, 1) 100%);
+    background-size: 100%;
+    animation: bg-animation 5s linear alternate infinite;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@keyframes bg-animation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(3);
+    }
 }
 
 .mockup-home-phones {
     margin: 0 auto;
-    max-width: 450px;
+    max-width: 600px;
     padding: 15px 0;
 }
 
@@ -71,7 +100,7 @@ p.project-tag {
 }
 
 div.project-tags {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
 }
 
 .intro {
@@ -97,7 +126,7 @@ h2.project-title {
     font-size: 3.4rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
-    margin-top: 1rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
 }
 
@@ -110,6 +139,7 @@ h2.project-title {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 3rem;
     padding-bottom: 1.5rem;
 }
 
@@ -126,10 +156,11 @@ h2.project-title {
 .info-rectangle.project1 {
     background-color: rgb(255, 255, 255);
     max-width: 1000px;
-    min-height: 413px;
+    min-height: 300px;
     box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
     border-radius: 16px;
-    transition: .3s;
+    transition: .4s;
+    display: flex;
 }
 
 .info-rectangle.project1:hover {
@@ -138,12 +169,13 @@ h2.project-title {
 
 .project-info {
     padding: 2rem 0 2rem 2rem;
+    align-self: center;
 }
 
 .mockup-home {
     width: 100%;
     margin: 0 auto;
-    max-width: 450px;
+    max-width: 600px;
 }
 
 .project-description {
@@ -265,3 +297,4 @@ h2.project-title {
         display: grid;
         grid-template-columns: 1fr;
     }
+}

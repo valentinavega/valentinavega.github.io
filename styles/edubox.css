@@ -986,7 +986,6 @@ p.roles-column {
     .project-overview {
         display: grid;
         grid-template-columns: 1fr;
-        justify-items: left;
         margin: 1.6rem;
     }
     div.info-rectangle.comp-analysis,
@@ -1005,9 +1004,6 @@ p.roles-column {
     .section-heading {
         font-size: 3rem;
     }
-    img.comp {
-        width: 30%;
-    }
 }
 
 
@@ -1023,12 +1019,26 @@ p.roles-column {
         font-family: 'DM Sans', sans-serif;
         font-size: 4rem;
         padding-top: 3rem;
+        max-width: 300px;
+    }
+    .container {
+        width: 90%;
+    }
+    div.marta-testing {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 300px;
     }
     a.button {
         margin: 20px 0;
     }
-    img.edubox-top-mockup {
+    img.edubox-top-mockup,
+    .icfw-mockup-top {
         width: 100%;
+    }
+    .info-rectangle-ICFW {
+        margin-left: 16px;
+        margin-right: 16px;
     }
     .ml-top-grid {
         grid-gap: 5px;
@@ -1060,7 +1070,6 @@ p.roles-column {
     }
     h4.designspecs-titles {
         margin: 0;
-        text-align: left;
         padding: 1rem 0 1rem 0;
     }
     div.info-rectangle.comp-analysis,
@@ -1158,9 +1167,6 @@ p.roles-column {
     }
     img.icon {
         width: 60%;
-    }
-    img.comp {
-        width: 30%;
     }
     .edubox-header {
         background-size: cover;
