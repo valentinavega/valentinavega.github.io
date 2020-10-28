@@ -43,7 +43,7 @@ div.projects-grid-2 {
     overflow: hidden;
 }
 
-.header-home-bg {
+.radial-pulse-bg {
     background: radial-gradient(circle, rgba(234, 239, 255, 1) 0%, rgba(255, 245, 213, 1) 50%, rgba(225, 233, 255, 1) 100%);
     background-size: 100%;
     animation: bg-animation 5s linear alternate infinite;

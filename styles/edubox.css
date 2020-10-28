@@ -371,9 +371,7 @@ div.color-type-section {
 }
 
 .style-elements {
-    width: 100%;
     box-shadow: 0 3px 21px rgba(0, 0, 0, 0.06);
-    margin-right: 3rem;
 }
 
 h2 {
@@ -435,7 +433,7 @@ h3.section-subheading {
 }
 
 .color-type {
-    margin-right: 20px;
+    margin: 0 auto;
 }
 
 .conclusion-subheading {

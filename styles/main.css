@@ -127,9 +127,8 @@
     
     section.contact-area {
         padding: 30px 0;
-        background: radial-gradient(circle, rgba(234, 239, 255, 1) 0%, rgba(255, 245, 213, 1) 47%, rgba(225, 233, 255, 1) 100%);
-        background-size: 400%;
-        /* animation: bg-animation 20s infinite alternate; */
+        position: relative;
+        overflow: hidden;
     }
     
     .nav-links {
